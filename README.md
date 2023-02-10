@@ -2,6 +2,9 @@
 
 ### 成就日志
 
+二月十日周五
+- [panic & recover](2023/02/panic-and-recover.md)
+
 二月九日周四
 - [流水线模式是 Go 中比较常见的一个并发模式，它在什么情况下使用？请给出代码实现](2023/02/pipeline-pattern.md)
 - [Go 中字符串的拼接方式有哪些？各自效率如何？](2023/02/string-joining-in-go.md)
