@@ -2,6 +2,10 @@
 
 ### 成就日志
 
+二月十二日周日
+- [交替打印数字和字母](2023/02/print-numbers-and-letters-interchangeably.md)
+- [Goroutine 与线程的区别](2023/02/goroutine-versus-thread.md)
+
 二月十一日周六
 - [观察者模式与发布订阅模式](2023/02/observer-pattern-and-pub-sub-pattern.md)
 - [Linux 防火墙相关问题](2023/02/linux-firewall.md)
