@@ -1,6 +1,9 @@
-经历过几轮面试的我发现自己太菜了🫤，专门开一个 repo 用于面试题整理和个人学习，每天更新 1-2 条问题。
+面试题整理与个人学习专用，每天更新 1-2 条问题。
 
 ### 成就日志
+
+二月十三日周一
+- [Go 内存泄露场景](2023/02/go-memory-leaking-scenarios.md)
 
 二月十二日周日
 - [交替打印数字和字母](2023/02/print-numbers-and-letters-interchangeably.md)
