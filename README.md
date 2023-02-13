@@ -2,6 +2,9 @@
 
 ### 成就日志
 
+Day 6｜二月十四日周二
+- [实现 DCL 双重校验锁](2023/02/double-checked-locking.md)
+
 Day 5｜二月十三日周一
 - [Go 内存泄露场景](2023/02/go-memory-leaking-scenarios.md)
 
