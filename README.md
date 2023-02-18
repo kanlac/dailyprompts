@@ -1,6 +1,9 @@
-面试题整理与个人学习专用，每天更新 1-2 条问题。
-
 ### 成就日志
+
+Day 8｜二月十七日周五
+- [如何确定 Channel 的缓冲区大小？](2023/02/channel-buffer-size.md) (update)
+- [Go 内存泄露场景](2023/02/go-memory-leaking-scenarios.md) (update)
+- [流水线模式是 Go 中比较常见的一个并发模式，它在什么情况下使用？请给出代码实现](2023/02/pipeline-pattern.md) (update)
 
 Day 7｜二月十六日周四
 - [从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)

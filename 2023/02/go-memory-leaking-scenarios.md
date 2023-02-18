@@ -20,7 +20,7 @@ func OperateOnSomeLongString(longString string) {
 }
 ```
 
-二）永久性泄露，指的是在进程后续生命周期内，泄露的内存都没有机会回收，如 goroutine 内部预期之外的 `for-loop` 或者 `chan select-case` 导致的无法退出的情况，导致协程栈及引用内存永久泄露问题。
+二）永久性泄露，指的是在进程后续生命周期内，泄露的内存都没有机会回收，如 goroutine 阻塞。Goroutine 会消耗内存和运行时资源，而 goroutine 的栈中引用着的堆数据不会被回收。Goroutine 本身是不会被 GC 的，它们必须自己退出，如果出现预期之外的 for-loop 或者 chan select-case 导致无法退出，就会导致协程栈及引用内存永久泄露问题。
 
 ### 如何避免临时性的内存泄露？（编写代码）
 
