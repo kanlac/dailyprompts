@@ -1,5 +1,9 @@
 ### 成就日志
 
+Day 9｜二月十八日周六
+- [数组中数字出现的次数 I](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/)
+- [如何实现 Go 程序的优雅退出](2023/02/gracefully-shutdown.md)
+
 Day 8｜二月十七日周五
 - [如何确定 Channel 的缓冲区大小？](2023/02/channel-buffer-size.md) (update)
 - [Go 内存泄露场景](2023/02/go-memory-leaking-scenarios.md) (update)
