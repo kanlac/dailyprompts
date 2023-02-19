@@ -1,5 +1,8 @@
 ### 成就日志
 
+Day 10｜二月十九日周日
+- [用流水线模式改写程序](2023/02/rewrite-with-pipeline-pattern.md)
+
 Day 9｜二月十八日周六
 - [数组中数字出现的次数 I](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/)
 - [如何实现 Go 程序的优雅退出](2023/02/gracefully-shutdown.md)
