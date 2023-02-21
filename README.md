@@ -1,5 +1,10 @@
 ### 成就日志
 
+Day 11｜二月二十一日周二
+- [Go 是如何做内存管理的？](2023/02/go-memory-management.md)
+
+**Streaks: 4 days**
+
 Day 10｜二月十九日周日
 - [用流水线模式改写程序](2023/02/rewrite-with-pipeline-pattern.md)
 
@@ -16,7 +21,7 @@ Day 7｜二月十六日周四
 - [从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)
 - [如何确定 Channel 的缓冲区大小？](2023/02/channel-buffer-size.md)
 
-**Streaks: 6**
+**Streaks: 6 days**
 
 Day 6｜二月十四日周二
 - [实现 DCL 双重校验锁](2023/02/double-checked-locking.md)
