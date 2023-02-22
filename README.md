@@ -1,5 +1,8 @@
 ### 成就日志
 
+Day 12｜二月二十二日周三
+- [是否了解协程池？](2023/02/goroutine-pool.md)
+
 Day 11｜二月二十一日周二
 - [Go 是如何做内存管理的？](2023/02/go-memory-management.md)
 
