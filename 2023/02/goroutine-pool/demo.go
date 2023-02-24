@@ -60,9 +60,8 @@ func MD5All(ctx context.Context, root string) (map[string][md5.Size]byte, error)
 	// ======================== 协程池的创建 ========================
 
 	// >>>>>> errgroup
-	// 协程池可复用，与 worker 无关
-	// 支持上下文，当 worker 发生错误时，errgroup 将取消上下文
-	// errgroup 不支持通过 worker 传参，因此只能通过 channel传递
+	// 支持上下文，当 task 发生错误时，errgroup 将取消上下文
+	// errgroup 不支持通过 task 传参，因此只能通过 channel传递
 	errgroupPool, ctx := errgroup.WithContext(ctx)
 	errgroupPool.SetLimit(poolSize)
 
@@ -76,10 +75,11 @@ func MD5All(ctx context.Context, root string) (map[string][md5.Size]byte, error)
 	// >>>>>> ants
 	// 选择一：通用池（NewPool），task signature: func()
 	// 选择二：专用池（NewPoolWithFunc），task signature: func(interface{})
+	// 专用池创建时定义 task func，可以简化调用代码
 	// 缺点：创建协程池时需要考虑通用池和专用池哪种合适
-	// 使用专用池看似可以简化 worker 调用的代码，但实际上 worker 的定义更麻烦，而且两种选择都不方便做错误处理
+	// 使用专用池看似可以简化调用的代码，但实际上池的创建更麻烦（要做 assert）
 	// 缺点：不支持上下文
-	// 优势：支持通过 Tune() 动态、且线程安全地调整协程池大小，而 errgroup 需要等协程池空了之后再调整
+	// 优势：支持通过 Tune() 动态、且线程安全地调整协程池大小（errgroup 需要等协程池空了之后再调整，conc 无法调整）
 	// 因为 stage 1 只需要开一个 worker，所以实际上专门创建一个协程池意义不大，这里只出于演示目的创建一个专用池
 	antsPoolS1, _ := ants.NewPoolWithFunc(poolSize, func(i interface{}) {
 		root := i.(string)
@@ -98,8 +98,8 @@ func MD5All(ctx context.Context, root string) (map[string][md5.Size]byte, error)
 	})
 
 	// >>>>>> conc
-	// worker 可以拿到上下文
 	concPool.Go(func(ctx context.Context) error {
+		// 可以在这里拿到上下文
 		defer close(paths)
 		return filepath.Walk(root, walkFunc)
 	})
@@ -143,7 +143,7 @@ func MD5All(ctx context.Context, root string) (map[string][md5.Size]byte, error)
 	}
 
 	// >>>>>> ants
-	// 因为协程池的创建与 worker 是耦合的，所以用新的 worker 要创建新的协程池
+	// 因为专用池的创建与 task func 是耦合的，所以用新的 task 要创建新的协程池
 	// 这次演示通用池
 	var wg sync.WaitGroup
 	antsPoolS2, _ := ants.NewPool(poolSize)
