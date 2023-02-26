@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 15｜二月二十六日周日
+- [数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/description/)
+- [panic, recover and defer](2023/02/panic-recover-and-defer.md) (update)
+
+**Streaks: 4 days**
+
 Day 14｜二月二十四日周五
 - [是否了解协程池？](2023/02/goroutine-pool.md) (update)
 
@@ -47,7 +53,7 @@ Day 3｜二月十一日周六
 - [Linux 防火墙相关问题](2023/02/linux-firewall.md)
 
 Day 2｜二月十日周五
-- [panic & recover](2023/02/panic-and-recover.md)
+- [panic, recover and defer](2023/02/panic-recover-and-defer.md)
 
 Day 1｜二月九日周四
 - [流水线模式是 Go 中比较常见的一个并发模式，它在什么情况下使用？请给出代码实现](2023/02/pipeline-pattern.md)
