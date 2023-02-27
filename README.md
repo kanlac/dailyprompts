@@ -1,5 +1,8 @@
 # Erfolgs-Journal
 
+Day 16｜二月二十七日
+- [栈的压入、弹出序列](https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/description/)
+
 Day 15｜二月二十六日周日
 - [数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/description/)
 - [panic, recover and defer](2023/02/panic-recover-and-defer.md) (update)
