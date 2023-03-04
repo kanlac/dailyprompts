@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 18｜三月四日
+- [简述使用 Ansible Playbook 安装 K3S 的大致步骤？](2023/03/install-k3s-with-ansible-playbook.md)
+
+**Streaks: 3 days**
+
 Day 17｜二月二十八日
 - [字符串转整数](https://wizardforcel.gitbooks.io/the-art-of-programming-by-july/content/01.03.html)
 
