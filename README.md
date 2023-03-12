@@ -1,5 +1,8 @@
 # Erfolgs-Journal
 
+Day 21｜三月十二日周日
+- [Go 中字符串的拼接方式有哪些？各自效率如何？](2023/02/string-joining-in-go.md) (update)
+
 Day 20｜三月十一日周六
 - [二叉树的堂兄弟节点](https://leetcode.cn/problems/cousins-in-binary-tree/description/)
 - [上下文解决什么问题](2023/03/go-context.md)
