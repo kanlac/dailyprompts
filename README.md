@@ -1,7 +1,11 @@
 # Erfolgs-Journal
 
+Day 22｜三月十三日周一
+- [Go 内存泄露场景](2023/02/go-memory-leaking-scenarios.md) (revise)
+- [Goroutine 与线程的区别](2023/02/goroutine-versus-thread.md) (revise)
+
 Day 21｜三月十二日周日
-- [Go 中字符串的拼接方式有哪些？各自效率如何？](2023/02/string-joining-in-go.md) (update)
+- [Go 中字符串的拼接方式有哪些？各自效率如何？](2023/02/string-joining-in-go.md) (revise)
 
 Day 20｜三月十一日周六
 - [二叉树的堂兄弟节点](https://leetcode.cn/problems/cousins-in-binary-tree/description/)
