@@ -1,8 +1,12 @@
 # Erfolgs-Journal
 
+Day 24｜三月十七日周五
+- [寻找两个数组中第 K 大的数](2023/03/find-kth-element-between-ordered-slices.md)
+
+**Streaks: 4 days**
+
 Day 23｜三月十四日周二
 - [如何临时替换容器中的文件？如何修改镜像？](2023/03/make-temporary-changes-to-container-and-image.md)
-
 
 Day 22｜三月十三日周一
 - [Go 内存泄露场景](2023/02/go-memory-leaking-scenarios.md) (revise)
