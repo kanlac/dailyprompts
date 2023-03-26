@@ -1,5 +1,8 @@
 # Erfolgs-Journal
 
+Day 26｜三月二十七日周一
+- [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/description/)
+
 Day 25｜三月二十六日周日
 - [DNS 域名解析相关问题](2023/03/dns.md)
 
