@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 25｜三月二十六日周日
+- [DNS 域名解析相关问题](2023/03/dns.md)
+
+**Streaks: 1 days**
+
 Day 24｜三月十七日周五
 - [寻找两个数组中第 K 大的数](2023/03/find-kth-element-between-ordered-slices.md)
 
