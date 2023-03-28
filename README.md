@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 27｜三月二十八日周二
+- [如何实现 Go 程序的优雅退出](2023/02/gracefully-shutdown.md) (revise)
+- [简述通过 Ansible Playbook 自动化安装 K3S 的大致步骤？](2023/03/install-k3s-with-ansible-playbook.md) (revise)
+
 Day 26｜三月二十七日周一
 - [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/description/)
 
@@ -34,7 +38,7 @@ Day 19｜三月五日周日
 - [Golang 如何做错误处理](2023/03/error-handling.md)
 
 Day 18｜三月四日周六
-- [简述使用 Ansible Playbook 安装 K3S 的大致步骤？](2023/03/install-k3s-with-ansible-playbook.md)
+- [简述通过 Ansible Playbook 自动化安装 K3S 的大致步骤？](2023/03/install-k3s-with-ansible-playbook.md)
 
 **Streaks: 3 days**
 
