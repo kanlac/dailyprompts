@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 30｜三月三十日周四
+- [Goroutine、文件描述符和套接字的上限](2023/03/limits-of-goroutine-and-socket.md)
+
+**Streaks: 3 days**
+
 Day 27｜三月二十八日周二
 - [如何实现 Go 程序的优雅退出](2023/02/gracefully-shutdown.md) (revise)
 - [简述通过 Ansible Playbook 自动化安装 K3S 的大致步骤？](2023/03/install-k3s-with-ansible-playbook.md) (revise)
