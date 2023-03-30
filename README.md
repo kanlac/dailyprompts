@@ -1,6 +1,10 @@
 # Erfolgs-Journal
 
-Day 30｜三月三十日周四
+Day 29｜三月三十一日周五
+- [如何确定 Channel 的缓冲区大小？](2023/02/channel-buffer-size.md) (revise)
+- [Golang 如何做错误处理](2023/03/error-handling.md) (revise)
+
+Day 28｜三月三十日周四
 - [Goroutine、文件描述符和套接字的上限](2023/03/limits-of-goroutine-and-socket.md)
 
 **Streaks: 3 days**
