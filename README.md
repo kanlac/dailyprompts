@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 30｜四月五日周三
+- [翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)
+    - 学会用 `strings.Fields` 函数分割单词
+    - 学会 O(n/2) 的翻转排序方法
+
+**Streaks: 2 days**
+
 Day 29｜三月三十一日周五
 - [如何确定 Channel 的缓冲区大小？](2023/02/channel-buffer-size.md) (revise)
 - [Golang 如何做错误处理](2023/03/error-handling.md) (revise)
