@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 31｜四月八日周六
+- [卸载 K3S 集群有哪些步骤](2023/03/deleting-a-k3s-cluster.md)
+
+**Streaks: 1 days**
+
 Day 30｜四月五日周三
 - [翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)
     - 学会用 `strings.Fields` 函数分割单词
