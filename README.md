@@ -1,5 +1,8 @@
 # Erfolgs-Journal
 
+Day 32｜四月九日周日
+- [Binary Search](https://leetcode.com/study-plan/binary-search) (day 1)
+
 Day 31｜四月八日周六
 - [卸载 K3S 集群有哪些步骤](2023/03/deleting-a-k3s-cluster.md)
 
