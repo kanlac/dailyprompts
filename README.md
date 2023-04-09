@@ -2,6 +2,7 @@
 
 Day 32｜四月九日周日
 - [Binary Search](https://leetcode.com/study-plan/binary-search) (day 1)
+- [CRUD 钩子有哪些实现方式？如何选择？](2023/03/crud-hook.md)
 
 Day 31｜四月八日周六
 - [卸载 K3S 集群有哪些步骤](2023/03/deleting-a-k3s-cluster.md)
