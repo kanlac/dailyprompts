@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 34｜四月十八日周二
+- [Go 是如何做内存管理的？](2023/02/go-memory-management.md) (update)
+
+**Streaks: 1 days**
+
 Day 33｜四月十五日周六
 - [容器网络配置](2023/03/container-network.md)
 
