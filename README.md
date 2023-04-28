@@ -1,21 +1,29 @@
 # Erfolgs-Journal
 
+Day 36｜四月二十八日周五
+- [如何通过 set 命令提高脚本健壮性？](2023/04/bash-set.md)
+
+**Streaks: 2 days**
+
+Day 35｜四月十九日周三
+- [是否了解协程池？](2023/02/goroutine-pool.md) (revise)
+
 Day 34｜四月十八日周二
 - [Go 是如何做内存管理的？](2023/02/go-memory-management.md) (update)
 
 **Streaks: 1 days**
 
 Day 33｜四月十五日周六
-- [容器网络配置](2023/03/container-network.md)
+- [容器网络配置](2023/04/container-network.md)
 
 **Streaks: 2 days**
 
 Day 32｜四月九日周日
 - [Binary Search](https://leetcode.com/study-plan/binary-search) (day 1)
-- [CRUD 钩子有哪些实现方式？如何选择？](2023/03/crud-hook.md)
+- [CRUD 钩子有哪些实现方式？如何选择？](2023/04/crud-hook.md)
 
 Day 31｜四月八日周六
-- [卸载 K3S 集群有哪些步骤](2023/03/deleting-a-k3s-cluster.md)
+- [卸载 K3S 集群有哪些步骤](2023/04/deleting-a-k3s-cluster.md)
 
 **Streaks: 1 days**
 
