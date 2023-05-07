@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 37｜五月八日周一
+- [panic, recover and defer](2023/02/panic-recover-and-defer.md) (update)
+
+**Streaks: 1 day**
+
 Day 36｜四月二十八日周五
 - [如何通过 set 命令提高脚本健壮性？](2023/04/bash-set.md)
 
