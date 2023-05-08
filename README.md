@@ -1,5 +1,8 @@
 # Erfolgs-Journal
 
+Day 38｜五月九日周二
+- [Go 接口问题](2023/05/go-interface.md)
+
 Day 37｜五月八日周一
 - [panic, recover and defer](2023/02/panic-recover-and-defer.md) (update)
 
