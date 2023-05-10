@@ -1,5 +1,8 @@
 # Erfolgs-Journal
 
+Day 39｜五月十日周三
+- [Golang 如何做错误处理](2023/03/error-handling.md) (update)
+
 Day 38｜五月九日周二
 - [Go 接口问题](2023/05/go-interface.md)
 
