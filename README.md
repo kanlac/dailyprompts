@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 40｜五月十八日周四
+- [四层网络协议了解吗](2023/05/tcp-ip-model.md)
+
+**Streaks: 3 day**
+
 Day 39｜五月十日周三
 - [Golang 如何做错误处理](2023/03/error-handling.md) (update)
 
