@@ -1,5 +1,8 @@
 # Erfolgs-Journal
 
+Day 41｜五月十九日周五
+- [如何实现一个哈希表？](2023/05/implementing-hash-table.md)
+
 Day 40｜五月十八日周四
 - [四层网络协议了解吗](2023/05/tcp-ip-model.md)
 
