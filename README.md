@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 43｜五月二十三日周二
+- [DNS 服务器](2023/03/dns-server.md) (update)
+- [发起 DNS 请求](2023/05/dns-request.md)
+
 Day 42｜五月二十二日周一
 - [如何临时替换容器中的文件？如何修改镜像？](2023/03/make-temporary-changes-to-container-and-image.md) (revise)
 - [Linux 防火墙相关问题](2023/02/linux-firewall.md) (revise)
@@ -77,7 +81,7 @@ Day 26｜三月二十七日周一
 - [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/description/)
 
 Day 25｜三月二十六日周日
-- [DNS 域名解析相关问题](2023/03/dns.md)
+- [DNS 服务器](2023/03/dns-server.md)
 
 **Streaks: 1 days**
 
