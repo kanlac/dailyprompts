@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 44｜五月二十五日周四
+- [Goroutine、文件描述符和套接字的上限](2023/03/limits-of-goroutine-and-socket.md) (update)
+
+**Streaks: 2 day**
+
 Day 43｜五月二十三日周二
 - [DNS 服务器](2023/03/dns-server.md) (update)
 - [发起 DNS 请求](2023/05/dns-request.md)
