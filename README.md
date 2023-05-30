@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 45｜五月三十日周二
+- [Docker 有哪几种主要的容器网络模式？默认是哪种？](2023/04/container-network.md) (revise)
+- [容器之间的名字域名解析是怎么做的？](2023/05/communication-inside-container-network.md)
+
+**Streaks: 1 day**
+
 Day 44｜五月二十五日周四
 - [Goroutine、文件描述符和套接字的上限](2023/03/limits-of-goroutine-and-socket.md) (update)
 
@@ -12,7 +18,7 @@ Day 43｜五月二十三日周二
 Day 42｜五月二十二日周一
 - [如何临时替换容器中的文件？如何修改镜像？](2023/03/make-temporary-changes-to-container-and-image.md) (revise)
 - [Linux 防火墙相关问题](2023/02/linux-firewall.md) (revise)
-- [容器网络配置](2023/04/container-network.md) (revise)
+- [Docker 有哪几种主要的容器网络模式？默认是哪种？](2023/04/container-network.md) (revise)
 
 **Streaks: 2 day**
 
@@ -49,7 +55,7 @@ Day 34｜四月十八日周二
 **Streaks: 1 days**
 
 Day 33｜四月十五日周六
-- [容器网络配置](2023/04/container-network.md)
+- [Docker 有哪几种主要的容器网络模式？默认是哪种？](2023/04/container-network.md) 
 
 **Streaks: 2 days**
 
