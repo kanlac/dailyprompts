@@ -1,5 +1,8 @@
 # Erfolgs-Journal
 
+Day 46｜五月三十一日周三
+- [用户登录/身份验证/授权](2023/05/authentication.md)
+
 Day 45｜五月三十日周二
 - [Docker 有哪几种主要的容器网络模式？默认是哪种？](2023/04/container-network.md) (revise)
 - [容器之间的名字域名解析是怎么做的？](2023/05/communication-inside-container-network.md)
