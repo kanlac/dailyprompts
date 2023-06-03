@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 48｜六月三日周六
+- [列表转树](2023/06/list-to-tree.md)
+- [IP 地址段配置/冲突解决](2023/06/ip-address-pool-conflict-resolve.md)
+
 Day 47｜六月二日周五
 - [用户登录/身份验证/授权](2023/05/authentication.md) (revise)
 - [如何实现一个哈希表？](2023/05/implementing-hash-table.md) (update)
