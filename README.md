@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 50｜六月五日周一
+- [数据库横向比较](2023/06/database-systems.md) (revise)
+- [文件的索引节点 inode](2023/06/inode.md)
+
 Day 49｜六月四日周日
 - [如何实现一个哈希表？](2023/05/implementing-hash-table.md) (update)
 - [网络调试](2023/06/network-debugging.md)
