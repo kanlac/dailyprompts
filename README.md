@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 51｜六月六日周二
+- [用户登录/身份验证/授权](2023/05/authentication.md) (revise)
+- [如何实现一个哈希表？](2023/05/implementing-hash-table.md) (revise)
+- [Docker 有哪几种主要的容器网络模式？默认是哪种？](2023/04/container-network.md) (revise)
+- [容器之间的名字域名解析是怎么做的？](2023/05/communication-inside-container-network.md) (revise)
+
 Day 50｜六月五日周一
 - [数据库横向比较](2023/06/database-systems.md) (revise)
 - [文件的索引节点 inode](2023/06/inode.md)
