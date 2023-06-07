@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 52｜六月七日周三
+- [套接字 Socket](2023/06/socket.md)
+- [网络调试](2023/06/network-debugging.md) (update)
+- [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md)
+- [文件的索引节点 inode](2023/06/inode.md) (revise)
+- [文件权限 File Mode](2023/06/file-mode.md)
+
 Day 51｜六月六日周二
 - [用户登录/身份验证/授权](2023/05/authentication.md) (revise)
 - [如何实现一个哈希表？](2023/05/implementing-hash-table.md) (revise)
