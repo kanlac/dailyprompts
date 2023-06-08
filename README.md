@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 53｜六月八日周四
+- [数据存储方案](2023/06/data-storage-schemes.md)
+- [数据库横向比较](2023/06/database-systems.md) (revise)
+
 Day 52｜六月七日周三
 - [套接字 Socket](2023/06/socket.md)
 - [网络调试](2023/06/network-debugging.md) (update)
