@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 54｜六月九日周五
+- [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md) (revise)
+- [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md)
+- [数据存储方案](2023/06/data-storage-schemes.md) (revise)
+
 Day 53｜六月八日周四
 - [数据存储方案](2023/06/data-storage-schemes.md)
 - [数据库横向比较](2023/06/database-systems.md) (revise)
