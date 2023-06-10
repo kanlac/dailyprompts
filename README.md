@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 55｜六月十日周六
+- [Go 的内存逃逸](2023/06/go-memory-escape.md)
+- [服务规范化](2023/06/service-normalization.md)
+- [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md) (revise)
+- [套接字 Socket](2023/06/socket.md) (revise)
+
 Day 54｜六月九日周五
 - [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md) (revise)
 - [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md)
