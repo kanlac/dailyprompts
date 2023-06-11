@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 56｜六月十一日周日
+- [sysstat 系统性能工具](2023/06/sysstat-tool.md)
+- [文件权限 File Mode](2023/06/file-mode.md) (revise)
+- [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md) (revise)
+- [数据库横向比较](2023/06/database-systems.md) (revise)
+- [数据存储方案](2023/06/data-storage-schemes.md) (revise)
+
 Day 55｜六月十日周六
 - [Go 的内存逃逸](2023/06/go-memory-escape.md)
 - [服务规范化](2023/06/service-normalization.md)
