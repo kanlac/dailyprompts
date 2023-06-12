@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 57｜六月十二日周一
+- [程序中的内存模型](2023/06/memory-model.md)
+- [离线安装包的依赖](2023/06/offline-dependencies.md)
+
 Day 56｜六月十一日周日
 - [sysstat 系统性能工具](2023/06/sysstat-tool.md)
 - [文件权限 File Mode](2023/06/file-mode.md) (revise)
