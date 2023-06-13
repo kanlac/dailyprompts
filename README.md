@@ -1,7 +1,12 @@
 # Erfolgs-Journal
 
+Day 58｜六月十三日周二
+- [调用 GitLab API](2023/06/invoke-gitlab-api.md)
+- [内存模型](2023/06/memory-model.md) (update)
+- [Go 的内存逃逸](2023/06/go-memory-escape.md) (revise)
+
 Day 57｜六月十二日周一
-- [程序中的内存模型](2023/06/memory-model.md)
+- [内存模型](2023/06/memory-model.md)
 - [离线安装包的依赖](2023/06/offline-dependencies.md)
 
 Day 56｜六月十一日周日
