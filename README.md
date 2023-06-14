@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 59｜六月十四日周三
+- [一些并发限制](2023/03/concurrent-limitations.md) (update)
+- [文件的索引节点 inode](2023/06/inode.md) (revise)
+
 Day 58｜六月十三日周二
 - [调用 GitLab API](2023/06/invoke-gitlab-api.md)
 - [内存模型](2023/06/memory-model.md) (update)
@@ -73,7 +77,7 @@ Day 45｜五月三十日周二
 **Streaks: 1 day**
 
 Day 44｜五月二十五日周四
-- [Goroutine、文件描述符和套接字的上限](2023/03/limits-of-goroutine-and-socket.md) (update)
+- [一些并发限制](2023/03/concurrent-limitations.md) (update)
 
 **Streaks: 2 day**
 
@@ -146,7 +150,7 @@ Day 29｜三月三十一日周五
 - [Golang 如何做错误处理](2023/03/error-handling.md) (revise)
 
 Day 28｜三月三十日周四
-- [Goroutine、文件描述符和套接字的上限](2023/03/limits-of-goroutine-and-socket.md)
+- [一些并发限制](2023/03/concurrent-limitations.md)
 
 **Streaks: 3 days**
 
