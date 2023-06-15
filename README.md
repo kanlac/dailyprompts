@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 61｜六月十六日周五
+- [内存模型](2023/06/memory-model.md) (update)
+- [调用 GitLab API](2023/06/invoke-gitlab-api.md) (update)
+- [如何做好 Go 的内存管理？](how-to-manage-memory-usage-in-go) (revise)
+- [Go 中字符串的拼接方式有哪些？各自效率如何？](2023/02/string-joining-in-go.md) (revise)
+
 Day 60｜六月十五日周四
 - [如何做好 Go 的内存管理？](how-to-manage-memory-usage-in-go)
 - [一些并发限制](2023/03/concurrent-limitations.md) (revise)
