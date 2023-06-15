@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 60｜六月十五日周四
+- [如何做好 Go 的内存管理？](how-to-manage-memory-usage-in-go)
+- [一些并发限制](2023/03/concurrent-limitations.md) (revise)
+- [内存模型](2023/06/memory-model.md) (revise)
+- [数据库横向比较](2023/06/database-systems.md) (revise)
+
 Day 59｜六月十四日周三
 - [一些并发限制](2023/03/concurrent-limitations.md) (update)
 - [文件的索引节点 inode](2023/06/inode.md) (revise)
@@ -120,7 +126,7 @@ Day 35｜四月十九日周三
 - [是否了解协程池？](2023/02/goroutine-pool.md) (revise)
 
 Day 34｜四月十八日周二
-- [Go 是如何做内存管理的？](2023/02/go-memory-management.md) (update)
+- [Go 如何管理内存](how-does-go-manage-memory-allocation) (update)
 
 **Streaks: 1 days**
 
@@ -218,7 +224,7 @@ Day 12｜二月二十二日周三
 - [是否了解协程池？](2023/02/goroutine-pool.md)
 
 Day 11｜二月二十一日周二
-- [Go 是如何做内存管理的？](2023/02/go-memory-management.md)
+- [Go 如何管理内存](how-does-go-manage-memory-allocation)
 
 **Streaks: 4 days**
 
