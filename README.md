@@ -7,7 +7,7 @@ Day 61｜六月十六日周五
 - [Go 中字符串的拼接方式有哪些？各自效率如何？](2023/02/string-joining-in-go.md) (revise)
 
 Day 60｜六月十五日周四
-- [如何做好 Go 的内存管理？](how-to-manage-memory-usage-in-go)
+- [如何做好 Go 的内存管理？](2023/06/how-to-manage-memory-usage-in-go.md)
 - [一些并发限制](2023/03/concurrent-limitations.md) (revise)
 - [内存模型](2023/06/memory-model.md) (revise)
 - [数据库横向比较](2023/06/database-systems.md) (revise)
