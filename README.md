@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 62｜六月十七日周六
+- [如何做好 Go 的内存管理？](2023/06/how-to-manage-memory-usage-in-go.md) (revise)
+- [一些并发限制](2023/03/concurrent-limitations.md) (revise)
+- [IP 地址段配置/冲突解决](2023/06/ip-address-pool-conflict-resolve.md) (revise)
+
 Day 61｜六月十六日周五
 - [内存模型](2023/06/memory-model.md) (update)
 - [调用 GitLab API](2023/06/invoke-gitlab-api.md) (update)
