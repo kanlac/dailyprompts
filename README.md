@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 63｜六月十八日周日
+- [性能问题的本质](2023/06/the-nature-of-peformance-problem.md)
+- [数据存储方案](2023/06/data-storage-schemes.md) (update)
+- [Go 中字符串的拼接方式有哪些？各自效率如何？](2023/02/string-joining-in-go.md) (revise)
+- [内存模型](2023/06/memory-model.md) (revise)
+
 Day 62｜六月十七日周六
 - [如何做好 Go 的内存管理？](2023/06/how-to-manage-memory-usage-in-go.md) (revise)
 - [一些并发限制](2023/03/concurrent-limitations.md) (revise)
