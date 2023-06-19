@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 64｜六月十九日周一
+- [Docker in Docker (DinD)](2023/06/docker-in-docker.md)
+- [性能问题的本质](2023/06/the-nature-of-peformance-problem.md) (update)
+- [文件权限 File Mode](2023/06/file-mode.md) (update)
+- [如何实现一个哈希表？](2023/05/implementing-hash-table.md) (revise)
+
 Day 63｜六月十八日周日
 - [性能问题的本质](2023/06/the-nature-of-peformance-problem.md)
 - [数据存储方案](2023/06/data-storage-schemes.md) (update)
