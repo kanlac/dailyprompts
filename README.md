@@ -1,5 +1,8 @@
 # Erfolgs-Journal
 
+Day 66｜六月二十一日周三
+- [如何做好 Go 的内存管理？](2023/06/how-to-manage-memory-usage-in-go.md) (revise)
+
 Day 65｜六月二十日周二
 - [性能问题的本质](2023/06/the-nature-of-peformance-problem.md) (revise)
 - [数据存储方案](2023/06/data-storage-schemes.md) (revise)
