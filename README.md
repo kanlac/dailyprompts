@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 67｜六月二十二日周四
+- [数据库横向比较](2023/06/database-systems.md) (update)
+- [用户登录/身份验证/授权](2023/05/authentication.md) (revise)
+
 Day 66｜六月二十一日周三
 - [如何做好 Go 的内存管理？](2023/06/how-to-manage-memory-usage-in-go.md) (revise)
 
