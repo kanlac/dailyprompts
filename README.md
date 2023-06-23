@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 68｜六月二十三日周五
+- [Linux Process Management 进程管理](2023/06/process-management.md)
+- [查看系统报告](2023/06/system-report.md) (update)
+
 Day 67｜六月二十二日周四
 - [数据库横向比较](2023/06/database-systems.md) (update)
 - [用户登录/身份验证/授权](2023/05/authentication.md) (revise)
@@ -54,7 +58,7 @@ Day 57｜六月十二日周一
 - [离线安装包的依赖](2023/06/offline-dependencies.md)
 
 Day 56｜六月十一日周日
-- [sysstat 系统性能工具](2023/06/sysstat-tool.md)
+- [查看系统报告](2023/06/system-report.md)
 - [文件权限 File Mode](2023/06/file-mode.md) (revise)
 - [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md) (revise)
 - [数据库横向比较](2023/06/database-systems.md) (revise)
