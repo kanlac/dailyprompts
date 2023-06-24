@@ -1,5 +1,13 @@
 # Erfolgs-Journal
 
+Day 69｜六月二十四日周六
+- [文件的索引节点 inode](2023/06/inode.md) (revise)
+- [Docker in Docker (DinD)](2023/06/docker-in-docker.md) (revise)
+- [性能问题的本质](2023/06/the-nature-of-peformance-problem.md) (revise)
+- [数据库横向比较](2023/06/database-systems.md) (revise)
+- [一些并发限制](2023/03/concurrent-limitations.md) (revise)
+- [套接字 Socket](2023/06/socket.md) (revise)
+
 Day 68｜六月二十三日周五
 - [Linux Process Management 进程管理](2023/06/process-management.md)
 - [查看系统报告](2023/06/system-report.md) (update)
