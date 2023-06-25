@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 70｜六月二十五日周日
+- [服务规范化](2023/06/service-normalization.md) (revise)
+- [调用 GitLab API](2023/06/invoke-gitlab-api.md) (revise)
+- [内存模型](2023/06/memory-model.md) (revise)
+
 Day 69｜六月二十四日周六
 - [文件的索引节点 inode](2023/06/inode.md) (revise)
 - [Docker in Docker (DinD)](2023/06/docker-in-docker.md) (revise)
