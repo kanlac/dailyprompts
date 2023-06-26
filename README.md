@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 71｜六月二十六日周一
+- [Go 中字符串的拼接方式有哪些？各自效率如何？](2023/02/string-joining-in-go.md) (revise)
+- [Docker in Docker (DinD)](2023/06/docker-in-docker.md) (revise)
+- [数据存储方案](2023/06/data-storage-schemes.md) (revise)
+- [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md) (revise)
+
 Day 70｜六月二十五日周日
 - [服务规范化](2023/06/service-normalization.md) (revise)
 - [调用 GitLab API](2023/06/invoke-gitlab-api.md) (revise)
