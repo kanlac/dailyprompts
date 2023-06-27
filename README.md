@@ -1,5 +1,8 @@
 # Erfolgs-Journal
 
+Day 72｜六月二十七日周二
+- [发布工程 Release Engineering](2023/06/release-engineering.md) (update)
+
 Day 71｜六月二十六日周一
 - [Go 中字符串的拼接方式有哪些？各自效率如何？](2023/02/string-joining-in-go.md) (revise)
 - [Docker in Docker (DinD)](2023/06/docker-in-docker.md) (revise)
@@ -7,7 +10,7 @@ Day 71｜六月二十六日周一
 - [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md) (revise)
 
 Day 70｜六月二十五日周日
-- [服务规范化](2023/06/service-normalization.md) (revise)
+- [发布工程 Release Engineering](2023/06/release-engineering.md) (revise)
 - [调用 GitLab API](2023/06/invoke-gitlab-api.md) (revise)
 - [内存模型](2023/06/memory-model.md) (revise)
 
@@ -85,7 +88,7 @@ Day 56｜六月十一日周日
 
 Day 55｜六月十日周六
 - [Go 的内存逃逸](2023/06/go-memory-escape.md)
-- [服务规范化](2023/06/service-normalization.md)
+- [发布工程 Release Engineering](2023/06/release-engineering.md)
 - [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md) (revise)
 - [套接字 Socket](2023/06/socket.md) (revise)
 
