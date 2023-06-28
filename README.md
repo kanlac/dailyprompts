@@ -1,5 +1,8 @@
 # Erfolgs-Journal
 
+Day 73｜六月二十八日周三
+- [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md) (revise)
+
 Day 72｜六月二十七日周二
 - [发布工程 Release Engineering](2023/06/release-engineering.md) (update)
 
