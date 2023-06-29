@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 74｜六月二十九日周四
+- [Go 的内存逃逸](2023/06/go-memory-escape.md) (revise)
+- [性能问题的本质](2023/06/the-nature-of-peformance-problem.md) (revise)
+- [Linux Process Management 进程管理](2023/06/process-management.md) (revise)
+
 Day 73｜六月二十八日周三
 - [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md) (revise)
 
