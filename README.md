@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 75｜六月三十日周五
+- [数据库横向比较](2023/06/database-systems.md) (revise)
+- [Linux Process Management 进程管理](2023/06/process-management.md) (revise)
+
 Day 74｜六月二十九日周四
 - [Go 的内存逃逸](2023/06/go-memory-escape.md) (revise)
 - [性能问题的本质](2023/06/the-nature-of-peformance-problem.md) (revise)
