@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 76｜七月一日周六
+- [scratch 镜像](2023/07/scratch-image.md)
+- [IP 地址段配置/冲突解决](2023/06/ip-address-pool-conflict-resolve.md) (revise)
+
 Day 75｜六月三十日周五
 - [数据库横向比较](2023/06/database-systems.md) (revise)
 - [Linux Process Management 进程管理](2023/06/process-management.md) (revise)
