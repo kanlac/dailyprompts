@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 77｜七月二日周日
+- [上下文切换](2023/07/context-switching.md)
+- [发布工程 Release Engineering](2023/06/release-engineering.md) (revise)
+
 Day 76｜七月一日周六
 - [scratch 镜像](2023/07/scratch-image.md)
 - [IP 地址段配置/冲突解决](2023/06/ip-address-pool-conflict-resolve.md) (revise)
