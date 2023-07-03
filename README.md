@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 78｜七月三日周一
+- [GMP 模型](2023/07/gmp-model.md)
+- [文件权限 File Mode](2023/06/file-mode.md) (revise)
+- [上下文切换](2023/07/context-switching.md) (revise)
+
 Day 77｜七月二日周日
 - [上下文切换](2023/07/context-switching.md)
 - [发布工程 Release Engineering](2023/06/release-engineering.md) (revise)
