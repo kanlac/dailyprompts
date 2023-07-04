@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 79｜七月四日周二
+- [常见垃圾回收算法](2023/07/garbage-collection-algorithms.md)
+- [列表转树](2023/06/list-to-tree.md) (update)
+- [GMP 模型](2023/07/gmp-model.md) (revise)
+
 Day 78｜七月三日周一
 - [GMP 模型](2023/07/gmp-model.md)
 - [文件权限 File Mode](2023/06/file-mode.md) (revise)
