@@ -1,7 +1,11 @@
 # Erfolgs-Journal
 
-Day 80｜七月五日周三
+Day 80｜七月六日周四
+- [Linux Process Management 进程管理](2023/06/process-management.md) (update)
 - [常见垃圾回收算法](2023/07/garbage-collection-algorithms.md) (revise)
+- [scratch 镜像](2023/07/scratch-image.md) (revise)
+
+streaks: 33 days
 
 Day 79｜七月四日周二
 - [常见垃圾回收算法](2023/07/garbage-collection-algorithms.md)
