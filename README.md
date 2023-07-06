@@ -1,5 +1,8 @@
 # Erfolgs-Journal
 
+Day 80｜七月五日周三
+- [常见垃圾回收算法](2023/07/garbage-collection-algorithms.md) (revise)
+
 Day 79｜七月四日周二
 - [常见垃圾回收算法](2023/07/garbage-collection-algorithms.md)
 - [列表转树](2023/06/list-to-tree.md) (update)
