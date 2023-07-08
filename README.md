@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 82｜七月八日周六
+- [Go 垃圾回收](2023/07/go-gc.md)
+- [dockerd 访问权限](2023/07/dockerd-permission.md)
+- [Go 的内存逃逸](2023/06/go-memory-escape.md) (revise)
+- [Docker in Docker (DinD)](2023/06/docker-in-docker.md) (revise)
+- [上下文切换](2023/07/context-switching.md) (revise)
+
 Day 81｜七月七日周五
 - [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md) (revise)
 - [容器之间的名字域名解析是怎么做的？](2023/05/communication-inside-container-network.md) (revise)
