@@ -1,5 +1,15 @@
 # Erfolgs-Journal
 
+Day 84｜七月十日周一
+- [如何检测程序是否存在过多的内存分配？](2023/07/memory-analysis.md)
+- [上下文切换](2023/07/context-switching.md) (revise)
+- [网络调试](2023/06/network-debugging.md) (revise)
+- [内存模型](2023/06/memory-model.md) (revise)
+
+Day 83｜七月九日周日
+- [常见垃圾回收算法](2023/07/garbage-collection-algorithms.md) (revise)
+- [Go 垃圾回收](2023/07/go-gc.md) (revise)
+
 Day 82｜七月八日周六
 - [Go 垃圾回收](2023/07/go-gc.md)
 - [dockerd 访问权限](2023/07/dockerd-permission.md)
