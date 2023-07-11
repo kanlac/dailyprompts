@@ -2,6 +2,9 @@
 
 Day 85｜七月十一日周二
 - [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md) (update)
+- [Go 的内存逃逸](2023/06/go-memory-escape.md) (revise)
+- [内存模型](2023/06/memory-model.md) (revise)
+- [如何检测程序是否存在过多的内存分配？](2023/07/memory-analysis.md) (revise)
 
 Day 84｜七月十日周一
 - [如何检测程序是否存在过多的内存分配？](2023/07/memory-analysis.md)
