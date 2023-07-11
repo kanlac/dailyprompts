@@ -3,94 +3,130 @@
 ```go
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"sync"
+)
 
-const ArraySize = 7
-
-// HashTable struct
-type HashTable struct {
-	array [ArraySize]*bucket
-}
-
-// bucket struct
 type bucket struct {
 	key   string
-	value int
+	value string
 	next  *bucket
 }
 
-// Insert will take in a key and value
-// hash the key
-// add the key and value to the array at hashed index
-func (h *HashTable) Insert(key string, value int) {
-	index := hash(key)
-	h.array[index].insert(key, value)
+type HashTable struct {
+	mutex    sync.RWMutex
+	capacity int
+	slice    []*bucket
 }
 
-// Search will take in a key and return value
-// hash the key
-// search the array at hashed index
-func (h *HashTable) Search(key string) (int, bool) {
-	index := hash(key)
-	return h.array[index].search(key)
-}
-
-// hash
-func hash(key string) int {
-	sum := 0
-	for _, v := range key {
-		sum += int(v)
+func NewHashTable(capacity int) *HashTable {
+	hashTable := &HashTable{
+		capacity: capacity,
+		slice:    make([]*bucket, capacity),
 	}
-	return sum % ArraySize
+	for i := range hashTable.slice {
+		hashTable.slice[i] = &bucket{}
+	}
+	return hashTable
 }
 
-// insert
-func (b *bucket) insert(k string, v int) {
-	if b.key == "" {
-		b.key = k
-		b.value = v
+func (h *HashTable) Get(key string) (string, bool) {
+	h.mutex.RLock()
+	defer h.mutex.RUnlock()
+
+	index := h.hash(key)
+
+	node := h.slice[index]
+	for node != nil && node.key != key {
+		node = node.next
+	}
+	if node == nil {
+		return "", false
+	}
+	return node.value, true
+}
+
+func (h *HashTable) Set(key, value string) {
+	h.mutex.Lock()
+	defer h.mutex.Unlock()
+
+	index := h.hash(key)
+
+	if h.slice[index].key == "" {
+		h.slice[index].key = key
+		h.slice[index].value = value
+		return
+	}
+	if h.slice[index].key == key {
+		h.slice[index].value = value
 		return
 	}
 
-	ptr := b
-	for ptr.next != nil {
-		ptr = ptr.next
+	node := h.slice[index]
+	for node.next != nil && node.next.key != key {
+		node = node.next
 	}
-	ptr.next = &bucket{key: k, value: v}
+	if node.next == nil {
+		node.next = &bucket{key: key, value: value}
+		return
+	}
+
+	// update
+	node.next.value = value
 }
 
-// search
-func (b *bucket) search(k string) (int, bool) {
-	ptr := b
-	while(ptr != nil) {
-		if ptr.key == k {
-			return ptr.value, true
-		}
-		ptr = ptr.next
+func (h *HashTable) Del(key string) {
+	h.mutex.Lock()
+	defer h.mutex.Unlock()
+
+	index := h.hash(key)
+
+	if h.slice[index].key == "" {
+		return
 	}
-	return 0, false
+	if h.slice[index].key == key {
+		h.slice[index] = h.slice[index].next
+		return
+	}
+
+	node := h.slice[index]
+	for node.next != nil && node.next.key != key {
+		node = node.next
+	}
+	if node.next == nil {
+		return
+	}
+	node.next = node.next.next
 }
 
-// Init initializes the hashtable
-func Init() *HashTable {
-	result := &HashTable{}
-	for i := range result.array {
-		result.array[i] = &bucket{}
+func (h *HashTable) hash(key string) int {
+	var total int
+	for _, r := range key {
+		total += int(r)
 	}
-	return result
+	return total % h.capacity
 }
 
 func main() {
-	h := Init()
-	h.Insert("ERIC", 589)
-	h.Insert("KEN", 522)
-	h.Insert("RON", 101)
-	h.Insert("SAM", 229)
-	h.Insert("SUN", 943)
-	fmt.Println(h.Search("KEN"))
-	fmt.Println(h.Search("ERIC"))
-	fmt.Println(h.Search("SUN"))
-	fmt.Println(h.Search("MIKE"))
+	ht := NewHashTable(1)
+	ht.Set("foo", "bar")
+	ht.Set("foo0", "bar0")
+	ht.Set("foo1", "bar1")
+
+	ret, exists := ht.Get("foo")
+	fmt.Printf("get foo: %s, %v\n", ret, exists)
+	ret, exists = ht.Get("foo0")
+	fmt.Printf("get foo0: %s, %v\n", ret, exists)
+	ht.Set("foo", "foo")
+	ret, exists = ht.Get("foo")
+	fmt.Printf("get foo: %s, %v\n", ret, exists)
+	ht.Del("foo0")
+	ret, exists = ht.Get("foo0")
+	fmt.Printf("get foo0: %s, %v\n", ret, exists)
+	ret, exists = ht.Get("foo1")
+	fmt.Printf("get foo1: %s, %v\n", ret, exists)
 }
+
 
 ```

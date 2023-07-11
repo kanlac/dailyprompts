@@ -1,5 +1,8 @@
 # Erfolgs-Journal
 
+Day 85｜七月十一日周二
+- [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md) (update)
+
 Day 84｜七月十日周一
 - [如何检测程序是否存在过多的内存分配？](2023/07/memory-analysis.md)
 - [上下文切换](2023/07/context-switching.md) (revise)
