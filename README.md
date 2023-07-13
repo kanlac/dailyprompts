@@ -1,8 +1,14 @@
 # Erfolgs-Journal
 
+Day 87｜七月十三日周四
+- [云计算](2023/07/cloud-computing.md) (update)
+- [dockerd 访问权限](2023/07/dockerd-permission.md) (revise)
+- [GMP 模型](2023/07/gmp-model.md) (revise)
+- [Go 垃圾回收](2023/07/go-gc.md) (revise)
+
 Day 86｜七月十二日周三
 - [容器编排方案](2023/07/container-orchestration.md)
-- [云服务模式按抽象层级由低到高有哪些？](2023/07/cloud-computing.md)
+- [云计算](2023/07/cloud-computing.md)
 - [离线安装包的依赖](2023/06/offline-dependencies.md) (revise)
 
 Day 85｜七月十一日周二
