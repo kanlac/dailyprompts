@@ -1,5 +1,8 @@
 # Erfolgs-Journal
 
+Day 88｜七月十四日周五
+- [找到二叉树的左侧兄弟节点](2023/07/find-left-relative-of-tree-nodes.md)
+
 Day 87｜七月十三日周四
 - [云计算](2023/07/cloud-computing.md) (update)
 - [dockerd 访问权限](2023/07/dockerd-permission.md) (revise)
