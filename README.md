@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 90｜七月十七日周一
+- [如何做好 Go 的内存管理？](2023/06/how-to-manage-memory-usage-in-go.md) (revise)
+- [发布工程 Release Engineering](2023/06/release-engineering.md) (revise)
+- [文件的索引节点 inode](2023/06/inode.md) (revise)
+- [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md) (update)
+
 Day 89｜七月十六日周日
 - [GMP 模型](2023/07/gmp-model.md) (revise)
 - [云计算](2023/07/cloud-computing.md) (revise)
