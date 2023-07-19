@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 92｜七月十九日周三
+- [基于 Docker Compose 的产品配置访问独立部署的服务](2023/07/access-independently-deployed-services.md)
+- [容器编排方案](2023/07/container-orchestration.md) (revise)
+- [如何实现一个哈希表？](2023/05/implementing-hash-table.md) (revise)
+
 Day 91｜七月十八日周二
 - [容器编排方案](2023/07/container-orchestration.md) (update)
 - [云计算](2023/07/cloud-computing.md) (revise)
