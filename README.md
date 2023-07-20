@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 93｜七月二十日周四
+- [Filesystem Hierarchy Standard (FHS)](2023/07/fhs.md)
+- [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md)
+
 Day 92｜七月十九日周三
 - [基于 Docker Compose 的产品配置访问独立部署的服务](2023/07/access-independently-deployed-services.md)
 - [容器编排方案](2023/07/container-orchestration.md) (revise)
@@ -127,7 +131,7 @@ Day 69｜六月二十四日周六
 - [性能问题的本质](2023/06/the-nature-of-peformance-problem.md) (revise)
 - [数据库横向比较](2023/06/database-systems.md) (revise)
 - [一些并发限制](2023/03/concurrent-limitations.md) (revise)
-- [套接字 Socket](2023/06/socket.md) (revise)
+- [套接字原理](2023/06/how-sockets-work.md) (revise)
 
 Day 68｜六月二十三日周五
 - [Linux Process Management 进程管理](2023/06/process-management.md)
@@ -197,7 +201,7 @@ Day 55｜六月十日周六
 - [Go 的内存逃逸](2023/06/go-memory-escape.md)
 - [发布工程 Release Engineering](2023/06/release-engineering.md)
 - [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md) (revise)
-- [套接字 Socket](2023/06/socket.md) (revise)
+- [套接字原理](2023/06/how-sockets-work.md) (revise)
 
 Day 54｜六月九日周五
 - [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md) (revise)
@@ -209,7 +213,7 @@ Day 53｜六月八日周四
 - [数据库横向比较](2023/06/database-systems.md) (revise)
 
 Day 52｜六月七日周三
-- [套接字 Socket](2023/06/socket.md)
+- [套接字原理](2023/06/how-sockets-work.md)
 - [网络调试](2023/06/network-debugging.md) (update)
 - [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md)
 - [文件的索引节点 inode](2023/06/inode.md) (revise)
