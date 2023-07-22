@@ -1,16 +1,23 @@
 # Erfolgs-Journal
 
+Day 94｜七月二十一日周五
+- [部署方案](2023/07/deploy-solutions.md) (update)
+- [Filesystem Hierarchy Standard (FHS)](2023/07/fhs.md) (revise)
+- [Go 的内存逃逸](2023/06/go-memory-escape.md) (revise)
+- [数据库横向比较](2023/06/database-systems.md) (revise)
+- [数据存储方案](2023/06/data-storage-schemes.md) (revise)
+
 Day 93｜七月二十日周四
 - [Filesystem Hierarchy Standard (FHS)](2023/07/fhs.md)
 - [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md)
 
 Day 92｜七月十九日周三
 - [基于 Docker Compose 的产品配置访问独立部署的服务](2023/07/access-independently-deployed-services.md)
-- [容器编排方案](2023/07/container-orchestration.md) (revise)
+- [部署方案](2023/07/deploy-solutions.md) (revise)
 - [如何实现一个哈希表？](2023/05/implementing-hash-table.md) (revise)
 
 Day 91｜七月十八日周二
-- [容器编排方案](2023/07/container-orchestration.md) (update)
+- [部署方案](2023/07/deploy-solutions.md) (update)
 - [云计算](2023/07/cloud-computing.md) (revise)
 - [Linux Process Management 进程管理](2023/06/process-management.md) (revise)
 - [常见垃圾回收算法](2023/07/garbage-collection-algorithms.md) (revise)
@@ -41,7 +48,7 @@ Day 87｜七月十三日周四
 - [Go 垃圾回收](2023/07/go-gc.md) (revise)
 
 Day 86｜七月十二日周三
-- [容器编排方案](2023/07/container-orchestration.md)
+- [部署方案](2023/07/deploy-solutions.md)
 - [云计算](2023/07/cloud-computing.md)
 - [离线安装包的依赖](2023/06/offline-dependencies.md) (revise)
 
