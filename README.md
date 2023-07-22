@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 95｜七月二十二日周六
+- [gRPC](2023/07/grpc.md)
+- [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md) (revise)
+
 Day 94｜七月二十一日周五
 - [部署方案](2023/07/deploy-solutions.md) (update)
 - [Filesystem Hierarchy Standard (FHS)](2023/07/fhs.md) (revise)
