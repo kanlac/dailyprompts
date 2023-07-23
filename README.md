@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 96｜七月二十三日周日
+- [GMP 模型](2023/07/gmp-model.md) (revise)
+- [查看系统报告](2023/06/system-report.md) (revise)
+
 Day 95｜七月二十二日周六
 - [gRPC](2023/07/grpc.md)
 - [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md) (revise)
