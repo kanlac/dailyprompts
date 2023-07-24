@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 97｜七月二十四日周一
+- [gRPC](2023/07/grpc.md) (update)
+- [基于 Docker Compose 的产品配置访问独立部署的服务](2023/07/access-independently-deployed-services.md) (revise)
+
 Day 96｜七月二十三日周日
 - [GMP 模型](2023/07/gmp-model.md) (revise)
 - [查看系统报告](2023/06/system-report.md) (revise)
