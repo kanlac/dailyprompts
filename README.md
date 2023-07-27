@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 100｜七月二十七日周四
+- [init 进程](2023/07/init-process.md)
+- [配置访问独立部署的服务](2023/07/access-independently-deployed-services.md) (update)
+- [性能问题的本质](2023/06/the-nature-of-peformance-problem.md) (revise)
+
 Day 99｜七月二十六日周三
 - [Go Context 上下文](2023/07/go-context.md)
 - [离线安装包的依赖](2023/06/offline-dependencies.md) (revise)
@@ -16,7 +21,7 @@ Day 98｜七月二十五日周二
 
 Day 97｜七月二十四日周一
 - [gRPC](2023/07/grpc.md) (update)
-- [基于 Docker Compose 的产品配置访问独立部署的服务](2023/07/access-independently-deployed-services.md) (revise)
+- [配置访问独立部署的服务](2023/07/access-independently-deployed-services.md) (revise)
 
 Day 96｜七月二十三日周日
 - [GMP 模型](2023/07/gmp-model.md) (revise)
@@ -38,7 +43,7 @@ Day 93｜七月二十日周四
 - [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md)
 
 Day 92｜七月十九日周三
-- [基于 Docker Compose 的产品配置访问独立部署的服务](2023/07/access-independently-deployed-services.md)
+- [配置访问独立部署的服务](2023/07/access-independently-deployed-services.md)
 - [部署方案](2023/07/deploy-solutions.md) (revise)
 - [如何实现一个哈希表？](2023/05/implementing-hash-table.md) (revise)
 
