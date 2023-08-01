@@ -1,5 +1,14 @@
 # Erfolgs-Journal
 
+Day 104｜八月一日周二
+- [查看路由表有哪几种方式？有什么区别？](2023/08/route.md)
+- [init 进程](2023/07/init-process.md) (revise)
+
+Day 103｜七月三十一日周一
+- [一些并发限制](2023/03/concurrent-limitations.md) (revise)
+
+streaks: 1 day
+
 Day 102｜七月三十日周六
 - [init 进程](2023/07/init-process.md) (updated)
 - [如何排查程序的内存占用情况？](2023/07/memory-analysis.md) (revise)
