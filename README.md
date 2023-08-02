@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 105｜八月二日周三
+- [查看路由表有哪几种方式？有什么区别？](2023/08/route.md) (revise)
+- [init 进程](2023/07/init-process.md) (revise)
+- [如何排查程序的内存占用情况？](2023/07/memory-analysis.md) (revise)
+- [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md) (revise)
+
 Day 104｜八月一日周二
 - [查看路由表有哪几种方式？有什么区别？](2023/08/route.md)
 - [init 进程](2023/07/init-process.md) (revise)
