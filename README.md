@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 106｜八月三日周四
+- [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md) (revise)
+- [上下文切换](2023/07/context-switching.md) (revise)
+- [一些并发限制](2023/03/concurrent-limitations.md) (revise)
+
 Day 105｜八月二日周三
 - [查看路由表有哪几种方式？有什么区别？](2023/08/route.md) (revise)
 - [init 进程](2023/07/init-process.md) (revise)
