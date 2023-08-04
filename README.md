@@ -1,5 +1,8 @@
 # Erfolgs-Journal
 
+Day 107｜八月四日周五
+- [数据库锁](2023/08/database-lock.md)
+
 Day 106｜八月三日周四
 - [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md) (revise)
 - [上下文切换](2023/07/context-switching.md) (revise)
