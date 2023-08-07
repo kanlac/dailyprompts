@@ -1,5 +1,16 @@
 # Erfolgs-Journal
 
+Day 108｜八月七日周一
+- [部署方案](2023/07/deploy-solutions.md) (revise)
+- [gRPC](2023/07/grpc.md) (revise)
+- [配置访问独立部署的服务](2023/07/access-independently-deployed-services.md) (revise)
+- [Go Context 上下文](2023/07/go-context.md) (revise)
+- [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md) (revise)
+- [init 进程](2023/07/init-process.md) (revise)
+- [查看路由表有哪几种方式？有什么区别？](2023/08/route.md) (revise)
+
+streaks: 5 days
+
 Day 107｜八月四日周五
 - [数据库锁](2023/08/database-lock.md)
 
