@@ -1,5 +1,14 @@
 # Erfolgs-Journal
 
+Day 110｜八月九日周三
+- [如何排查程序的内存占用情况？](2023/07/memory-analysis.md) (revise)
+- [dockerd 访问权限](2023/07/dockerd-permission.md) (revise)
+- [Linux Process Management 进程管理](2023/06/process-management.md) (revise)
+- [常见垃圾回收算法](2023/07/garbage-collection-algorithms.md) (revise)
+- [如何做好 Go 的内存管理？](2023/06/how-to-manage-memory-usage-in-go.md) (revise)
+- [Docker in Docker (DinD)](2023/06/docker-in-docker.md) (revise)
+- [套接字原理](2023/06/how-sockets-work.md) (revise)
+
 Day 109｜八月八日周二
 - [GMP 模型](2023/07/gmp-model.md) (revise)
 
