@@ -1,5 +1,8 @@
 # Erfolgs-Journal
 
+Day 109｜八月八日周二
+- [GMP 模型](2023/07/gmp-model.md) (revise)
+
 Day 108｜八月七日周一
 - [部署方案](2023/07/deploy-solutions.md) (revise)
 - [gRPC](2023/07/grpc.md) (revise)
