@@ -1,5 +1,14 @@
 # Erfolgs-Journal
 
+Day 112｜八月十三日周日
+- [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60)
+- [数据库锁](2023/08/database-lock.md) (revise)
+- [init 进程](2023/07/init-process.md) (revise)
+- [Go 垃圾回收](2023/07/go-gc.md) (revise)
+- [ENTRYPOINT v.s. CMD](2023/08/entrypoint-versus-cmd.md) (revise)
+
+streaks: 1 day
+
 Day 111｜八月十一日周五
 - [ENTRYPOINT v.s. CMD](2023/08/entrypoint-versus-cmd.md)
 - [上下文切换](2023/07/context-switching.md) (revise)
