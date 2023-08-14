@@ -3,53 +3,60 @@
 ```go
 package main
 
-type SrcTreeNode struct {
-	val      int
-	leftChi  *SrcTreeNode
-	rightChi *SrcTreeNode
+import "fmt"
+
+type TreeNode struct {
+	Val        int
+	LeftChild  *TreeNode
+	RightChild *TreeNode
+
+	Cousin *TreeNode
 }
 
-type TrgTreeNode struct {
-	srcTreeNode *SrcTreeNode
-	level    int
-	leftRel  *TrgTreeNode
+type BFSNode struct {
+	node  *TreeNode
+	depth int
 }
 
-func BuildTree(root *SrcTreeNode) *TrgTreeNode {
+func BuildTree(root *TreeNode) *TreeNode {
 	if root == nil {
-		return nil
+		return root
 	}
 
-	trgRoot := &TrgTreeNode{
-		srcTreeNode: root,
-		level: 1,
-	}
-	stack := []*TrgTreeNode{trgRoot}
+	queue := []*BFSNode{{node: root, depth: 0}}
+	lastNode := &BFSNode{depth: -1}
 
-	var lastNode *TrgTreeNode
-	for len(stack) != 0 { // BFS
-		head := stack[0]
-		stack = stack[1:]
-		if lastNode != nil && head.level == lastNode.level {
-			head.leftRel = lastNode
+	for len(queue) > 0 {
+		head := queue[0]
+		dep := head.depth
+		queue = queue[1:]
+
+		if head.node.LeftChild != nil {
+			queue = append(queue, &BFSNode{node: head.node.LeftChild, depth: dep + 1})
+		}
+		if head.node.RightChild != nil {
+			queue = append(queue, &BFSNode{node: head.node.RightChild, depth: dep + 1})
 		}
 
-		// enqueue
-		if head.srcTreeNode.leftChi != nil {
-			stack = append(stack, &TrgTreeNode{
-				srcTreeNode: head.srcTreeNode.leftChi,
-				level: head.level + 1,
-			})
-		}
-		if head.srcTreeNode.rightChi != nil {
-			stack = append(stack, &TrgTreeNode{
-				srcTreeNode: head.srcTreeNode.rightChi,
-				level: head.level + 1,
-			})
+		if lastNode.depth == dep {
+			head.node.Cousin = lastNode.node
 		}
 		lastNode = head
 	}
-	return trgRoot
+
+	return root
 }
+
+func main() {
+	four := &TreeNode{Val: 4}
+	five := &TreeNode{Val: 5}
+	six := &TreeNode{Val: 6}
+	two := &TreeNode{Val: 2, RightChild: four}
+	three := &TreeNode{Val: 3, LeftChild: five, RightChild: six}
+	one := &TreeNode{Val: 1, LeftChild: two, RightChild: three}
+	r := BuildTree(one)
+	fmt.Println(r)
+}
+
 
 ```
