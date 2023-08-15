@@ -1,5 +1,8 @@
 # Erfolgs-Journal
 
+Day 114｜八月十五日周二
+- [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
+
 Day 113｜八月十四日周一
 - [找到二叉树的左侧兄弟节点](2023/07/find-left-relative-of-tree-nodes.md) (update)
 - [IP 地址段配置/冲突解决](2023/06/ip-address-pool-conflict-resolve.md) (revise)
