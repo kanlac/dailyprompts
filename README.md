@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 115｜八月十六日周三
+- [Docker 分配伪终端](2023/08/docker-tty.md)
+- [io.Reader v.s. bufio.Reader](2023/08/io-reader-vs-bufio-reader.md)
+- [云计算](2023/07/cloud-computing.md) (revise)
+
 Day 114｜八月十五日周二
 - [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
 
