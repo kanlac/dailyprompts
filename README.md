@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 116｜八月十七日周四
+- [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
+- [查看路由表有哪几种方式？有什么区别？](2023/08/route.md) (revise)
+
 Day 115｜八月十六日周三
 - [Docker 分配伪终端](2023/08/docker-tty.md)
 - [io.Reader v.s. bufio.Reader](2023/08/io-reader-vs-bufio-reader.md)
@@ -12,7 +16,7 @@ Day 113｜八月十四日周一
 - [找到二叉树的左侧兄弟节点](2023/07/find-left-relative-of-tree-nodes.md) (update)
 - [IP 地址段配置/冲突解决](2023/06/ip-address-pool-conflict-resolve.md) (revise)
 
-Day 112｜八月十三日周日
+Day 112｜八月十三日周日；
 - [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60)
 - [数据库锁](2023/08/database-lock.md) (revise)
 - [init 进程](2023/07/init-process.md) (revise)
