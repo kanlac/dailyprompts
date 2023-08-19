@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 118｜八月十九日周六
+- [Docker 分配伪终端](2023/08/docker-tty.md) (revise)
+- [部署方案](2023/07/deploy-solutions.md) (revise)
+- [发布工程 Release Engineering](2023/06/release-engineering.md) (revise)
+- [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
+- [io.Reader v.s. bufio.Reader](2023/08/io-reader-vs-bufio-reader.md) (revise)
+
 Day 117｜八月十八日周五
 - [数据库锁](2023/08/database-lock.md) (revise)
 - [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md) (revise)
