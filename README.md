@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 117｜八月十八日周五
+- [数据库锁](2023/08/database-lock.md) (revise)
+- [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md) (revise)
+- [Filesystem Hierarchy Standard (FHS)](2023/07/fhs.md) (revise)
+- [一些并发限制](2023/03/concurrent-limitations.md) (revise)
+
 Day 116｜八月十七日周四
 - [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
 - [查看路由表有哪几种方式？有什么区别？](2023/08/route.md) (revise)
