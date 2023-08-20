@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 119｜八月二十日周日
+- [ENTRYPOINT v.s. CMD](2023/08/entrypoint-versus-cmd.md) (revise)
+- [init 进程](2023/07/init-process.md) (revise)
+
 Day 118｜八月十九日周六
 - [Docker 分配伪终端](2023/08/docker-tty.md) (revise)
 - [部署方案](2023/07/deploy-solutions.md) (revise)
