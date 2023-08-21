@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 121｜八月二十二日周二
+- [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md)
+- [io.Reader v.s. bufio.Reader](2023/08/io-reader-vs-bufio-reader.md) (revise)
+- [GMP 模型](2023/07/gmp-model.md) (revise)
+- [用户登录/身份验证/授权](2023/05/authentication.md) (revise)
+
 Day 120｜八月二十一日周一
 - [IP 地址段配置/冲突解决](2023/06/ip-address-pool-conflict-resolve.md) (update)
 - [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md) (revise)
