@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 120｜八月二十一日周一
+- [IP 地址段配置/冲突解决](2023/06/ip-address-pool-conflict-resolve.md) (update)
+- [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md) (revise)
+
 Day 119｜八月二十日周日
 - [ENTRYPOINT v.s. CMD](2023/08/entrypoint-versus-cmd.md) (revise)
 - [init 进程](2023/07/init-process.md) (revise)
