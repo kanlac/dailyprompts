@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 122｜八月二十三日周三
+- [全表扫描 Full Table Scan](2023/08/full-table-scan.md)
+- [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md) (revise)
+- [数据库锁](2023/08/database-lock.md) (revise)
+
 Day 121｜八月二十二日周二
 - [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md)
 - [io.Reader v.s. bufio.Reader](2023/08/io-reader-vs-bufio-reader.md) (revise)

@@ -62,3 +62,53 @@ COMMIT;
 在这个例子中，`SELECT ... LOCK IN SHARE MODE`语句会给选中的行加共享锁，`SELECT ... FOR UPDATE`语句会给选中的行加排他锁。在事务提交或者回滚之前，其他事务不能修改被锁定的数据。
 
 注意：在使用悲观锁时，务必要注意避免死锁。死锁是指两个或者多个事务在执行过程中，因争夺资源而造成的一种互相等待的现象，若无外力干涉，它们都将无法进行下去。一种常见的避免死锁的策略是总是以相同的顺序访问资源。
+
+### 什么情况下会发生死锁？
+
+死锁是一个常见的并发控制问题，它发生在两个或多个事务试图访问相同的资源但每个事务都在等待其他事务释放资源时。下面是一个使用 SQL 的示例，说明如何通过两个事务造成死锁：
+
+考虑我们有两张表，`tableA` 和 `tableB`，每张表都有一个名为 `value` 的列。
+
+```sql
+CREATE TABLE tableA (value INT);
+CREATE TABLE tableB (value INT);
+
+INSERT INTO tableA (value) VALUES (1);
+INSERT INTO tableB (value) VALUES (2);
+
+```
+
+现在，让我们同时执行以下两个事务：
+
+**事务 1**:
+
+```sql
+BEGIN;
+UPDATE tableA SET value = value + 1 WHERE value = 1;
+-- 此处等待一会儿
+UPDATE tableB SET value = value - 1 WHERE value = 2;
+COMMIT;
+
+```
+
+**事务 2**:
+
+```sql
+BEGIN;
+UPDATE tableB SET value = value + 1 WHERE value = 2;
+-- 此处等待一会儿
+UPDATE tableA SET value = value - 1 WHERE value = 1;
+COMMIT;
+
+```
+
+如果你按照以下的顺序执行这两个事务：
+
+1. 在事务 1 中执行第一个 `UPDATE`。
+2. 在事务 2 中执行第一个 `UPDATE`。
+3. 尝试在事务 1 中执行第二个 `UPDATE`（此时它会被阻塞，因为它正在等待事务 2 释放 `tableB`）。
+4. 尝试在事务 2 中执行第二个 `UPDATE`（此时它也会被阻塞，因为它正在等待事务 1 释放 `tableA`）。
+
+此时，两个事务都在等待彼此释放资源，从而形成了一个死锁。
+
+大多数现代的数据库管理系统都有内置的死锁检测机制，它们会自动检测到这种情况并中止其中一个事务，从而打破死锁。然后，您需要手动重新启动被中止的事务。
