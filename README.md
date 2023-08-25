@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 124｜八月二十五日周五
+- [全表扫描 Full Table Scan](2023/08/full-table-scan.md) (update)
+- [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md) (update)
+- [数据存储方案](2023/06/data-storage-schemes.md) (update)
+
 Day 123｜八月二十四日周四
 - [Go 的栈空间管理](2023/08/golang-stack-memory-management.md)
 - [全表扫描 Full Table Scan](2023/08/full-table-scan.md) (revise)
