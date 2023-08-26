@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 125｜八月二十六日周六
+- [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
+- [全表扫描 Full Table Scan](2023/08/full-table-scan.md) (revise)
+- [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md) (revise)
+
 Day 124｜八月二十五日周五
 - [全表扫描 Full Table Scan](2023/08/full-table-scan.md) (update)
 - [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md) (update)
