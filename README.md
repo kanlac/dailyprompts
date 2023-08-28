@@ -1,5 +1,13 @@
 # Erfolgs-Journal
 
+Day 126｜八月二十八日周一
+- [Go 的栈空间管理](2023/08/golang-stack-memory-management.md) (revise)
+- [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md) (revise)
+- [IP 地址段配置/冲突解决](2023/06/ip-address-pool-conflict-resolve.md) (revise)
+- [Go Context 上下文](2023/07/go-context.md) (revise)
+
+streaks: 14 days
+
 Day 125｜八月二十六日周六
 - [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
 - [全表扫描 Full Table Scan](2023/08/full-table-scan.md) (revise)
