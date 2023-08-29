@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 127｜八月二十九日周二
+- [全表扫描 Full Table Scan](2023/08/full-table-scan.md) (revise)
+- [io.Reader v.s. bufio.Reader](2023/08/io-reader-vs-bufio-reader.md) (revise)
+- [用户登录/身份验证/授权](2023/05/authentication.md) (revise)
+- [如何排查程序的内存占用情况？](2023/07/memory-analysis.md) (revise)
+- [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md) (revise)
+
 Day 126｜八月二十八日周一
 - [Go 的栈空间管理](2023/08/golang-stack-memory-management.md) (revise)
 - [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md) (revise)
