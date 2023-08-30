@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 128｜八月三十日周三
+- [Go 的栈空间管理](2023/08/golang-stack-memory-management.md) (update)
+- [如何实现一个哈希表？](2023/05/implementing-hash-table.md) (revise)
+
 Day 127｜八月二十九日周二
 - [全表扫描 Full Table Scan](2023/08/full-table-scan.md) (revise)
 - [io.Reader v.s. bufio.Reader](2023/08/io-reader-vs-bufio-reader.md) (revise)
