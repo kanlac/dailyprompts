@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 130｜九月一日周五
+
+- [SQL 优化技巧](2023/09/sql-optimazation.md)
+- [OLTP v.s. OLAP](2023/08/oltp-versus-olap.md) (revise)
+- [一些并发限制](2023/03/concurrent-limitations.md) (revise)
+- [上下文切换](2023/07/context-switching.md) (revise)
+
 Day 129｜八月三十一日周四
 
 - [OLTP v.s. OLAP](2023/08/oltp-versus-olap.md)
