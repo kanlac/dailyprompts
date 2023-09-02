@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 131｜九月二日周六
+
+- [SQL 优化技巧](2023/09/sql-optimazation.md) (update)
+- [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
+
 Day 130｜九月一日周五
 
 - [SQL 优化技巧](2023/09/sql-optimazation.md)
