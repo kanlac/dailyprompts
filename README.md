@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 132｜九月三日周日
+
+- [SQL 优化技巧](2023/09/sql-optimazation.md) (revise)
+- [Go 的栈空间管理](2023/08/golang-stack-memory-management.md) (revise)
+- [文件权限 File Mode](2023/06/file-mode.md) (revise)
+
 Day 131｜九月二日周六
 
 - [SQL 优化技巧](2023/09/sql-optimazation.md) (update)
