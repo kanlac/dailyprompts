@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 133｜九月四日周一
+
+- [列表转树](2023/06/list-to-tree.md) (update)
+- [Go 的内存管理](how-does-go-manage-memory-allocation) (revise)
+- [OLTP v.s. OLAP](2023/08/oltp-versus-olap.md) (revise)
+
 Day 132｜九月三日周日
 
 - [SQL 优化技巧](2023/09/sql-optimazation.md) (revise)
@@ -522,7 +528,7 @@ Day 35｜四月十九日周三
 - [是否了解协程池？](2023/02/goroutine-pool.md) (revise)
 
 Day 34｜四月十八日周二
-- [Go 如何管理内存](how-does-go-manage-memory-allocation) (update)
+- [Go 的内存管理](how-does-go-manage-memory-allocation) (update)
 
 **Streaks: 1 days**
 
@@ -620,7 +626,7 @@ Day 12｜二月二十二日周三
 - [是否了解协程池？](2023/02/goroutine-pool.md)
 
 Day 11｜二月二十一日周二
-- [Go 如何管理内存](how-does-go-manage-memory-allocation)
+- [Go 的内存管理](how-does-go-manage-memory-allocation)
 
 **Streaks: 4 days**
 

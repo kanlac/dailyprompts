@@ -1,67 +1,135 @@
 # 列表转树
 
-### Q
+## Q
+
 有一个节点的列表，它们都是按层级顺序排好的，每个节点有一个 parentID。请从这个列表中构建一颗树。
 
-### A
+## 测试用例及其作答模版
 
-```golang
+main.go:
+
+```go
 package main
 
-import "fmt"
-
 type ListNode struct {
-	id       int
-	val      int
-	parentID int
+ id       int
+ parentID int
+ val      string
 }
 
 type TreeNode struct {
-	id     int
-	val    int
-	parent *TreeNode
+ id       int
+ children []*TreeNode
+ val      string
 }
 
-func buildTree(list []ListNode) map[int]*TreeNode {
-	m := make(map[int]*TreeNode)
-	for _, n := range list {
-		parent := m[n.parentID]
-		this := &TreeNode{id: n.id, val: n.val, parent: parent}
-		m[n.id] = this
-	}
-	return m
+func BuildTree(list []ListNode) *TreeNode {
+ return &TreeNode{} // Your implementation goes here
 }
+```
 
-func main() {
-	list := []ListNode{
-		{
-			id:       0,
-			val:      3,
-			parentID: -1,
-		},
-		{
-			id:       1,
-			val:      2,
-			parentID: 0,
-		},
-		{
-			id:       2,
-			val:      4,
-			parentID: 0,
-		},
-		{
-			id:       3,
-			val:      1,
-			parentID: 1,
-		},
-		{
-			id:       4,
-			val:      5,
-			parentID: 1,
-		},
-	}
-	tree := buildTree(list)
-	fmt.Println(tree)
+main_test.go:
+
+```go
+package main
+
+import (
+ "reflect"
+ "testing"
+)
+
+func TestBuildTree(t *testing.T) {
+ testCases := []struct {
+  input    []ListNode
+  expected *TreeNode
+ }{
+  {
+   input: []ListNode{
+    {id: 1, parentID: 0, val: "root"},
+    {id: 2, parentID: 1, val: "child1"},
+    {id: 3, parentID: 1, val: "child2"},
+   },
+   expected: &TreeNode{
+    id:  1,
+    val: "root",
+    children: []*TreeNode{
+     {id: 2, val: "child1", children: []*TreeNode{}},
+     {id: 3, val: "child2", children: []*TreeNode{}},
+    },
+   },
+  },
+  {
+   input: []ListNode{
+    {id: 1, parentID: 0, val: "root"},
+   },
+   expected: &TreeNode{
+    id:       1,
+    val:      "root",
+    children: []*TreeNode{},
+   },
+  },
+  {
+   input: []ListNode{
+    {id: 1, parentID: 0, val: "root"},
+    {id: 2, parentID: 1, val: "child1"},
+    {id: 3, parentID: 2, val: "grandchild1"},
+   },
+   expected: &TreeNode{
+    id:  1,
+    val: "root",
+    children: []*TreeNode{
+     {
+      id:  2,
+      val: "child1",
+      children: []*TreeNode{
+       {id: 3, val: "grandchild1", children: []*TreeNode{}},
+      },
+     },
+    },
+   },
+  },
+ }
+
+ for i, tc := range testCases {
+  result := BuildTree(tc.input)
+  if !reflect.DeepEqual(result, tc.expected) {
+   t.Errorf("Test case %d failed; got=%#v, expected=%#v", i, result, tc.expected)
+  }
+ }
 }
+```
 
+## 实现
+
+```go
+func BuildTree(list []ListNode) *TreeNode {
+ if len(list) == 0 {
+  return nil
+ }
+
+ root := &TreeNode{
+  id:       list[0].id,
+  val:      list[0].val,
+  children: make([]*TreeNode, 0),
+ }
+ treeNodeMap := make(map[int]*TreeNode)
+ treeNodeMap[root.id] = root
+
+ l := len(list)
+ for i := 1; i < l; i++ {
+  pID := list[i].parentID
+  if _, ok := treeNodeMap[pID]; !ok {
+   continue
+  }
+  tn := &TreeNode{
+   id:       list[i].id,
+   val:      list[i].val,
+   children: make([]*TreeNode, 0),
+  }
+  treeNodeMap[pID].children = append(treeNodeMap[pID].children, tn)
+  treeNodeMap[list[i].id] = tn
+ }
+
+ return root
+}
 ```
