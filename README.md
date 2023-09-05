@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 135｜九月六日周三
+
+- [zerobase 内存地址](2023/09/zerobase.md) (update)
+- [SQL 优化技巧](2023/09/sql-optimazation.md) (revise)
+- [数据库锁](2023/08/database-lock.md) (revise)
+
 Day 134｜九月五日周二
 
 - [zerobase 内存地址](2023/09/zerobase.md)
