@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 134｜九月五日周二
+
+- [zerobase 内存地址](2023/09/zerobase.md)
+- [全表扫描 Full Table Scan](2023/08/full-table-scan.md) (revise)
+- [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md) (revise)
+
 Day 133｜九月四日周一
 
 - [列表转树](2023/06/list-to-tree.md) (update)
