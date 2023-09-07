@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 136｜九月七日周四
+
+- [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md)
+- [配置访问独立部署的服务](2023/07/access-independently-deployed-services.md) (update)
+- [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md) (revise)
+- [Go 垃圾回收](2023/07/go-gc.md) (revise)
+
 Day 135｜九月六日周三
 
 - [zerobase 内存地址](2023/09/zerobase.md) (update)
