@@ -62,42 +62,32 @@ func (s *Scheduler) Stop() {
 
 ## 参考答案
 
-实现一个带有优先级和超时机制的 HTTP 请求调度器是一个非常具有挑战性的任务，涉及到多个并发编程的复杂方面。下面是一个简化版的实现示例。
-
-注意：这个示例主要是为了展示核心思想，没有包括所有的错误处理和优化。
+- worker 从队列里拿请求还是直接从 channel 拿请求？——前者的好处是可以做优先级处理，后者的好处是不需要锁
 
 ```go
 package main
 
 import (
 	"fmt"
-	"sync"
 	"time"
 	"container/heap"
+	"sync"
 )
 
 type Request struct {
 	ID        int
 	Priority  int
-	Timestamp time.Time // 请求接收时间
+	Timestamp time.Time
 }
 
 type PriorityQueue []*Request
 
 func (pq PriorityQueue) Len() int { return len(pq) }
-
 func (pq PriorityQueue) Less(i, j int) bool {
 	return pq[i].Priority > pq[j].Priority || (pq[i].Priority == pq[j].Priority && pq[i].Timestamp.Before(pq[j].Timestamp))
 }
-
-func (pq PriorityQueue) Swap(i, j int) {
-	pq[i], pq[j] = pq[j], pq[i]
-}
-
-func (pq *PriorityQueue) Push(x interface{}) {
-	*pq = append(*pq, x.(*Request))
-}
-
+func (pq PriorityQueue) Swap(i, j int) { pq[i], pq[j] = pq[j], pq[i] }
+func (pq *PriorityQueue) Push(x interface{}) { *pq = append(*pq, x.(*Request)) }
 func (pq *PriorityQueue) Pop() interface{} {
 	old := *pq
 	n := len(old)
@@ -108,28 +98,39 @@ func (pq *PriorityQueue) Pop() interface{} {
 }
 
 type Scheduler struct {
-	queue     PriorityQueue
-	lock      sync.Mutex
-	workers   int
-	timeout   time.Duration
-	requestCh chan *Request
-	stopCh    chan bool
+	incomingRequests chan Request
+	priorityQueue    PriorityQueue
+	lock             sync.Mutex
+	workers          int
+	timeout          time.Duration
+	stopCh           chan bool
 }
 
 func NewScheduler(workers int, timeout time.Duration) *Scheduler {
 	return &Scheduler{
-		queue:     make(PriorityQueue, 0),
-		workers:   workers,
-		timeout:   timeout,
-		requestCh: make(chan *Request),
-		stopCh:    make(chan bool),
+		incomingRequests: make(chan Request, 100),
+		priorityQueue:    make(PriorityQueue, 0),
+		workers:          workers,
+		timeout:          timeout,
+		stopCh:           make(chan bool),
 	}
 }
 
 func (s *Scheduler) Enqueue(req Request) {
-	s.lock.Lock()
-	defer s.lock.Unlock()
-	heap.Push(&s.queue, &req)
+	s.incomingRequests <- req
+}
+
+func (s *Scheduler) manageQueue() {
+	for {
+		select {
+		case <-s.stopCh:
+			return
+		case req := <-s.incomingRequests:
+			s.lock.Lock()
+			heap.Push(&s.priorityQueue, &req)
+			s.lock.Unlock()
+		}
+	}
 }
 
 func (s *Scheduler) worker() {
@@ -139,28 +140,29 @@ func (s *Scheduler) worker() {
 			return
 		default:
 			s.lock.Lock()
-			if s.queue.Len() == 0 {
+			if s.priorityQueue.Len() == 0 {
 				s.lock.Unlock()
 				time.Sleep(100 * time.Millisecond)
 				continue
 			}
 
 			now := time.Now()
-			req := heap.Pop(&s.queue).(*Request)
+			req := heap.Pop(&s.priorityQueue).(*Request)
+			s.lock.Unlock()
+
 			if now.Sub(req.Timestamp) > s.timeout {
-				fmt.Printf("Request %d timed out\\n", req.ID)
-				s.lock.Unlock()
+				fmt.Printf("Request %d timed out\n", req.ID)
 				continue
 			}
-
-			s.lock.Unlock()
-			// Process the request (send it to internal services, etc.)
-			fmt.Printf("Processing request %d with priority %d\\n", req.ID, req.Priority)
+			
+			// Process the request here
+			fmt.Printf("Processing request %d with priority %d\n", req.ID, req.Priority)
 		}
 	}
 }
 
 func (s *Scheduler) Start() {
+	go s.manageQueue()
 	for i := 0; i < s.workers; i++ {
 		go s.worker()
 	}
@@ -168,14 +170,13 @@ func (s *Scheduler) Start() {
 
 func (s *Scheduler) Stop() {
 	close(s.stopCh)
-	// Additional resource cleanup if needed
 }
 
 func main() {
 	scheduler := NewScheduler(5, 2*time.Second)
 	scheduler.Start()
 
-	// For demo, enqueue some requests
+	// For demo purposes, enqueue some requests
 	for i := 0; i < 10; i++ {
 		scheduler.Enqueue(Request{ID: i, Priority: i % 3, Timestamp: time.Now()})
 		time.Sleep(100 * time.Millisecond)
@@ -184,11 +185,4 @@ func main() {
 	time.Sleep(5 * time.Second)
 	scheduler.Stop()
 }
-
 ```
-
-这个示例使用了优先队列来存储请求，以便能够按照优先级和时间戳来处理它们。它也有一个超时机制，用于丢弃那些在队列中等待时间过长的请求。
-
-工作 goroutine 从队列中取出请求并进行处理。当调度器停止时，所有工作 goroutine 都会退出，这避免了资源泄露。
-
-这个示例还可以进一步扩展和优化，比如添加错误处理、日志记录、请求重试等。但它应该能给你一个关于如何使用 Go 来实现一个复杂的并发调度器的基本思路。

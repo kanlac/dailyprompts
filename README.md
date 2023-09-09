@@ -1,5 +1,15 @@
 # Erfolgs-Journal
 
+Day 138｜九月九日周六
+
+- [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (update)
+- [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md) (revise)
+- [Docker 分配伪终端](2023/08/docker-tty.md) (revise)
+- [部署方案](2023/07/deploy-solutions.md) (revise)
+- [dockerd 访问权限](2023/07/dockerd-permission.md) (revise)
+- [gRPC](2023/07/grpc.md) (revise)
+- [内存模型](2023/06/memory-model.md) (revise)
+
 Day 137｜九月八日周五
 
 - [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (update)
