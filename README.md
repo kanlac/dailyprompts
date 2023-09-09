@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 137｜九月八日周五
+
+- [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (update)
+- [OLTP v.s. OLAP](2023/08/oltp-versus-olap.md) (revise)
+
 Day 136｜九月七日周四
 
 - [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md)
