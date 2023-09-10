@@ -1,5 +1,13 @@
 # Erfolgs-Journal
 
+Day 139｜九月十日周日
+
+- [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (update)
+- [init 进程](2023/07/init-process.md) (revise)
+- [Go 的栈空间管理](2023/08/golang-stack-memory-management.md) (revise)
+- [文件权限 File Mode](2023/06/file-mode.md) (revise)
+- [Go 的内存管理](how-does-go-manage-memory-allocation) (revise)
+
 Day 138｜九月九日周六
 
 - [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (update)

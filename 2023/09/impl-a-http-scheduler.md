@@ -62,45 +62,24 @@ func (s *Scheduler) Stop() {
 
 ## 参考答案
 
-- worker 从队列里拿请求还是直接从 channel 拿请求？——前者的好处是可以做优先级处理，后者的好处是不需要锁
-
 ```go
 package main
 
 import (
 	"fmt"
 	"time"
-	"container/heap"
-	"sync"
 )
 
 type Request struct {
 	ID        int
-	Priority  int
 	Timestamp time.Time
-}
-
-type PriorityQueue []*Request
-
-func (pq PriorityQueue) Len() int { return len(pq) }
-func (pq PriorityQueue) Less(i, j int) bool {
-	return pq[i].Priority > pq[j].Priority || (pq[i].Priority == pq[j].Priority && pq[i].Timestamp.Before(pq[j].Timestamp))
-}
-func (pq PriorityQueue) Swap(i, j int) { pq[i], pq[j] = pq[j], pq[i] }
-func (pq *PriorityQueue) Push(x interface{}) { *pq = append(*pq, x.(*Request)) }
-func (pq *PriorityQueue) Pop() interface{} {
-	old := *pq
-	n := len(old)
-	item := old[n-1]
-	old[n-1] = nil
-	*pq = old[0 : n-1]
-	return item
+	Level     int
 }
 
 type Scheduler struct {
-	incomingRequests chan Request
-	priorityQueue    PriorityQueue
-	lock             sync.Mutex
+	lowPriority      chan Request
+	mediumPriority   chan Request
+	highPriority     chan Request
 	workers          int
 	timeout          time.Duration
 	stopCh           chan bool
@@ -108,29 +87,33 @@ type Scheduler struct {
 
 func NewScheduler(workers int, timeout time.Duration) *Scheduler {
 	return &Scheduler{
-		incomingRequests: make(chan Request, 100),
-		priorityQueue:    make(PriorityQueue, 0),
-		workers:          workers,
-		timeout:          timeout,
-		stopCh:           make(chan bool),
+		lowPriority:    make(chan Request, 100),
+		mediumPriority: make(chan Request, 100),
+		highPriority:   make(chan Request, 100),
+		workers:        workers,
+		timeout:        timeout,
+		stopCh:         make(chan bool),
 	}
 }
 
 func (s *Scheduler) Enqueue(req Request) {
-	s.incomingRequests <- req
+	switch req.Level {
+	case 1:
+		s.highPriority <- req
+	case -1:
+		s.lowPriority <- req
+	default:
+		s.mediumPriority <- req
+	}
 }
 
-func (s *Scheduler) manageQueue() {
-	for {
-		select {
-		case <-s.stopCh:
-			return
-		case req := <-s.incomingRequests:
-			s.lock.Lock()
-			heap.Push(&s.priorityQueue, &req)
-			s.lock.Unlock()
-		}
+func (s *Scheduler) processRequest(req Request, priority string) {
+	if time.Since(req.Timestamp) > s.timeout {
+		fmt.Printf("Discarding %s-priority request %d due to timeout\n", priority, req.ID)
+		return
 	}
+	// Do some processing here.
+	fmt.Printf("Processing %s-priority request %d\n", priority, req.ID)
 }
 
 func (s *Scheduler) worker() {
@@ -138,31 +121,17 @@ func (s *Scheduler) worker() {
 		select {
 		case <-s.stopCh:
 			return
-		default:
-			s.lock.Lock()
-			if s.priorityQueue.Len() == 0 {
-				s.lock.Unlock()
-				time.Sleep(100 * time.Millisecond)
-				continue
-			}
-
-			now := time.Now()
-			req := heap.Pop(&s.priorityQueue).(*Request)
-			s.lock.Unlock()
-
-			if now.Sub(req.Timestamp) > s.timeout {
-				fmt.Printf("Request %d timed out\n", req.ID)
-				continue
-			}
-			
-			// Process the request here
-			fmt.Printf("Processing request %d with priority %d\n", req.ID, req.Priority)
+		case req := <-s.highPriority:
+			s.processRequest(req, "high")
+		case req := <-s.mediumPriority:
+			s.processRequest(req, "medium")
+		case req := <-s.lowPriority:
+			s.processRequest(req, "low")
 		}
 	}
 }
 
 func (s *Scheduler) Start() {
-	go s.manageQueue()
 	for i := 0; i < s.workers; i++ {
 		go s.worker()
 	}
@@ -176,9 +145,9 @@ func main() {
 	scheduler := NewScheduler(5, 2*time.Second)
 	scheduler.Start()
 
-	// For demo purposes, enqueue some requests
 	for i := 0; i < 10; i++ {
-		scheduler.Enqueue(Request{ID: i, Priority: i % 3, Timestamp: time.Now()})
+		level := i % 3 - 1 // levels will be -1, 0, 1
+		scheduler.Enqueue(Request{ID: i, Timestamp: time.Now(), Level: level})
 		time.Sleep(100 * time.Millisecond)
 	}
 
