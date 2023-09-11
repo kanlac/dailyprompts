@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 140｜九月十一日周一
+
+- [网络调试](2023/06/network-debugging.md) (revise)
+- [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (revise)
+- [IP 地址段配置/冲突解决](2023/06/ip-address-pool-conflict-resolve.md) (revise)
+
 Day 139｜九月十日周日
 
 - [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (update)
