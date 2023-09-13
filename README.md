@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 142｜九月十三日周三
+
+- [A Bash Debug: Disable SELinux](2023/09/bash-debug-disable-selinux.md)
+- [Postgres 自动清理](2023/09/postgres-autovacuum.md)
+- [zerobase 内存地址](2023/09/zerobase.md) (revise)
+- [OLTP v.s. OLAP](2023/08/oltp-versus-olap.md) (revise)
+
 Day 141｜九月十二日周二
 
 - [容器内如何访问宿主机端口](2023/09/access-to-a-host-service-from-docker.md)
