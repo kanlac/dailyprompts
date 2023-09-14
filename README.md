@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 143｜九月十四日周四
+
+- [Go 垃圾回收](2023/07/go-gc.md) (update)
+
 Day 142｜九月十三日周三
 
 - [A Bash Debug: Disable SELinux](2023/09/bash-debug-disable-selinux.md)

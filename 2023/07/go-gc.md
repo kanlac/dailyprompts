@@ -20,7 +20,17 @@ Go语言的垃圾回收器（GC）采用了一种名为"并发标记扫描"（Co
 
 需要注意的是，尽管存在上述触发条件，但具体的GC启动时间并不是严格固定的。Go的运行时系统会根据实际情况（包括CPU使用情况，内存使用情况等）来选择合适的时机启动垃圾收集，以尽量减少对程序运行的影响。
 
-## 垃圾收集的 3 个阶段
+## 垃圾收集的四个阶段
+
+来自最新版本 1.21.1 源码的注释 [https://github.com/golang/go/blob/2c1e5b05fe39fc5e6c730dd60e82946b8e67c6ba/src/runtime/mgc.go#L24）：](https://github.com/golang/go/blob/2c1e5b05fe39fc5e6c730dd60e82946b8e67c6ba/src/runtime/mgc.go#L24%EF%BC%89%EF%BC%9A)
+
+1. 第一阶段 sweep termination，清理终止，会触发 STW，并且会清除（sweep）任何尚未清理的内存段，除非这个 GC 周期是在预期之间之前强制执行的，否则这一阶段结束的时候就不会有未被清理的内存段了
+2. 第二阶段 mark phase，标记阶段，a）开启写屏障，开始入队标记任务；b）Start the world，这时候标记过程已经结束，恢复程序执行，扫描的过程会停止 goroutine，扫描完即恢复；c）执行根节点标记，包括扫描所有的栈，所有的全局变量……；e）gc 是分散式、并发式进行的，当没有 root marking job 或者灰色对象时，GC 会进入下一阶段
+3. 第三阶段 mark termination，标记终止，会触发 STW，停止 worker
+4. 第四阶段 sweep phase，进入清理阶段，关闭写屏障，start the world 恢复 goroutine，从此时开始，新分配的对象都是白色，在后台并发执行清理操作
+5. 进行了足够的内存分配（达到 GC rate）后，重复以上过程
+
+## 垃圾收集的 3 个阶段(legacy)
 
 第一个阶段：**Mark setup**。GC 开始的第一件事一定是把写屏障打开（写屏障是一种强制执行特定的写入序列的机制），而为了打开写屏障，所有的 goroutine 都要停止。对于那些持续执行的 goroutines，它们都需要在 GC 开始时暂停一会儿。
 
