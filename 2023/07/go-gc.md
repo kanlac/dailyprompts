@@ -24,11 +24,23 @@ Go语言的垃圾回收器（GC）采用了一种名为"并发标记扫描"（Co
 
 来自最新版本 1.21.1 源码的注释 [https://github.com/golang/go/blob/2c1e5b05fe39fc5e6c730dd60e82946b8e67c6ba/src/runtime/mgc.go#L24）：](https://github.com/golang/go/blob/2c1e5b05fe39fc5e6c730dd60e82946b8e67c6ba/src/runtime/mgc.go#L24%EF%BC%89%EF%BC%9A)
 
-1. 第一阶段 sweep termination，清理终止，会触发 STW，并且会清除（sweep）任何尚未清理的内存段，除非这个 GC 周期是在预期之间之前强制执行的，否则这一阶段结束的时候就不会有未被清理的内存段了
-2. 第二阶段 mark phase，标记阶段，a）开启写屏障，开始入队标记任务；b）Start the world，这时候标记过程已经结束，恢复程序执行，扫描的过程会停止 goroutine，扫描完即恢复；c）执行根节点标记，包括扫描所有的栈，所有的全局变量……；e）gc 是分散式、并发式进行的，当没有 root marking job 或者灰色对象时，GC 会进入下一阶段
-3. 第三阶段 mark termination，标记终止，会触发 STW，停止 worker
+1. 第一阶段 sweep termination，清理终止，会触发 STW，使得所有 P 达到安全点，并且会清除（sweep）任何尚未清理的内存段，除非这个 GC 周期是在预期时间之前强制执行的，否则这一阶段结束的时候就不会有未被清理的内存段了
+2. 第二阶段 mark phase，标记阶段
+    1. 开启写屏障，开始入队标记任务（mark worker），需要等所有的 P 都开启了写屏障之后，才开始 STW 并扫描对象
+    2. Start the world，恢复所有暂停的 Goroutine，从这时候开始，GC 工作交给标记任务及其调度器，新分配的对象会立即标记为黑色，意味着它们是活动对象，不会在当前 GC 周期中被收回。也就是说，并发的标记任务和程序的 goroutine 在同时执行
+    3. 执行根节点标记，包括扫描所有的栈，所有的全局变量，扫描的过程会停止 goroutine，扫描完即恢复
+    4. ……
+    5. gc 是分散式、并发式进行的，当没有 root marking job 或者灰色对象时，GC 会进入下一阶段
+    
+    整理总结：初始化标记阶段会要短暂地 stop the world，然后就会恢复 goroutine 执行，同时并发执行 mark worker，写屏障在这时候发挥作用
+    
+3. 第三阶段 mark termination，标记终止，会再次触发短暂的 STW
 4. 第四阶段 sweep phase，进入清理阶段，关闭写屏障，start the world 恢复 goroutine，从此时开始，新分配的对象都是白色，在后台并发执行清理操作
 5. 进行了足够的内存分配（达到 GC rate）后，重复以上过程
+
+细节解释：
+
+- 写屏障（write barrier），是用于追踪内存写操作的机制，在 start the world 之后，对于每一次指针的写操作，它都会标记被覆盖的指针以及新的指针值
 
 ## 垃圾收集的 3 个阶段(legacy)
 

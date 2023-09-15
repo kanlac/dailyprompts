@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 144｜九月十五日周五
+
+- [Go 垃圾回收](2023/07/go-gc.md) (update)
+
 Day 143｜九月十四日周四
 
 - [Go 垃圾回收](2023/07/go-gc.md) (update)
