@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 147｜九月十八日周一
+
+- [Postgres 自动清理](2023/09/postgres-autovacuum.md)
+- [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (revise)
+- [查看路由表有哪几种方式？有什么区别？](2023/08/route.md) (revise)
+
 Day 146｜九月十七日周日
 
 - [Go 垃圾回收](2023/07/go-gc.md) (update)
