@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 148｜九月十九日周二
+
+- [Go 垃圾回收](2023/07/go-gc.md) (update)
+
 Day 147｜九月十八日周一
 
 - [Postgres 自动清理](2023/09/postgres-autovacuum.md)
