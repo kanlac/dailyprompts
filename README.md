@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 149｜九月二十日周三
+
+- [云计算](2023/07/cloud-computing.md) (revise)
+- [ENTRYPOINT v.s. CMD](2023/08/entrypoint-versus-cmd.md) (revise)
+- [发布工程 Release Engineering](2023/06/release-engineering.md) (revise)
+- [io.Reader v.s. bufio.Reader](2023/08/io-reader-vs-bufio-reader.md) (revise)
+
 Day 148｜九月十九日周二
 
 - [Go 垃圾回收](2023/07/go-gc.md) (update)
