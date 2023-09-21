@@ -2,6 +2,7 @@
 
 Day 150｜九月二十一日周四
 
+- [计算文件大小](2023/09/calculate-file-size.md)
 - [常见垃圾回收算法](2023/07/garbage-collection-algorithms.md) (update)
 
 Day 149｜九月二十日周三
