@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 152｜九月二十三日周六
+
+- [Go 垃圾回收](2023/07/go-gc.md) (revise)
+- [内存模型](2023/06/memory-model.md) (revise)
+- [HTTP 请求关闭时 Go 服务端的上下文是否会取消？有什么特例？](2023/09/context-cancellation-on-go-server.md) (revise)
+
 Day 151｜九月二十二日周五
 
 - [快速写一个 demo，验证 Docker 网络内部的服务名访问](2023/09/demo-on-service-name-access.md)
