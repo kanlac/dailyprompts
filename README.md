@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 153｜九月二十四日周日
+
+- [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
+- [Go 的内存管理](how-does-go-manage-memory-allocation) (revise)
+- [gRPC](2023/07/grpc.md) (revise)
+- [计算文件大小](2023/09/calculate-file-size.md) (revise)
+
 Day 152｜九月二十三日周六
 
 - [Go 垃圾回收](2023/07/go-gc.md) (revise)
