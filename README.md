@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 154｜九月二十五日周一
+
+- [切片与数组](2023/09/slices.md)
+- [查看系统报告](2023/06/system-report.md) (revise)
+- [快速写一个 demo，验证 Docker 网络内部的服务名访问](2023/09/demo-on-service-name-access.md) (revise)
+
 Day 153｜九月二十四日周日
 
 - [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
