@@ -1,5 +1,13 @@
 # Erfolgs-Journal
 
+Day 155｜九月二十六日周二
+
+- [容器内如何访问宿主机端口](2023/09/access-to-a-host-service-from-docker.md) (revise)
+- [切片与数组](2023/09/slices.md) (revise)
+- [scratch 镜像](2023/07/scratch-image.md) (revise)
+- [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md) (revise)
+- [全表扫描 Full Table Scan](2023/08/full-table-scan.md) (revise)
+
 Day 154｜九月二十五日周一
 
 - [切片与数组](2023/09/slices.md)
