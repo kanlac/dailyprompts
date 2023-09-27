@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 156｜九月二十七日周三
+
+- [如何执行目录下的文本搜索，同时打印附近的行与行号？](2023/09/grep.md)
+- [性能问题的本质](2023/06/the-nature-of-peformance-problem.md) (revise)
+- [A Bash Debug: Disable SELinux](2023/09/bash-debug-disable-selinux.md) (revise)
+
 Day 155｜九月二十六日周二
 
 - [容器内如何访问宿主机端口](2023/09/access-to-a-host-service-from-docker.md) (revise)
