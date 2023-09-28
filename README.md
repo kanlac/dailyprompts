@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 157｜九月二十八日周四
+
+- [编写一个时间聚合的 SQL](2023/09/sql-learning.md)
+- [OLTP v.s. OLAP](2023/08/oltp-versus-olap.md) (revise)
+
 Day 156｜九月二十七日周三
 
 - [如何执行目录下的文本搜索，同时打印附近的行与行号？](2023/09/grep.md)
