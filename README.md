@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 158｜九月二十九日周五
+
+- [编写一个时间聚合的 SQL](2023/09/sql-learning.md) (update)
+- [计算文件大小](2023/09/calculate-file-size.md) (revise)
+- [如何执行目录下的文本搜索，同时打印附近的行与行号？](2023/09/grep.md) (revise)
+
 Day 157｜九月二十八日周四
 
 - [编写一个时间聚合的 SQL](2023/09/sql-learning.md)
