@@ -1,5 +1,15 @@
 # Erfolgs-Journal
 
+Day 160｜十月二日周一
+
+- [文件权限 File Mode](2023/06/file-mode.md) (revise)
+- [init 进程](2023/07/init-process.md) (revise)
+- [快速写一个 demo，验证 Docker 网络内部的服务名访问](2023/09/demo-on-service-name-access.md) (revise)
+- [切片与数组](2023/09/slices.md) (revise)
+- [如何执行目录下的文本搜索，同时打印附近的行与行号？](2023/09/grep.md) (revise)
+
+streaks: 34 days
+
 Day 159｜九月三十日周六
 
 - [Linux Process Management 进程管理](2023/06/process-management.md) (update)
