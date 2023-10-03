@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 161｜十月三日周二
+
+- [Go 的内存管理](how-does-go-manage-memory-allocation) (revise)
+
 Day 160｜十月二日周一
 
 - [文件权限 File Mode](2023/06/file-mode.md) (revise)
