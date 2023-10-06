@@ -1,5 +1,13 @@
 # Erfolgs-Journal
 
+Day 162｜十月六日周五
+
+- [数据库锁](2023/08/database-lock.md) (revise)
+- [计算文件大小](2023/09/calculate-file-size.md) (revise)
+- [如何执行目录下的文本搜索，同时打印附近的行与行号？](2023/09/grep.md) (revise)
+
+streaks: 2 days
+
 Day 161｜十月三日周二
 
 - [Go 的内存管理](how-does-go-manage-memory-allocation) (revise)
