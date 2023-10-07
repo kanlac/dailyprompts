@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 163｜十月七日周六
+
+- [解释一段连续时间聚合的 PostgreSQL](2023/10/time-aggregate-sql.md)
+- [容器之间的名字域名解析是怎么做的？](2023/05/communication-inside-container-network.md) (update)
+- [Docker 有哪几种主要的容器网络模式？默认是哪种？](2023/04/container-network.md) (revise)
+
 Day 162｜十月六日周五
 
 - [数据库锁](2023/08/database-lock.md) (revise)
@@ -16,7 +22,7 @@ Day 160｜十月二日周一
 
 - [文件权限 File Mode](2023/06/file-mode.md) (revise)
 - [init 进程](2023/07/init-process.md) (revise)
-- [快速写一个 demo，验证 Docker 网络内部的服务名访问](2023/09/demo-on-service-name-access.md) (revise)
+- [快速写一个 demo，验证 Docker 网络内部的服务名访问](2023/05/communication-inside-container-network.md) (revise)
 - [切片与数组](2023/09/slices.md) (revise)
 - [如何执行目录下的文本搜索，同时打印附近的行与行号？](2023/09/grep.md) (revise)
 
@@ -57,7 +63,7 @@ Day 154｜九月二十五日周一
 
 - [切片与数组](2023/09/slices.md)
 - [查看系统报告](2023/06/system-report.md) (revise)
-- [快速写一个 demo，验证 Docker 网络内部的服务名访问](2023/09/demo-on-service-name-access.md) (revise)
+- [快速写一个 demo，验证 Docker 网络内部的服务名访问](2023/05/communication-inside-container-network.md) (revise)
 
 Day 153｜九月二十四日周日
 
@@ -74,7 +80,7 @@ Day 152｜九月二十三日周六
 
 Day 151｜九月二十二日周五
 
-- [快速写一个 demo，验证 Docker 网络内部的服务名访问](2023/09/demo-on-service-name-access.md)
+- [快速写一个 demo，验证 Docker 网络内部的服务名访问](2023/05/communication-inside-container-network.md)
 - [Filesystem Hierarchy Standard (FHS)](2023/07/fhs.md) (revise)
 
 Day 150｜九月二十一日周四
