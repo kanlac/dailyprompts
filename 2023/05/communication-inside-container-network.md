@@ -1,3 +1,5 @@
+# 容器网络内部的通信
+
 ## 容器之间的名字域名解析是怎么做的？
 
 在同一个 Docker 网络中，容器之间可通过容器名通信。Docker 内置的域名解析服务器地址是 127.0.0.11。
@@ -12,7 +14,11 @@ location ~ ^/linglong/?(.*)$ {
 }
 ```
 
-## Fast demo：验证 Docker 网络内部的服务名访问
+## 如何利用现有的容器快速验证服务名访问是否可用？
+
+例：`docker exec -it SOME_CONTAINER /bin/sh -c "nc -zv postgres 5432"`。`nc` 是 busybox 中包含的工具。
+
+## 写一个 demo 验证服务名访问可用
 
 虽然 chatgpt 可以给我弄出来，但是掌握这些基础也是很有必要的
 
@@ -37,3 +43,16 @@ docker-compose up 启动，能看到 nginx 返回 html 表示访问成功。
 - `wget http://web`: 下载到内容到当前目录
 - `wget -O download http://web`: 保存到指定文件
 - `wget -O- http://web`: 下载内容输出到标准输出
+- 使用 `nc` 命令可以检测端口是否开启
+
+## 服务名访问不可用时如何解决？
+
+1. 系统内核参数 net.ipv4.ip_forward 确保为 1，修改后可能需要重启机器才能生效
+2. 修改 docker daemon 配置
+    
+    在 /lib/systemd/system/docker.service 文件中添加：
+    
+    ```
+    ExecStartPost=/usr/sbin/iptables -P FORWARD ACCEPT
+    ```
+    

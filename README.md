@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 165｜十月九日周一
+
+- [容器网络内部的通信](2023/05/communication-inside-container-network.md) (update)
+- [网络调试](2023/06/network-debugging.md) (revise)
+- [如何做好 Go 的内存管理？](2023/06/how-to-manage-memory-usage-in-go.md) (revise)
+- [套接字原理](2023/06/how-sockets-work.md) (revise)
+
 Day 164｜十月八日周日
 
 - [seccomp](2023/10/seccomp.md)
