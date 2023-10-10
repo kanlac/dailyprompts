@@ -1,39 +1,55 @@
 # seccomp
 
-## 问题
+## 现象
 
-在麒麟操作系统上 ZooKeeper 容器启动异常，发现以下日志：
+在麒麟系统上安装应用，个别容器（例如 ZooKeeper）无法正常启动，查看日志发现 OOM（out of memory）错误。
+
+进一步查看日志，看到 
 
 ```
 [0.003s][warning][os,thread] Failed to start thread "GC Thread#0" - pthread_create failed (EPERM) for attributes: stacksize: 1024k, guardsize: 4k, detached.
 ```
 
-- 分析
-    
-    **`EPERM`** 是系统调用一个错误代码，表示“Operation not permitted（操作不允许）”。这通常意味着进程试图执行一个它没有权限执行的操作。
-    
+## 分析
+
+OOM 也好，GC 也好，这些都不是关键，关键是 `EPERM`，这是一个 Linux 内核错误，代表 operation not permitted，原因是没有系统调用的权限。
 
 ## seccomp
 
-`**seccomp`（secure computing mode）是 Linux 内核提供的一种安全机制，它可以限制进程可以调用的系统调用（system calls）**。当一个进程调用一个不被允许的系统调用时，`seccomp`可以配置不同的**“动作”（actions）**来决定如何处理这个调用。
+seccomp，或者安全计算（secure computing），是 Linux 内核的一个功能，用于限制系统调用。
 
-`seccomp`的动作包括：
-
-1. **SECCOMP_RET_KILL_PROCESS**：立即终止进程。
-2. **SECCOMP_RET_KILL_THREAD**：立即终止调用线程。
-3. **SECCOMP_RET_TRAP**：发送SIGSYS信号给调用的进程。
-4. **SECCOMP_RET_ERRNO**：返回错误码，不执行系统调用。
-5. **SECCOMP_RET_TRACE**：允许跟踪器决定是否允许或拒绝系统调用。
-6. **SECCOMP_RET_ALLOW**：允许系统调用。
-7. **SECCOMP_RET_LOG**：记录审计日志，然后允许系统调用。
-
-这些动作允许开发者细粒度地控制进程可以执行的系统调用，增强系统的安全性。在创建安全容器或沙盒环境时，`seccomp`是一个非常有用的工具。
+Docker 内置一个[默认的 seccomp json 配置](https://github.com/moby/moby/blob/master/profiles/seccomp/default.json)，简单来说就是一个白名单。
 
 ## 解决方案
 
-docker compose 为相关服务添加以下配置，解决 JVM 进程问题
+对于前述问题，完美的解决方案应该是基于 Docker 现有 seccomp 配置自行编写一份配置，不过能力有限，采用了折衷方案——在麒麟系统下关闭 seccomp。具体方法是在 /etc/docker/daemon.json 中添加：
 
-```yaml
-security_opt:
-      - seccomp:unconfined
 ```
+"seccomp-profile": "unconfined"
+```
+
+## 快速检验
+
+一个命令检测 EPERM 问题是否存在/已修复：
+
+`docker run --rm --security-opt seccomp=seccomp-profile.json zookeeper:3.7.1-temuri`
+
+## 参考
+
+- docker seccomp 文档 https://docs.docker.com/engine/security/seccomp/
+- docker 默认 seccomp 配置 https://github.com/moby/moby/blob/master/profiles/seccomp/default.json
+- docker `security-opt` 选项文档 https://docs.docker.com/engine/reference/run/#security-configuration
+- docker compose `security_opt` https://docs.docker.com/compose/compose-file/compose-file-v3/#security_opt
+- docker compose 提供 seccomp 配置
+    
+    ```
+    version: '3'
+    services:
+      web:
+        image: nginx:latest
+        security_opt:
+          # 关闭 seccomp
+          # - seccomp:unconfined
+          # 或者，指定一份 seccomp 配置
+          - seccomp:/path/to/seccomp/profile.json
+    ```
