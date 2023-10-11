@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 167｜十月十一日周三
+
+- [网络调试](2023/06/network-debugging.md) (update)
+- [IP 地址段配置/冲突解决](2023/06/ip-address-pool-conflict-resolve.md) (revise)
+- [解释一段连续时间聚合的 PostgreSQL](2023/10/time-aggregate-sql.md) (revise)
+
 Day 166｜十月十日周二
 
 - [seccomp](2023/10/seccomp.md) (update)
