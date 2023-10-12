@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 168｜十月十二日周四
+
+- [用户登录/身份验证/授权](2023/05/authentication.md) (revise)
+
 Day 167｜十月十一日周三
 
 - [网络调试](2023/06/network-debugging.md) (update)
