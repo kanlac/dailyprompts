@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 169｜十月十三日周五
+
+- [如何减少锁的使用？](2023/10/reduce-lock-usage.md)
+- [如何实现 Go 程序的优雅退出](2023/02/gracefully-shutdown.md) (update)
+- [zerobase 内存地址](2023/09/zerobase.md) (revise)
+- [seccomp](2023/10/seccomp.md) (revise)
+
 Day 168｜十月十二日周四
 
 - [用户登录/身份验证/授权](2023/05/authentication.md) (revise)
