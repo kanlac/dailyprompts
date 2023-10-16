@@ -1,5 +1,14 @@
 # Erfolgs-Journal
 
+Day 171｜十月十六日周一
+
+- [文件的索引节点 inode](2023/06/inode.md) (update)
+- [SQL 优化技巧](2023/09/sql-optimazation.md) (revise)
+- [容器网络内部的通信](2023/05/communication-inside-container-network.md) (revise)
+- [切片与数组](2023/09/slices.md) (revise)
+
+streaks: 9 days
+
 Day 170｜十月十四日周六
 
 - [LeetCode 108: Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
