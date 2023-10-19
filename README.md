@@ -1,6 +1,13 @@
 # Erfolgs-Journal
 
+Day 174｜十月十九日周四
+
+- [Postgres 自动清理](2023/09/postgres-autovacuum.md) (revise)
+- [网络调试](2023/06/network-debugging.md) (revise)
+- [分治法](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) (revise)
+
 Day 173｜十月十八日周三
+
 - [解释一段连续时间聚合的 PostgreSQL](2023/10/time-aggregate-sql.md) (revise)
 - [如何减少锁的使用？](2023/10/reduce-lock-usage.md) (revise)
 - [上下文切换](2023/07/context-switching.md) (revise)
@@ -23,7 +30,7 @@ streaks: 9 days
 
 Day 170｜十月十四日周六
 
-- [LeetCode 108: Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
+- [分治法](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
 - [Go Context 上下文](2023/07/go-context.md) (updated)
 - [如何减少锁的使用？](2023/10/reduce-lock-usage.md) (revise)
 
