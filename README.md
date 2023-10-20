@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 175｜十月二十日周五
+
+- [一些并发限制](2023/03/concurrent-limitations.md) (revise)
+- [如何执行目录下的文本搜索，同时打印附近的行与行号？](2023/09/grep.md) (revise)
+- [如何实现 Go 程序的优雅退出](2023/02/gracefully-shutdown.md) (revise)
+
 Day 174｜十月十九日周四
 
 - [Postgres 自动清理](2023/09/postgres-autovacuum.md) (revise)
