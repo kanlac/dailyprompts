@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 176｜十月二十一日周六
+
+- [从几个方面谈谈对协程池的了解](2023/02/goroutine-pool.md) (revise)
+
 Day 175｜十月二十日周五
 
 - [一些并发限制](2023/03/concurrent-limitations.md) (revise)
@@ -784,7 +788,7 @@ Day 36｜四月二十八日周五
 **Streaks: 2 days**
 
 Day 35｜四月十九日周三
-- [是否了解协程池？](2023/02/goroutine-pool.md) (revise)
+- [从几个方面谈谈对协程池的了解](2023/02/goroutine-pool.md) (revise)
 
 Day 34｜四月十八日周二
 - [Go 的内存管理](how-does-go-manage-memory-allocation) (update)
@@ -876,13 +880,13 @@ Day 15｜二月二十六日周日
 **Streaks: 4 days**
 
 Day 14｜二月二十四日周五
-- [是否了解协程池？](2023/02/goroutine-pool.md) (update)
+- [从几个方面谈谈对协程池的了解](2023/02/goroutine-pool.md) (update)
 
 Day 13｜二月二十三日周四
 - [字符串的排列](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/description/)
 
 Day 12｜二月二十二日周三
-- [是否了解协程池？](2023/02/goroutine-pool.md)
+- [从几个方面谈谈对协程池的了解](2023/02/goroutine-pool.md)
 
 Day 11｜二月二十一日周二
 - [Go 的内存管理](how-does-go-manage-memory-allocation)
