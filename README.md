@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 177｜十月二十二日周日
+
+- [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md) (revise)
+- [套接字原理](2023/06/how-sockets-work.md) (revise)
+- [如何减少锁的使用？](2023/10/reduce-lock-usage.md) (revise)
+
 Day 176｜十月二十一日周六
 
 - [从几个方面谈谈对协程池的了解](2023/02/goroutine-pool.md) (revise)
