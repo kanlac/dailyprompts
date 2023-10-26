@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 181｜十月二十六日周四
+
+- [Go 的内存管理](2023/02/how-does-go-manage-memory-allocation) (update)
+- [数据存储方案](2023/06/data-storage-schemes.md) (revise)
+- [部署方案](2023/07/deploy-solutions.md) (revise)
+- [gRPC](2023/07/grpc.md) (revise)
+
 Day 180｜十月二十五日周三
 
 - [上下文切换](2023/07/context-switching.md) (revise)
@@ -116,7 +123,7 @@ streaks: 2 days
 
 Day 161｜十月三日周二
 
-- [Go 的内存管理](how-does-go-manage-memory-allocation) (revise)
+- [Go 的内存管理](2023/02/how-does-go-manage-memory-allocation) (revise)
 
 Day 160｜十月二日周一
 
@@ -168,7 +175,7 @@ Day 154｜九月二十五日周一
 Day 153｜九月二十四日周日
 
 - [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
-- [Go 的内存管理](how-does-go-manage-memory-allocation) (revise)
+- [Go 的内存管理](2023/02/how-does-go-manage-memory-allocation) (revise)
 - [gRPC](2023/07/grpc.md) (revise)
 - [计算文件大小](2023/09/calculate-file-size.md) (revise)
 
@@ -248,7 +255,7 @@ Day 139｜九月十日周日
 - [init 进程](2023/07/init-process.md) (revise)
 - [Go 的栈空间管理](2023/08/golang-stack-memory-management.md) (revise)
 - [文件权限 File Mode](2023/06/file-mode.md) (revise)
-- [Go 的内存管理](how-does-go-manage-memory-allocation) (revise)
+- [Go 的内存管理](2023/02/how-does-go-manage-memory-allocation) (revise)
 
 Day 138｜九月九日周六
 
@@ -287,7 +294,7 @@ Day 134｜九月五日周二
 Day 133｜九月四日周一
 
 - [列表转树](2023/06/list-to-tree.md) (update)
-- [Go 的内存管理](how-does-go-manage-memory-allocation) (revise)
+- [Go 的内存管理](2023/02/how-does-go-manage-memory-allocation) (revise)
 - [OLTP v.s. OLAP](2023/08/oltp-versus-olap.md) (revise)
 
 Day 132｜九月三日周日
@@ -812,7 +819,7 @@ Day 35｜四月十九日周三
 - [从几个方面谈谈对协程池的了解](2023/02/goroutine-pool.md) (revise)
 
 Day 34｜四月十八日周二
-- [Go 的内存管理](how-does-go-manage-memory-allocation) (update)
+- [Go 的内存管理](2023/02/how-does-go-manage-memory-allocation) (update)
 
 **Streaks: 1 days**
 
@@ -910,7 +917,7 @@ Day 12｜二月二十二日周三
 - [从几个方面谈谈对协程池的了解](2023/02/goroutine-pool.md)
 
 Day 11｜二月二十一日周二
-- [Go 的内存管理](how-does-go-manage-memory-allocation)
+- [Go 的内存管理](2023/02/how-does-go-manage-memory-allocation)
 
 **Streaks: 4 days**
 
