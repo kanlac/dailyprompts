@@ -1,5 +1,13 @@
 # Erfolgs-Journal
 
+Day 182｜十月二十七日周五
+
+- [上下文切换](2023/07/context-switching.md) (revise)
+- [seccomp](2023/10/seccomp.md) (revise)
+- [A Bash Debug: Disable SELinux](2023/09/bash-debug-disable-selinux.md) (revise)
+- [计算文件大小](2023/09/calculate-file-size.md) (revise)
+- [zerobase 内存地址](2023/09/zerobase.md) (revise)
+
 Day 181｜十月二十六日周四
 
 - [Go 的内存管理](2023/02/how-does-go-manage-memory-allocation) (update)
