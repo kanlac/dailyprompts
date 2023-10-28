@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 183｜十月二十八日周六
+
+- [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md) (update)
+- [分治法](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) (revise)
+- [从几个方面谈谈对协程池的了解](2023/02/goroutine-pool.md) (revise)
+
 Day 182｜十月二十七日周五
 
 - [上下文切换](2023/07/context-switching.md) (revise)

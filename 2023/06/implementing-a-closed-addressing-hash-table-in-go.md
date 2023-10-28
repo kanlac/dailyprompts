@@ -8,124 +8,98 @@ import (
 	"sync"
 )
 
-type bucket struct {
+type pair struct {
 	key   string
 	value string
-	next  *bucket
 }
 
-type HashTable struct {
-	mutex    sync.RWMutex
-	capacity int
-	slice    []*bucket
+type bucket []pair
+
+type hashTable struct {
+	m       sync.RWMutex
+	size    int
+	buckets []bucket
 }
 
-func NewHashTable(capacity int) *HashTable {
-	hashTable := &HashTable{
-		capacity: capacity,
-		slice:    make([]*bucket, capacity),
+func NewHashTable(size int) *hashTable {
+	buckets := make([]bucket, size)
+	for i := range buckets {
+		buckets[i] = make([]pair, 0)
 	}
-	for i := range hashTable.slice {
-		hashTable.slice[i] = &bucket{}
+	return &hashTable{
+		size:    size,
+		buckets: buckets,
 	}
-	return hashTable
 }
 
-func (h *HashTable) Get(key string) (string, bool) {
-	h.mutex.RLock()
-	defer h.mutex.RUnlock()
+func (h *hashTable) Set(key, value string) {
+	h.m.Lock()
+	defer h.m.Unlock()
 
-	index := h.hash(key)
+	idx := h.hash(key)
 
-	node := h.slice[index]
-	for node != nil && node.key != key {
-		node = node.next
+	// 处理碰撞的情况
+	for i := 0; i < len(h.buckets[idx]); i++ {
+		if h.buckets[idx][i].key == key {
+			h.buckets[idx][i].value = value
+			return
+		}
 	}
-	if node == nil {
-		return "", false
-	}
-	return node.value, true
+
+	// 没有碰撞，追加
+	h.buckets[idx] = append(h.buckets[idx], pair{key: key, value: value})
 }
 
-func (h *HashTable) Set(key, value string) {
-	h.mutex.Lock()
-	defer h.mutex.Unlock()
+func (h *hashTable) Get(key string) (string, bool) {
+	h.m.RLock()
+	defer h.m.RUnlock()
 
-	index := h.hash(key)
+	idx := h.hash(key)
 
-	if h.slice[index].key == "" {
-		h.slice[index].key = key
-		h.slice[index].value = value
-		return
+	for i := 0; i < len(h.buckets[idx]); i++ {
+		if h.buckets[idx][i].key == key {
+			return h.buckets[idx][i].value, true
+		}
 	}
-	if h.slice[index].key == key {
-		h.slice[index].value = value
-		return
-	}
-
-	node := h.slice[index]
-	for node.next != nil && node.next.key != key {
-		node = node.next
-	}
-	if node.next == nil {
-		node.next = &bucket{key: key, value: value}
-		return
-	}
-
-	// update
-	node.next.value = value
+	return "", false
 }
 
-func (h *HashTable) Del(key string) {
-	h.mutex.Lock()
-	defer h.mutex.Unlock()
+func (h *hashTable) Del(key string) {
+	h.m.Lock()
+	defer h.m.Unlock()
 
-	index := h.hash(key)
+	idx := h.hash(key)
 
-	if h.slice[index].key == "" {
-		return
+	for i := 0; i < len(h.buckets[idx]); i++ {
+		if h.buckets[idx][i].key == key {
+			h.buckets[idx] = append(h.buckets[idx][:i], h.buckets[idx][i+1:]...)
+			return
+		}
 	}
-	if h.slice[index].key == key {
-		h.slice[index] = h.slice[index].next
-		return
-	}
-
-	node := h.slice[index]
-	for node.next != nil && node.next.key != key {
-		node = node.next
-	}
-	if node.next == nil {
-		return
-	}
-	node.next = node.next.next
 }
 
-func (h *HashTable) hash(key string) int {
+func (h *hashTable) hash(key string) int {
 	var total int
 	for _, r := range key {
-		total += int(r)
+		total = total + int(r)
 	}
-	return total % h.capacity
+	return total % h.size
 }
 
 func main() {
-	ht := NewHashTable(1)
-	ht.Set("foo", "bar")
-	ht.Set("foo0", "bar0")
-	ht.Set("foo1", "bar1")
+	h := NewHashTable(1)
+	h.Set("foo", "bar")
+	fmt.Printf("%+v\n", h)
+	v, ok := h.Get("foo")
+	fmt.Printf("%v, %v\n", v, ok)
+	// h.Del("foo")
+	// fmt.Printf("%+v\n", h)
 
-	ret, exists := ht.Get("foo")
-	fmt.Printf("get foo: %s, %v\n", ret, exists)
-	ret, exists = ht.Get("foo0")
-	fmt.Printf("get foo0: %s, %v\n", ret, exists)
-	ht.Set("foo", "foo")
-	ret, exists = ht.Get("foo")
-	fmt.Printf("get foo: %s, %v\n", ret, exists)
-	ht.Del("foo0")
-	ret, exists = ht.Get("foo0")
-	fmt.Printf("get foo0: %s, %v\n", ret, exists)
-	ret, exists = ht.Get("foo1")
-	fmt.Printf("get foo1: %s, %v\n", ret, exists)
+	fmt.Println("======")
+
+	h.Set("jack", "laurie")
+	fmt.Printf("%+v\n", h)
+
 }
 
 
