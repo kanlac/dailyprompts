@@ -1,5 +1,14 @@
 # Erfolgs-Journal
 
+Day 184｜十月二十九日周日
+
+- [Go 垃圾回收](2023/07/go-gc.md) (revise)
+- [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (revise)
+- [Go 中字符串的拼接方式有哪些？各自效率如何？](2023/02/string-joining-in-go.md) (revise)
+- [调用 GitLab API](2023/06/invoke-gitlab-api.md) (revise)
+- [Go Context 上下文](2023/07/go-context.md) (revise)
+- [如何排查程序的内存占用情况？](2023/07/memory-analysis.md) (revise)
+
 Day 183｜十月二十八日周六
 
 - [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md) (update)
@@ -40,7 +49,7 @@ Day 177｜十月二十二日周日
 
 - [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md) (revise)
 - [套接字原理](2023/06/how-sockets-work.md) (revise)
-- [如何减少锁的使用？](2023/10/reduce-lock-usage.md) (revise)
+- [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (revise)
 
 Day 176｜十月二十一日周六
 
@@ -61,7 +70,7 @@ Day 174｜十月十九日周四
 Day 173｜十月十八日周三
 
 - [解释一段连续时间聚合的 PostgreSQL](2023/10/time-aggregate-sql.md) (revise)
-- [如何减少锁的使用？](2023/10/reduce-lock-usage.md) (revise)
+- [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (revise)
 - [上下文切换](2023/07/context-switching.md) (revise)
 
 Day 172｜十月十七日周二
@@ -69,7 +78,7 @@ Day 172｜十月十七日周二
 - [上下文切换](2023/07/context-switching.md) (update)
 - [容器内如何访问宿主机端口](2023/09/access-to-a-host-service-from-docker.md) (update)
 - [Docker 有哪几种主要的容器网络模式？默认是哪种？](2023/04/container-network.md) (revise)
-- [如何减少锁的使用？](2023/10/reduce-lock-usage.md) (revise)
+- [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (revise)
 
 Day 171｜十月十六日周一
 
@@ -84,11 +93,11 @@ Day 170｜十月十四日周六
 
 - [分治法](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
 - [Go Context 上下文](2023/07/go-context.md) (updated)
-- [如何减少锁的使用？](2023/10/reduce-lock-usage.md) (revise)
+- [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (revise)
 
 Day 169｜十月十三日周五
 
-- [如何减少锁的使用？](2023/10/reduce-lock-usage.md)
+- [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md)
 - [如何实现 Go 程序的优雅退出](2023/02/gracefully-shutdown.md) (update)
 - [zerobase 内存地址](2023/09/zerobase.md) (revise)
 - [seccomp](2023/10/seccomp.md) (revise)
