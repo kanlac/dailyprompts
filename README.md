@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 186｜十月三十一日周二
+
+- [上下文切换](2023/07/context-switching.md) (revise)
+- [Go 的内存管理](2023/02/how-does-go-manage-memory-allocation) (revise)
+- [Docker 有哪几种主要的容器网络模式？默认是哪种？](2023/04/container-network.md) (revise)
+- [部署方案](2023/07/deploy-solutions.md) (revise)
+
 Day 185｜十月三十日周一
 
 - [Linux Process Management 进程管理](2023/06/process-management.md) (update)
