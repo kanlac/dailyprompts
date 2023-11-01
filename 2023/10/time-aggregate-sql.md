@@ -1,52 +1,75 @@
-# 解释一段连续时间聚合的 PostgreSQL
+## Q
+
+介绍 PostgreSQL 中的几种函数，并解释以下 SQL。
 
 ```sql
 WITH SubQuery AS (
-  SELECT
-    probe,
-    content,
-    type,
-    time,
-    LAG(time) OVER (ORDER BY time) AS prev_time
-  FROM
-    events
+    SELECT
+        probe,
+        level,
+        content,
+        impact,
+        solution,
+        module,
+        type,
+        object,
+        time,
+        LAG(time) OVER (PARTITION BY probe, level, module, type, object ORDER BY time) AS prev_time
+    FROM
+        events
 ),
 GroupedData AS (
-  SELECT
-    probe,
-    content,
-    type,
-    time,
-    CASE WHEN EXTRACT(EPOCH FROM (time - prev_time)) > 100 THEN 1 ELSE 0 END AS is_new_group
-  FROM
-    SubQuery
+    SELECT
+        probe,
+        level,
+        content,
+        impact,
+        solution,
+        module,
+        type,
+        object,
+        time,
+        CASE WHEN EXTRACT(EPOCH FROM (time - prev_time)) > 600 THEN 1 ELSE 0 END AS is_new_group
+    FROM
+        SubQuery
 ),
 AggregatedData AS (
-  SELECT
-    probe,
-    content,
-    type,
-    time,
-    SUM(is_new_group) OVER (ORDER BY time) AS group_id
-  FROM
-    GroupedData
+    SELECT
+        probe,
+        level,
+        content,
+        impact,
+        solution,
+        module,
+        type,
+        object,
+        time,
+        SUM(is_new_group) OVER (PARTITION BY probe, level, module, type, object ORDER BY time) AS group_id
+    FROM
+        GroupedData
 )
 SELECT
-  probe,
-  content,
-  type,
-  MIN(time) AS start_time,
-  MAX(time) AS end_time,
-  COUNT(*) AS aggregation_count
+    probe,
+    level,
+    (array_agg(content))[1] as content,
+    (array_agg(impact))[1] as impact,
+    (array_agg(solution))[1] as solution,
+    module,
+    type,
+    MIN(time) AS start_time,
+    MAX(time) AS end_time,
+    COUNT(*) AS aggregation_count
 FROM
-  AggregatedData
+    AggregatedData
 GROUP BY
-  probe,
-  content,
-  type,
-  group_id
+    probe,
+    level,
+    module,
+    type,
+    object,
+    group_id
 ORDER BY
-  start_time DESC;
+    start_time DESC;
 ```
 
 ## 知识点
@@ -58,6 +81,8 @@ ORDER BY
     - 9.18 条件表达式：包括 `CASE WHEN`，`NULLIF` 等等，refer https://www.postgresql.org/docs/current/functions-conditional.html
     - 9.21 Aggregate function 聚合函数 - 使用多行，返回单行
         - `MIN`, `MAX`, `SUM`
+        - `ARRAY_AGG`: 将输入的多个值转化为一个数组
+        - `STRING_AGG`: 将输入的多个值连接为一个字符串
     - 9.22 Window function 窗口函数 - 使用多行，返回多行。有 `OVER` 子句，OVER 子句定义了一个窗口或行集合，在这个窗口上，窗口函数进行计算；维基百科有比较不错的[介绍](https://en.wikipedia.org/wiki/Window_function_(SQL))
         - `LAG`：获取之前的记录；`LEAD`：获取之后的记录
         - `SUM` 如果搭配 `OVER` 使用，就会成为一个窗口函数，计算在窗口内的聚合值，而不是全局聚合

@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 187｜十一月一日周三
+
+- [解释一段连续时间聚合的 PostgreSQL](2023/10/time-aggregate-sql.md) (update)
+- [Go 的栈空间管理](2023/08/golang-stack-memory-management.md) (update)
+
 Day 186｜十月三十一日周二
 
 - [上下文切换](2023/07/context-switching.md) (revise)

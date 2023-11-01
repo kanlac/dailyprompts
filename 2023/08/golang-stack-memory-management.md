@@ -10,55 +10,51 @@
 
 ## 与其他编程语言（例如 C++ 或 Java）相比，Go 语言在栈空间管理上有什么特点或优势？
 
-- **动态栈大小使得内存效率更高**：动态栈大小使得内存效率更高：Java 用线程（Thread）来实现并发，一个 Java 线程通常会有一个预先分配的固定大小的栈（这个大小可以通过 JVM 的 -Xss 参数进行设置）。这些线程是由操作系统级别的线程来支持的，这意味着创建和销毁线程通常比 Go 的 goroutines 要消耗更多的资源。而在 Go 语言中，每个 goroutine 都有自己的栈空间，而且可以按需增长或缩小。
-- **更简单高效的并发模型**：
-  - 采用更轻量的用户态协程（goroutine），而不是由操作系统内核直接管理，意味着程序员能够更容易地启动数十万或数百万个并发任务
-  - 提供了一种简单有效的方式（channel）来保证多个 Goroutine 访问共享数据的一致性，无需复杂的锁和条件变量
-  - "不要通过共享内存来通信，而应通过通信来共享内存"
-- **动态栈大小使得安全性更好**：Go 的动态栈管理减少了栈溢出的风险，这是静态大小的栈（如 C/C++ 中）可能面临的问题。
-  - 实际例子
-  
-    假设我们有一个递归函数，它在每次调用时都会在栈上添加一些数据。在静态栈大小的编程语言（如 C 或 C++）中，如果递归深度太高，栈空间可能会耗尽，导致栈溢出错误。
-  
-    C++ 示例：
-
-    ```cpp
-    void recursiveFunction(int depth) {
-        char buffer[1024];  // 占用一些栈空间
-        // ... do some work ...
+- 相比传统线程，goroutine 的**内存效率更高**：Java 用线程（Thread）来实现并发，一个 Java 线程通常会有一个预先分配的固定大小的栈（这个大小可以通过 JVM 的 -Xss 参数进行设置）。这些线程是由操作系统级别的线程来支持的，这意味着创建和销毁线程通常比 Go 的 goroutines 要消耗更多的资源。而在 Go 语言中，每个 goroutine 都有自己的栈空间，而且可以按需增长或缩小
+- **动态栈大小使得安全性更好**：因为 Java 栈空间是固定的，所以如果一个 Java 线程的调用栈超出了这个空间，会抛出一个 `StackOverflowError`。Go 的动态栈管理减少了栈溢出的风险，这是静态大小的栈（如 C/C++ 中）可能面临的问题。
+    - 实际例子
+        
+      假设我们有一个递归函数，它在每次调用时都会在栈上添加一些数据。在静态栈大小的编程语言（如 C 或 C++）中，如果递归深度太高，栈空间可能会耗尽，导致栈溢出错误。
     
-        // 递归调用
-        recursiveFunction(depth + 1);
-    }
-    
-    int main() {
-        recursiveFunction(1);
-        return 0;
-    }
-    
-    ```
+      C++ 示例：
 
-    在这个 C++ 示例中，`recursiveFunction` 每次递归都会在栈上分配 1024 字节的空间。由于 C++ 的栈大小通常是预先固定的（通常为几百 KB 到几 MB），递归次数如果太多，就会导致栈溢出。
+      ```cpp
+      void recursiveFunction(int depth) {
+          char buffer[1024];  // 占用一些栈空间
+          // ... do some work ...
+      
+          // 递归调用
+          recursiveFunction(depth + 1);
+      }
+      
+      int main() {
+          recursiveFunction(1);
+          return 0;
+      }
+      
+      ```
 
-    与之对比，Go 的动态栈管理允许在运行时自动增加栈的大小。
+      在这个 C++ 示例中，`recursiveFunction` 每次递归都会在栈上分配 1024 字节的空间。由于 C++ 的栈大小通常是预先固定的（通常为几百 KB 到几 MB），递归次数如果太多，就会导致栈溢出。
 
-    Go 示例：
+      与之对比，Go 的动态栈管理允许在运行时自动增加栈的大小。
 
-    ```go
-    func recursiveFunction(depth int) {
-        buffer := make([]byte, 1024)  // 占用一些栈空间
-        // ... do some work ...
-    
-        // 递归调用
-        recursiveFunction(depth + 1)
-    }
-    
-    func main() {
-        recursiveFunction(1)
-    }
-    
-    ```
+      Go 示例：
 
-    在这个 Go 示例中，`recursiveFunction` 同样每次递归都会占用一些栈空间。但与 C++ 不同，Go 的运行时会检查在调用 `recursiveFunction` 之前是否有足够的栈空间。如果没有，它会自动地增加（或者说“扩展”）该 Goroutine 的栈大小，从而避免了栈溢出的风险。
+      ```go
+      func recursiveFunction(depth int) {
+          buffer := make([]byte, 1024)  // 占用一些栈空间
+          // ... do some work ...
+      
+          // 递归调用
+          recursiveFunction(depth + 1)
+      }
+      
+      func main() {
+          recursiveFunction(1)
+      }
+      
+      ```
 
-    这种动态管理使得 Go 在处理深度递归或其他可能消耗大量栈空间的操作时，能更安全、更灵活。注意，虽然动态栈管理减少了栈溢出的风险，但它并不能完全消除这一风险（例如，在极端的内存压力下）。
+      在这个 Go 示例中，`recursiveFunction` 同样每次递归都会占用一些栈空间。但与 C++ 不同，Go 的运行时会检查在调用 `recursiveFunction` 之前是否有足够的栈空间。如果没有，它会自动地增加（或者说“扩展”）该 Goroutine 的栈大小，从而避免了栈溢出的风险。
+
+      这种动态管理使得 Go 在处理深度递归或其他可能消耗大量栈空间的操作时，能更安全、更灵活。注意，虽然动态栈管理减少了栈溢出的风险，但它并不能完全消除这一风险（例如，在极端的内存压力下）。
