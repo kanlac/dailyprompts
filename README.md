@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 188｜十一月二日周四
+
+- [文件权限 File Mode](2023/06/file-mode.md) (revise)
+- [网络调试](2023/06/network-debugging.md) (revise)
+- [Go 的栈空间管理](2023/08/golang-stack-memory-management.md) (revise)
+
 Day 187｜十一月一日周三
 
 - [解释一段连续时间聚合的 PostgreSQL](2023/10/time-aggregate-sql.md) (update)
