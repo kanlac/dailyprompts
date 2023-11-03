@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 189｜十一月三日周五
+
+- [常见垃圾回收算法](2023/07/garbage-collection-algorithms.md) (revise)
+- [如何实现 Go 程序的优雅退出](2023/02/gracefully-shutdown.md) (revise)
+- 排序算法
+
 Day 188｜十一月二日周四
 
 - [文件权限 File Mode](2023/06/file-mode.md) (revise)
