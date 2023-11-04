@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 190｜十一月四日周六
+
+- [Go 垃圾回收](2023/07/go-gc.md) (revise)
+- [dockerd 访问权限](2023/07/dockerd-permission.md) (revise)
+- [从几个方面谈谈对协程池的了解](2023/02/goroutine-pool.md) (revise)
+
 Day 189｜十一月三日周五
 
 - [常见垃圾回收算法](2023/07/garbage-collection-algorithms.md) (revise)
