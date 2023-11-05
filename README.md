@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 191｜十一月五日周日
+
+- [如何减少镜像大小](2023/11/reduce-image-size.md)
+- [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md) (revise)
+- [数据存储方案](2023/06/data-storage-schemes.md) (revise)
+
 Day 190｜十一月四日周六
 
 - [Go 垃圾回收](2023/07/go-gc.md) (revise)
