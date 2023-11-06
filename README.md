@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 192｜十一月六日周一
+
+- [块设备，文件系统，磁盘分区](2023/11/disk-partition.md)
+- [排序算法](2023/11/sort-algorithm.md) (update)
+
 Day 191｜十一月五日周日
 
 - [如何减少镜像大小](2023/11/reduce-image-size.md)
@@ -16,7 +21,7 @@ Day 189｜十一月三日周五
 
 - [常见垃圾回收算法](2023/07/garbage-collection-algorithms.md) (revise)
 - [如何实现 Go 程序的优雅退出](2023/02/gracefully-shutdown.md) (revise)
-- 排序算法
+- [排序算法](2023/11/sort-algorithm.md)
 
 Day 188｜十一月二日周四
 
@@ -81,12 +86,12 @@ Day 180｜十月二十五日周三
 
 Day 179｜十月二十四日周二
 
-- 排序算法
+- [排序算法](2023/11/sort-algorithm.md)
 
 Day 178｜十月二十三日周一
 
 - [从几个方面谈谈对协程池的了解](2023/02/goroutine-pool.md) (revise)
-- 排序算法
+- [排序算法](2023/11/sort-algorithm.md)
 
 Day 177｜十月二十二日周日
 
