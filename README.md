@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 193｜十一月七日周二
+
+- [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
+- [内存模型](2023/06/memory-model.md) (revise)
+- [如何减少镜像大小](2023/11/reduce-image-size.md) (revise)
+
 Day 192｜十一月六日周一
 
 - [块设备，文件系统，磁盘分区](2023/11/disk-partition.md)
