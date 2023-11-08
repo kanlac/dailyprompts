@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 194｜十一月八日周三
+
+- [配置访问独立部署的服务](2023/07/access-independently-deployed-services.md) (revise)
+- [如何实现 Go 程序的优雅退出](2023/02/gracefully-shutdown.md) (revise)
+
 Day 193｜十一月七日周二
 
 - [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
