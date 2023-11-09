@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 195｜十一月九日周四
+
+- [一些并发限制](2023/03/concurrent-limitations.md) (revise)
+- [gRPC](2023/07/grpc.md) (revise)
+- [块设备，文件系统，磁盘分区](2023/11/disk-partition.md) (revise)
+
 Day 194｜十一月八日周三
 
 - [配置访问独立部署的服务](2023/07/access-independently-deployed-services.md) (revise)
