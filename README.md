@@ -5,6 +5,8 @@ Day 195｜十一月九日周四
 - [一些并发限制](2023/03/concurrent-limitations.md) (revise)
 - [gRPC](2023/07/grpc.md) (revise)
 - [块设备，文件系统，磁盘分区](2023/11/disk-partition.md) (revise)
+- [Docker 分配伪终端](2023/08/docker-tty.md) (revise)
+- [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md) (revise)
 
 Day 194｜十一月八日周三
 
