@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 196｜十一月十日周五
+
+- [计算文件大小](2023/09/calculate-file-size.md) (revise)
+- [上下文切换](2023/07/context-switching.md) (revise)
+
 Day 195｜十一月九日周四
 
 - [一些并发限制](2023/03/concurrent-limitations.md) (revise)
