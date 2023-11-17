@@ -37,3 +37,34 @@ func main() {
 	fmt.Printf("%+v\n", s)
 }
 ```
+
+插入排序实现：
+
+```go
+package main
+
+import "fmt"
+
+func InsertSort(nums []int) {
+	l := len(nums)
+	if l < 2 {
+		return
+	}
+
+	for i := 1; i < l; i++ {
+		j := i
+		cur := nums[i]
+		for j > 0 && nums[j-1] > cur {
+			nums[j] = nums[j-1]
+			j--
+		}
+		nums[j] = cur
+	}
+}
+
+func main() {
+	s := []int{3, 6, 1, 0, 12, 4}
+	InsertSort(s)
+	fmt.Printf("%+v\n", s)
+}
+```

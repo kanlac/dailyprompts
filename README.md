@@ -1,5 +1,17 @@
 # Erfolgs-Journal
 
+Day 198｜十一月十七日周五
+
+- [排序算法](2023/11/sort-algorithm.md) (update)
+- [块设备，文件系统，磁盘分区](2023/11/disk-partition.md) (revise)
+- [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (revise)
+- [部署方案](2023/07/deploy-solutions.md) (revise)
+- [Go 的内存管理](2023/02/how-does-go-manage-memory-allocation) (revise)
+- [IP 地址段配置/冲突解决](2023/06/ip-address-pool-conflict-resolve.md) (revise)
+- [套接字原理](2023/06/how-sockets-work.md) (revise)
+
+streaks: 27 days
+
 Day 197｜十一月十一日周六
 
 - [分治法](2023/11/divide-and-conquer.md)) (update)
