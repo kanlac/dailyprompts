@@ -1,5 +1,13 @@
 # Erfolgs-Journal
 
+Day 199｜十一月十八日周六
+
+- [Go 的栈空间管理](2023/08/golang-stack-memory-management.md) (revise)
+- [init 进程](2023/07/init-process.md) (revise)
+- [OLTP v.s. OLAP](2023/08/oltp-versus-olap.md) (revise)
+- [如何实现一个哈希表？](2023/05/implementing-hash-table.md) (revise)
+- [GMP 模型](2023/07/gmp-model.md) (revise)
+
 Day 198｜十一月十七日周五
 
 - [排序算法](2023/11/sort-algorithm.md) (update)
