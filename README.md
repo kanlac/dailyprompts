@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 200｜十一月十九日周日
+
+- [分治法](2023/11/divide-and-conquer.md)) (update)
+- [排序算法](2023/11/sort-algorithm.md) (update)
+
 Day 199｜十一月十八日周六
 
 - [Go 的栈空间管理](2023/08/golang-stack-memory-management.md) (revise)

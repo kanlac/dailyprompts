@@ -10,25 +10,25 @@ package main
 import "fmt"
 
 func quickSort(s []int) {
-	var (
-		l = len(s)
-		i = 1 // i 下标左侧的数都小于 pivot
-	)
-	if l < 2 {
+	if len(s) <= 1 {
 		return
 	}
-
-	pivot := s[0]
-	for j := 2; j < l; j++ {
-		if s[j] < pivot {
-			s[i], s[j] = s[j], s[i]
-			i++
+	var (
+		pivot = s[0]
+		x     = 1 // x 下标左边的数都是小于 pivot 的
+		l     = len(s)
+	)
+	for i := 1; i < l; i++ {
+		if s[i] < pivot {
+			s[i], s[x] = s[x], s[i]
+			x++
 		}
 	}
-	s[0], s[i-1] = s[i-1], s[0]
-
-	quickSort(s[:i-1])
-	quickSort(s[i:])
+	s[0], s[x-1] = s[x-1], s[0]
+	quickSort(s[:x-1])
+	if x < l {
+		quickSort(s[x:])
+	}
 }
 
 func main() {

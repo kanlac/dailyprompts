@@ -1,5 +1,31 @@
 # 分治法
 
+[108) Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
+
+```go
+package main
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
+
+func sortedArrayToBST(nums []int) *TreeNode {
+	l := len(nums)
+	if l == 0 {
+		return nil
+	}
+
+	mid := l / 2
+	return &TreeNode{
+		Val:   nums[mid],
+		Left:  sortedArrayToBST(nums[:mid]),
+		Right: sortedArrayToBST(nums[mid+1:]),
+	}
+}
+```
+
 [53) Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 
 ```go
