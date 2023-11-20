@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 201｜十一月二十日周一
+
+- [排序算法](2023/11/sort-algorithm.md) (revise)
+- [如何执行目录下的文本搜索，同时打印附近的行与行号？](2023/09/grep.md) (revise)
+- [io.Reader v.s. bufio.Reader](2023/08/io-reader-vs-bufio-reader.md) (revise)
+
 Day 200｜十一月十九日周日
 
 - [分治法](2023/11/divide-and-conquer.md)) (update)
