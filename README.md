@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 202｜十一月二十一日周二
+
+- [代码中频繁出现 `if err != nil``, 应该如何改进？](2023/11/error-handling.md)
+- [找到二叉树的左侧兄弟节点](2023/07/find-left-relative-of-tree-nodes.md) (revise)
+
 Day 201｜十一月二十日周一
 
 - [排序算法](2023/11/sort-algorithm.md) (revise)
