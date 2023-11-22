@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 203｜十一月二十二日周三
+
+- [如何提高 Bash 脚本的健壮性？](2023/11/bash-script-robustness.md)
+- [grep, sed, awk](2023/09/grep-sed-awk.md) (update)
+
 Day 202｜十一月二十一日周二
 
 - [代码中频繁出现 `if err != nil``, 应该如何改进？](2023/11/error-handling.md)
@@ -8,12 +13,12 @@ Day 202｜十一月二十一日周二
 Day 201｜十一月二十日周一
 
 - [排序算法](2023/11/sort-algorithm.md) (revise)
-- [如何执行目录下的文本搜索，同时打印附近的行与行号？](2023/09/grep.md) (revise)
+- [grep, sed, awk](2023/09/grep-sed-awk.md) (revise)
 - [io.Reader v.s. bufio.Reader](2023/08/io-reader-vs-bufio-reader.md) (revise)
 
 Day 200｜十一月十九日周日
 
-- [分治法](2023/11/divide-and-conquer.md)) (update)
+- [分治法](2023/11/divide-and-conquer.md) (update)
 - [排序算法](2023/11/sort-algorithm.md) (update)
 
 Day 199｜十一月十八日周六
@@ -110,7 +115,7 @@ Day 185｜十月三十日周一
 
 - [Linux Process Management 进程管理](2023/06/process-management.md) (update)
 - [容器网络内部的通信](2023/05/communication-inside-container-network.md) (revise)
-- [如何执行目录下的文本搜索，同时打印附近的行与行号？](2023/09/grep.md) (revise)
+- [grep, sed, awk](2023/09/grep-sed-awk.md) (revise)
 - [gRPC](2023/07/grpc.md) (revise)
 
 Day 184｜十月二十九日周日
@@ -171,7 +176,7 @@ Day 176｜十月二十一日周六
 Day 175｜十月二十日周五
 
 - [一些并发限制](2023/03/concurrent-limitations.md) (revise)
-- [如何执行目录下的文本搜索，同时打印附近的行与行号？](2023/09/grep.md) (revise)
+- [grep, sed, awk](2023/09/grep-sed-awk.md) (revise)
 - [如何实现 Go 程序的优雅退出](2023/02/gracefully-shutdown.md) (revise)
 
 Day 174｜十月十九日周四
@@ -253,7 +258,7 @@ Day 162｜十月六日周五
 
 - [数据库锁](2023/08/database-lock.md) (revise)
 - [计算文件大小](2023/09/calculate-file-size.md) (revise)
-- [如何执行目录下的文本搜索，同时打印附近的行与行号？](2023/09/grep.md) (revise)
+- [grep, sed, awk](2023/09/grep-sed-awk.md) (revise)
 
 streaks: 2 days
 
@@ -267,7 +272,7 @@ Day 160｜十月二日周一
 - [init 进程](2023/07/init-process.md) (revise)
 - [快速写一个 demo，验证 Docker 网络内部的服务名访问](2023/05/communication-inside-container-network.md) (revise)
 - [切片与数组](2023/09/slices.md) (revise)
-- [如何执行目录下的文本搜索，同时打印附近的行与行号？](2023/09/grep.md) (revise)
+- [grep, sed, awk](2023/09/grep-sed-awk.md) (revise)
 
 streaks: 34 days
 
@@ -281,7 +286,7 @@ Day 158｜九月二十九日周五
 
 - [编写一个时间聚合的 SQL](2023/09/sql-learning.md) (update)
 - [计算文件大小](2023/09/calculate-file-size.md) (revise)
-- [如何执行目录下的文本搜索，同时打印附近的行与行号？](2023/09/grep.md) (revise)
+- [grep, sed, awk](2023/09/grep-sed-awk.md) (revise)
 
 Day 157｜九月二十八日周四
 
@@ -290,7 +295,7 @@ Day 157｜九月二十八日周四
 
 Day 156｜九月二十七日周三
 
-- [如何执行目录下的文本搜索，同时打印附近的行与行号？](2023/09/grep.md)
+- [grep, sed, awk](2023/09/grep-sed-awk.md)
 - [性能问题的本质](2023/06/the-nature-of-peformance-problem.md) (revise)
 - [A Bash Debug: Disable SELinux](2023/09/bash-debug-disable-selinux.md) (revise)
 
