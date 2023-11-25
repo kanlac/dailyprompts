@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+- [跨域问题](2023/11/cross-origin.md)
+- [如何减少镜像大小](2023/11/reduce-image-size.md) (revise)
+- [Go 的内存逃逸](2023/06/go-memory-escape.md) (revise)
+- [排序算法](2023/11/sort-algorithm.md) (revise)
+
+streaks: 6 days
+
 Day 203｜十一月二十二日周三
 
 - [如何提高 Bash 脚本的健壮性？](2023/11/bash-script-robustness.md)
@@ -43,7 +50,7 @@ streaks: 27 days
 
 Day 197｜十一月十一日周六
 
-- [分治法](2023/11/divide-and-conquer.md)) (update)
+- [分治法](2023/11/divide-and-conquer.md) (update)
 - [如何减少镜像大小](2023/11/reduce-image-size.md) (revise)
 
 Day 196｜十一月十日周五
@@ -130,7 +137,7 @@ Day 184｜十月二十九日周日
 Day 183｜十月二十八日周六
 
 - [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md) (update)
-- [分治法](2023/11/divide-and-conquer.md)) (revise)
+- [分治法](2023/11/divide-and-conquer.md) (revise)
 - [从几个方面谈谈对协程池的了解](2023/02/goroutine-pool.md) (revise)
 
 Day 182｜十月二十七日周五
@@ -183,7 +190,7 @@ Day 174｜十月十九日周四
 
 - [Postgres 自动清理](2023/09/postgres-autovacuum.md) (revise)
 - [网络调试](2023/06/network-debugging.md) (revise)
-- [分治法](2023/11/divide-and-conquer.md)) (revise)
+- [分治法](2023/11/divide-and-conquer.md) (revise)
 
 Day 173｜十月十八日周三
 
@@ -209,7 +216,7 @@ streaks: 9 days
 
 Day 170｜十月十四日周六
 
-- [分治法](2023/11/divide-and-conquer.md))
+- [分治法](2023/11/divide-and-conquer.md)
 - [Go Context 上下文](2023/07/go-context.md) (updated)
 - [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (revise)
 
