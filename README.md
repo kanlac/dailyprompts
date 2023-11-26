@@ -1,5 +1,14 @@
 # Erfolgs-Journal
 
+Day 205｜十一月二十六日周日
+
+- [跨域问题](2023/11/cross-origin.md) (revise)
+- [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md) (revise)
+- [全表扫描 Full Table Scan](2023/08/full-table-scan.md) (revise)
+- [分治法](2023/11/divide-and-conquer.md) (revise)
+
+Day 204｜十一月二十五日周六
+
 - [跨域问题](2023/11/cross-origin.md)
 - [如何减少镜像大小](2023/11/reduce-image-size.md) (revise)
 - [Go 的内存逃逸](2023/06/go-memory-escape.md) (revise)
