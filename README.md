@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 206｜十一月二十七日周一
+
+- [分治法](2023/11/divide-and-conquer.md) (revise)
+
 Day 205｜十一月二十六日周日
 
 - [跨域问题](2023/11/cross-origin.md) (revise)
