@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 207｜十一月二十八日周二
+
+- [seccomp](2023/10/seccomp.md) (revise)
+- [排序算法](2023/11/sort-algorithm.md) (revise)
+
 Day 206｜十一月二十七日周一
 
 - [分治法](2023/11/divide-and-conquer.md) (revise)
