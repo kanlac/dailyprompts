@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 208｜十一月二十九日周三
+
+- [Shell General](2023/11/shell-general.md) (updated)
+- [如何实现 Go 程序的优雅退出](2023/02/gracefully-shutdown.md) (revise)
+- [zerobase 内存地址](2023/09/zerobase.md) (revise)
+
 Day 207｜十一月二十八日周二
 
 - [seccomp](2023/10/seccomp.md) (revise)
@@ -27,7 +33,7 @@ streaks: 6 days
 
 Day 203｜十一月二十二日周三
 
-- [如何提高 Bash 脚本的健壮性？](2023/11/bash-script-robustness.md)
+- [Shell General](2023/11/shell-general.md)
 - [grep, sed, awk](2023/09/grep-sed-awk.md) (update)
 
 Day 202｜十一月二十一日周二

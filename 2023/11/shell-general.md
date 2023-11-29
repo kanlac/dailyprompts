@@ -1,4 +1,6 @@
-# 如何提高 Bash 脚本的健壮性？
+# Shell General
+
+## 如何提高 Bash 脚本的健壮性？
 
 ```bash
 # 在脚本的 shebang 后加上以下设置，提高脚本的健壮性
@@ -56,3 +58,18 @@ set -x
 要查看当前 shell 环境中的所有变量和设置，可以使用不带任何选项的 **`set`** 命令。这将显示一个包含当前环境变量、函数和设置的列表。
 
 注意：不同的 shell 可能支持不同的选项和行为。这里的示例主要针对 Bourne Again Shell（Bash），但许多其他 shell（如 sh、zsh、ksh 等）也支持类似的选项。
+
+## 如何查询某目录下的最大几个文件？
+
+```bash
+du -sh * | sort -hr
+```
+
+## 如何查找两层文件名？
+
+```bash
+# 查找两层以内的文件名或目录名
+find . -maxdepth 2 -name "*foo*"
+# 找大日志文件
+find . -type f -name "*.log" -exec du -h {} + | sort -rh | head -n 3
+```
