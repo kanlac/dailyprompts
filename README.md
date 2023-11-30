@@ -1,5 +1,13 @@
 # Erfolgs-Journal
 
+Day 209｜十一月三十日周四
+
+- [Debug: HTTP 请求高延时](2023/11/http-latency.md)
+- [切片与数组](2023/09/slices.md) (revise)
+- [容器网络内部的通信](2023/05/communication-inside-container-network.md) (revise)
+- [Docker 有哪几种主要的容器网络模式？默认是哪种？](2023/04/container-network.md) (revise)
+- [性能问题的本质](2023/06/the-nature-of-peformance-problem.md) (revise)
+
 Day 208｜十一月二十九日周三
 
 - [Shell General](2023/11/shell-general.md) (updated)
