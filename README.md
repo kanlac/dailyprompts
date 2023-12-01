@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 210｜十二月一日
+
+- [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md) (revise)
+- [解释一段连续时间聚合的 PostgreSQL](2023/10/time-aggregate-sql.md) (revise)
+- [排序算法](2023/11/sort-algorithm.md) (revise)
+
 Day 209｜十一月三十日周四
 
 - [Debug: HTTP 请求高延时](2023/11/http-latency.md)
