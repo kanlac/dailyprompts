@@ -75,3 +75,40 @@ func main() {
 	fmt.Println(maxSubArray([]int{-1, -2}))                        // -1
 }
 ```
+
+[106) 106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
+
+```go
+package main
+
+import "fmt"
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
+
+func buildTree(inorder []int, postorder []int) *TreeNode {
+	m := make(map[int]int)
+	for i := range inorder {
+		m[inorder[i]] = i
+	}
+
+	var construct func(inStart, inEnd, postStart, postEnd int) *TreeNode
+	construct = func(inStart, inEnd, postStart, postEnd int) *TreeNode {
+		if inStart > inEnd || postStart > postEnd {
+			return nil
+		}
+
+		root := &TreeNode{Val: postorder[postEnd]}
+		leftNum := m[root.Val] - inStart
+
+		root.Left = construct(inStart, m[root.Val]-1, postStart, postStart+leftNum-1)
+		root.Right = construct(m[root.Val]+1, inEnd, postStart+leftNum, postEnd-1)
+		return root
+	}
+
+	return construct(0, len(inorder)-1, 0, len(postorder)-1)
+}
+```

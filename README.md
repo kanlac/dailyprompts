@@ -1,6 +1,11 @@
 # Erfolgs-Journal
 
-Day 210｜十二月一日
+Day 211｜十二月二日周六
+
+- [Shell General](2023/11/shell-general.md) (revise)
+- [分治法](2023/11/divide-and-conquer.md) (update)
+
+Day 210｜十二月一日周五
 
 - [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md) (revise)
 - [解释一段连续时间聚合的 PostgreSQL](2023/10/time-aggregate-sql.md) (revise)
