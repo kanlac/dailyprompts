@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 212｜十二月三日周日
+
+- [跨域问题](2023/11/cross-origin.md) (update)
+- [分治法](2023/11/divide-and-conquer.md) (revise)
+
 Day 211｜十二月二日周六
 
 - [Shell General](2023/11/shell-general.md) (revise)
