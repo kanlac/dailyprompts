@@ -1,5 +1,13 @@
 # Erfolgs-Journal
 
+Day 215｜十二月十二日周二
+
+- [数据存储方案](2023/06/data-storage-schemes.md) (revise)
+- [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md) (revise)
+- [计算文件大小](2023/09/calculate-file-size.md) (revise)
+- [gRPC](2023/07/grpc.md) (revise)
+- [Golang 如何做错误处理](2023/03/error-handling.md) (revise)
+
 Day 214｜十二月十一日周一
 
 - [Shell General](2023/11/shell-general.md) (revise)
