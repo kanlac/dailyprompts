@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 216｜十二月十三日周三
+
+- [Debug: HTTPS 跳转](2023/12/debug-https-redirect.md)
+- [分治法](2023/11/divide-and-conquer.md) (revise)
+- [Shell General](2023/11/shell-general.md) (revise)
+
 Day 215｜十二月十二日周二
 
 - [数据存储方案](2023/06/data-storage-schemes.md) (revise)
