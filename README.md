@@ -1,5 +1,14 @@
 # Erfolgs-Journal
 
+Day 220｜十二月十八日周一
+
+- [跨域问题](2023/11/cross-origin.md) (revise)
+- [排序算法](2023/11/sort-algorithm.md) (revise)
+- [部署方案](2023/07/deploy-solutions.md) (revise)
+- [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (revise)
+
+streaks: 6 days
+
 Day 219｜十二月十六日周六
 
 - [Shell General](2023/11/shell-general.md) (revise)
