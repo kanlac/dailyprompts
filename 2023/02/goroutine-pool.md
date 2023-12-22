@@ -13,18 +13,22 @@ In Go, a Goroutine Pool can be implemented using a combination of Goroutines, ch
 客户端：
 
 ```go
+func task(ctx context.Context) error {
+		fmt.Println("处理任务", count)
+		time.Sleep(time.Second)
+}
+
 func main() {
     pool := NewGoroutinePool(4, 10) // 创建一个大小为 4 的协程池
 
     for i := 0; i < 10; i++ {
         count := i
-        pool.Submit(func() {
-            fmt.Println("处理任务", count)
-            time.Sleep(time.Second)
+        pool.Go(func(ctx context.Context) error {
+						return task(ctx)
         })
     }
 
-    pool.Close() // 关闭协程池并等待所有任务完成
+    err := pool.Wait() // 阻塞，等待所有任务完成，并收集错误
 }
 ```
 
