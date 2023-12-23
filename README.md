@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 224｜十二月二十三日周六
+
+- [Debug: 内存泄露排查](2023/07/memory-analysis.md) (update)
+- [Go 的内存管理](2023/02/how-does-go-manage-memory-allocation) (revise)
+
 Day 223｜十二月二十二日周五
 
 - [Goroutine Pool](2023/02/goroutine-pool.md) (update)
@@ -249,7 +254,7 @@ Day 184｜十月二十九日周日
 - [Go 中字符串的拼接方式有哪些？各自效率如何？](2023/02/string-joining-in-go.md) (revise)
 - [调用 GitLab API](2023/06/invoke-gitlab-api.md) (revise)
 - [Go Context 上下文](2023/07/go-context.md) (revise)
-- [如何排查程序的内存占用情况？](2023/07/memory-analysis.md) (revise)
+- [Debug: 内存泄露排查](2023/07/memory-analysis.md) (revise)
 
 Day 183｜十月二十八日周六
 
@@ -597,7 +602,7 @@ Day 127｜八月二十九日周二
 - [全表扫描 Full Table Scan](2023/08/full-table-scan.md) (revise)
 - [io.Reader v.s. bufio.Reader](2023/08/io-reader-vs-bufio-reader.md) (revise)
 - [用户登录/身份验证/授权](2023/05/authentication.md) (revise)
-- [如何排查程序的内存占用情况？](2023/07/memory-analysis.md) (revise)
+- [Debug: 内存泄露排查](2023/07/memory-analysis.md) (revise)
 - [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md) (revise)
 
 Day 126｜八月二十八日周一
@@ -689,7 +694,7 @@ Day 111｜八月十一日周五
 streaks: 3 days
 
 Day 110｜八月九日周三
-- [如何排查程序的内存占用情况？](2023/07/memory-analysis.md) (revise)
+- [Debug: 内存泄露排查](2023/07/memory-analysis.md) (revise)
 - [dockerd 访问权限](2023/07/dockerd-permission.md) (revise)
 - [Linux Process Management 进程管理](2023/06/process-management.md) (revise)
 - [常见垃圾回收算法](2023/07/garbage-collection-algorithms.md) (revise)
@@ -722,7 +727,7 @@ Day 106｜八月三日周四
 Day 105｜八月二日周三
 - [查看路由表有哪几种方式？有什么区别？](2023/08/route.md) (revise)
 - [init 进程](2023/07/init-process.md) (revise)
-- [如何排查程序的内存占用情况？](2023/07/memory-analysis.md) (revise)
+- [Debug: 内存泄露排查](2023/07/memory-analysis.md) (revise)
 - [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md) (revise)
 
 Day 104｜八月一日周二
@@ -736,7 +741,7 @@ streaks: 1 day
 
 Day 102｜七月三十日周六
 - [init 进程](2023/07/init-process.md) (updated)
-- [如何排查程序的内存占用情况？](2023/07/memory-analysis.md) (revise)
+- [Debug: 内存泄露排查](2023/07/memory-analysis.md) (revise)
 - [Go Context 上下文](2023/07/go-context.md) (revise)
 - [dockerd 访问权限](2023/07/dockerd-permission.md) (revise)
 - [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md) (revise)
@@ -811,7 +816,7 @@ Day 90｜七月十七日周一
 Day 89｜七月十六日周日
 - [GMP 模型](2023/07/gmp-model.md) (revise)
 - [云计算](2023/07/cloud-computing.md) (revise)
-- [如何排查程序的内存占用情况？](2023/07/memory-analysis.md) (revise)
+- [Debug: 内存泄露排查](2023/07/memory-analysis.md) (revise)
 - [离线安装包的依赖](2023/06/offline-dependencies.md) (revise)
 - [内存模型](2023/06/memory-model.md) (revise)
 - [上下文切换](2023/07/context-switching.md) (revise)
@@ -836,10 +841,10 @@ Day 85｜七月十一日周二
 - [使用 Go 编写一个闭合寻址的哈希表实现](2023/06/implementing-a-closed-addressing-hash-table-in-go.md) (update)
 - [Go 的内存逃逸](2023/06/go-memory-escape.md) (revise)
 - [内存模型](2023/06/memory-model.md) (revise)
-- [如何排查程序的内存占用情况？](2023/07/memory-analysis.md) (revise)
+- [Debug: 内存泄露排查](2023/07/memory-analysis.md) (revise)
 
 Day 84｜七月十日周一
-- [如何排查程序的内存占用情况？](2023/07/memory-analysis.md)
+- [Debug: 内存泄露排查](2023/07/memory-analysis.md)
 - [上下文切换](2023/07/context-switching.md) (revise)
 - [网络调试](2023/06/network-debugging.md) (revise)
 - [内存模型](2023/06/memory-model.md) (revise)
