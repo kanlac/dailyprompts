@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 226｜十二月二十五日周一
+
+- [Postgres 自动清理](2023/09/postgres-autovacuum.md) (revise)
+- [如何减少镜像大小](2023/11/reduce-image-size.md) (revise)
+- [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (revise)
+
 Day 225｜十二月二十四日周日
 
 - [容器内如何访问宿主机端口](2023/09/access-to-a-host-service-from-docker.md) (update)
