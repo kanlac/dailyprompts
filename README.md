@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 227｜十二月二十六日周二
+
+- [文件的索引节点 inode](2023/06/inode.md) (revise)
+- [查看路由表有哪几种方式？有什么区别？](2023/08/route.md) (revise)
+- [SQL 优化技巧](2023/09/sql-optimazation.md) (revise)
+
 Day 226｜十二月二十五日周一
 
 - [Postgres 自动清理](2023/09/postgres-autovacuum.md) (revise)
