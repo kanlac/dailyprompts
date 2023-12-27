@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 228｜十二月二十七日周三
+
+- [Debug: HTTPS 跳转](2023/12/debug-https-redirect.md)
+- [ENTRYPOINT v.s. CMD](2023/08/entrypoint-versus-cmd.md) (revise)
+- [A Bash Debug: Disable SELinux](2023/09/bash-debug-disable-selinux.md) (revise)
+- [发布工程 Release Engineering](2023/06/release-engineering.md) (revise)
+
 Day 227｜十二月二十六日周二
 
 - [文件的索引节点 inode](2023/06/inode.md) (revise)
