@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 229｜十二月二十八日周四
+
+- [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (update)
+
 Day 228｜十二月二十七日周三
 
 - [Debug: HTTPS 跳转](2023/12/debug-https-redirect.md)
