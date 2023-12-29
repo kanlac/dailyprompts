@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 230｜十二月二十九日周五
+
+- [云计算](2023/07/cloud-computing.md) (revise)
+- [分治法](2023/11/divide-and-conquer.md) (revise)
+- [Filesystem Hierarchy Standard (FHS)](2023/07/fhs.md) (revise)
+
 Day 229｜十二月二十八日周四
 
 - [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (update)

@@ -81,34 +81,33 @@ func main() {
 ```go
 package main
 
-import "fmt"
-
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
 	Right *TreeNode
 }
 
-func buildTree(inorder []int, postorder []int) *TreeNode {
+func buildTree(inorder, postorder []int) *TreeNode {
 	m := make(map[int]int)
-	for i := range inorder {
-		m[inorder[i]] = i
+	for k, v := range inorder {
+		m[v] = k
 	}
 
-	var construct func(inStart, inEnd, postStart, postEnd int) *TreeNode
-	construct = func(inStart, inEnd, postStart, postEnd int) *TreeNode {
-		if inStart > inEnd || postStart > postEnd {
+	var build func(inStart, inEnd, poStart, poEnd int) *TreeNode
+	build = func(inStart, inEnd, poStart, poEnd int) *TreeNode {
+		if inStart == inEnd || poStart == poEnd {
 			return nil
 		}
 
-		root := &TreeNode{Val: postorder[postEnd]}
-		leftNum := m[root.Val] - inStart
-
-		root.Left = construct(inStart, m[root.Val]-1, postStart, postStart+leftNum-1)
-		root.Right = construct(m[root.Val]+1, inEnd, postStart+leftNum, postEnd-1)
-		return root
+		rootIdx := m[postorder[poEnd-1]]
+		nLeftChirdren := rootIdx - inStart
+		return &TreeNode{
+			Val: postorder[poEnd],
+			Left: build(inStart, rootIdx, poStart, poStart+nLeftChirdren),
+			Right: build(rootIdx+1, inEnd, poStart+nLeftChirdren, poEnd-1),
+		}
 	}
 
-	return construct(0, len(inorder)-1, 0, len(postorder)-1)
+	return build(0, len(inorder), 0, len(postorder))
 }
 ```
