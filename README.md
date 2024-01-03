@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 232｜一月三日周三
+
+- [Linux Process Management 进程管理](2023/06/process-management.md) (update)
+
 Day 231｜一月二日周二
 
 - [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (update)
