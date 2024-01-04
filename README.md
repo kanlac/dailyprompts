@@ -2,6 +2,7 @@
 
 Day 233｜一月四日周四
 
+- [码位与字节](2024/01/rune-vesus-byte.md)
 - [文件权限 File Mode](2023/06/file-mode.md) (revise)
 - [常见垃圾回收算法](2023/07/garbage-collection-algorithms.md) (revise)
 
