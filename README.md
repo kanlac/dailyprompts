@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 234｜一月五日周五
+
+- [Linux Process Management 进程管理](2023/06/process-management.md) (revise)
+- [码位与字节](2024/01/rune-vesus-byte.md) (revise)
+
 Day 233｜一月四日周四
 
 - [码位与字节](2024/01/rune-vesus-byte.md)
