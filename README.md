@@ -1,5 +1,13 @@
 # Erfolgs-Journal
 
+Day 235｜一月十一日周四
+
+- [Shell General](2023/11/shell-general.md) (revise)
+- [Debug: 容器文件系统空间占用](2023/12/debug-docker-usage.md) (revise)
+- [文件权限 File Mode](2023/06/file-mode.md) (revise)
+
+streaks: 4 days
+
 Day 234｜一月五日周五
 
 - [Linux Process Management 进程管理](2023/06/process-management.md) (revise)
