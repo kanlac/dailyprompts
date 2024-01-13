@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 236｜一月十三日周六
+
+- [Goroutine Pool](2023/02/goroutine-pool.md) (revise)
+
+streaks: 1 day
+
 Day 235｜一月十一日周四
 
 - [Shell General](2023/11/shell-general.md) (revise)
