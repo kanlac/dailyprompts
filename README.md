@@ -1,5 +1,13 @@
 # Erfolgs-Journal
 
+Day 238｜一月十七日周六
+
+- [Linux Process Management 进程管理](2023/06/process-management.md) (revise)
+- [分治法](2023/11/divide-and-conquer.md) (revise)
+- [Goroutine Pool](2023/02/goroutine-pool.md) (revise)
+
+streaks: 2 days
+
 Day 237｜一月十六日周五
 
 - [Shell General](2023/11/shell-general.md) (revise)
