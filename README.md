@@ -3,6 +3,7 @@
 Day 239｜二月十六日周五
 
 - [内存泄露排查](2023/07/memory-analysis.md) (update)
+- [文件权限 File Mode](2023/06/file-mode.md) (revise)
 
 streaks: 1 day
 
