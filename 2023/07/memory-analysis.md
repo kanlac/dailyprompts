@@ -12,7 +12,7 @@ top 或者 ps 的 `—-sort` 选项。
 
 注意：`docker stats` 默认会显示所有运行中的容器。如果只想看特定的容器，可以在命令后面加上容器的名字或 ID。
 
-## Go 程序层面
+## 程序层面
 
 在 Go 语言中，要证明程序的堆内存占用情况，你可以使用几种方法：
 
@@ -75,7 +75,14 @@ top 或者 ps 的 `—-sort` 选项。
         
         然后，在终端中运行 `go tool pprof <http://localhost:6060/debug/pprof/heap`。>
         
-3. 基准测试
+3. 第三方工具
+    
+    如 `github.com/pkg/profile`，可以帮助更容易地进行内存和CPU分析。
+    
+
+## 函数层面
+
+- 基准测试
     
     使用`testing.B`对象的方法来开启和获取内存分配的信息：
     
@@ -89,7 +96,3 @@ top 或者 ps 的 `—-sort` 选项。
     ```
     
     然后，你可以使用`go test --bench`命令来运行基准测试，并查看内存分配的结果。
-    
-4. 第三方工具
-    
-    如 `github.com/pkg/profile`，可以帮助更容易地进行内存和CPU分析。

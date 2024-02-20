@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 240｜二月二十日周二
+
+- [OLTP v.s. OLAP](2023/08/oltp-versus-olap.md) (revise)
+- [内存泄露排查](2023/07/memory-analysis.md) (update)
+
+Starting from today, cease streak recording.
+
 Day 239｜二月十六日周五
 
 - [内存泄露排查](2023/07/memory-analysis.md) (update)
