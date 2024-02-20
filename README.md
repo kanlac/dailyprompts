@@ -4,6 +4,8 @@ Day 240｜二月二十日周二
 
 - [OLTP v.s. OLAP](2023/08/oltp-versus-olap.md) (revise)
 - [内存泄露排查](2023/07/memory-analysis.md) (update)
+- [Debug: HTTPS 跳转](2023/12/debug-https-redirect.md) (revise)
+- [跨域问题](2023/11/cross-origin.md) (revise)
 
 Starting from today, cease streak recording.
 
@@ -11,7 +13,7 @@ Day 239｜二月十六日周五
 
 - [内存泄露排查](2023/07/memory-analysis.md) (update)
 - [文件权限 File Mode](2023/06/file-mode.md) (revise)
-- [Debug: HTTPS 跳转](2023/12/debug-https-redirect.md)
+- [Debug: HTTPS 跳转](2023/12/debug-https-redirect.md) (revise)
 
 streaks: 1 day
 
@@ -74,7 +76,7 @@ Day 229｜十二月二十八日周四
 
 Day 228｜十二月二十七日周三
 
-- [Debug: HTTPS 跳转](2023/12/debug-https-redirect.md)
+- [Debug: HTTPS 跳转](2023/12/debug-https-redirect.md) (revise)
 - [ENTRYPOINT v.s. CMD](2023/08/entrypoint-versus-cmd.md) (revise)
 - [A Bash Debug: Disable SELinux](2023/09/bash-debug-disable-selinux.md) (revise)
 - [发布工程 Release Engineering](2023/06/release-engineering.md) (revise)
