@@ -6,6 +6,7 @@ Day 240｜二月二十日周二
 - [内存泄露排查](2023/07/memory-analysis.md) (update)
 - [Debug: HTTPS 跳转](2023/12/debug-https-redirect.md) (revise)
 - [跨域问题](2023/11/cross-origin.md) (revise)
+- [Debug: HTTP 请求高延时](2023/11/http-latency.md) (revise)
 
 Starting from today, cease streak recording.
 
