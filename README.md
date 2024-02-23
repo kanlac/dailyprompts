@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 241｜二月二十三日周五
+
+- [上下文切换](2023/07/context-switching.md) (revise)
+- [dockerd 访问权限](2023/07/dockerd-permission.md) (revise)
+
 Day 240｜二月二十日周二
 
 - [OLTP v.s. OLAP](2023/08/oltp-versus-olap.md) (revise)
