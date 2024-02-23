@@ -4,6 +4,7 @@ Day 241｜二月二十三日周五
 
 - [上下文切换](2023/07/context-switching.md) (revise)
 - [dockerd 访问权限](2023/07/dockerd-permission.md) (revise)
+- [gRPC](2023/07/grpc.md) (revise)
 
 Day 240｜二月二十日周二
 
