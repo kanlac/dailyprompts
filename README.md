@@ -2,6 +2,7 @@
 
 Day 241｜二月二十三日周五
 
+- [跨网络的服务发现](2023/07/access-independently-deployed-services.md) (update)
 - [上下文切换](2023/07/context-switching.md) (revise)
 - [dockerd 访问权限](2023/07/dockerd-permission.md) (revise)
 - [gRPC](2023/07/grpc.md) (revise)
@@ -296,7 +297,7 @@ Day 195｜十一月九日周四
 
 Day 194｜十一月八日周三
 
-- [配置访问独立部署的服务](2023/07/access-independently-deployed-services.md) (revise)
+- [跨网络的服务发现](2023/07/access-independently-deployed-services.md) (revise)
 - [如何实现 Go 程序的优雅退出](2023/02/gracefully-shutdown.md) (revise)
 
 Day 193｜十一月七日周二
@@ -651,7 +652,7 @@ Day 137｜九月八日周五
 Day 136｜九月七日周四
 
 - [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md)
-- [配置访问独立部署的服务](2023/07/access-independently-deployed-services.md) (update)
+- [跨网络的服务发现](2023/07/access-independently-deployed-services.md) (update)
 - [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md) (revise)
 - [Go 垃圾回收](2023/07/go-gc.md) (revise)
 
@@ -814,7 +815,7 @@ Day 109｜八月八日周二
 Day 108｜八月七日周一
 - [部署方案](2023/07/deploy-solutions.md) (revise)
 - [gRPC](2023/07/grpc.md) (revise)
-- [配置访问独立部署的服务](2023/07/access-independently-deployed-services.md) (revise)
+- [跨网络的服务发现](2023/07/access-independently-deployed-services.md) (revise)
 - [Go Context 上下文](2023/07/go-context.md) (revise)
 - [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md) (revise)
 - [init 进程](2023/07/init-process.md) (revise)
@@ -862,7 +863,7 @@ Day 101｜七月二十八日周五
 
 Day 100｜七月二十七日周四
 - [init 进程](2023/07/init-process.md)
-- [配置访问独立部署的服务](2023/07/access-independently-deployed-services.md) (update)
+- [跨网络的服务发现](2023/07/access-independently-deployed-services.md) (update)
 - [性能问题的本质](2023/06/the-nature-of-peformance-problem.md) (revise)
 
 Day 99｜七月二十六日周三
@@ -881,7 +882,7 @@ Day 98｜七月二十五日周二
 
 Day 97｜七月二十四日周一
 - [gRPC](2023/07/grpc.md) (update)
-- [配置访问独立部署的服务](2023/07/access-independently-deployed-services.md) (revise)
+- [跨网络的服务发现](2023/07/access-independently-deployed-services.md) (revise)
 
 Day 96｜七月二十三日周日
 - [GMP 模型](2023/07/gmp-model.md) (revise)
@@ -903,7 +904,7 @@ Day 93｜七月二十日周四
 - [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md)
 
 Day 92｜七月十九日周三
-- [配置访问独立部署的服务](2023/07/access-independently-deployed-services.md)
+- [跨网络的服务发现](2023/07/access-independently-deployed-services.md)
 - [部署方案](2023/07/deploy-solutions.md) (revise)
 - [如何实现一个哈希表？](2023/05/implementing-hash-table.md) (revise)
 
