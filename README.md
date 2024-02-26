@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 242｜二月二十四日周六
+
+- [内存泄露排查](2023/07/memory-analysis.md) (revise)
+- [内存模型](2023/06/memory-model.md) (revise)
+
 Day 241｜二月二十三日周五
 
 - [跨网络的服务发现](2023/07/access-independently-deployed-services.md) (update)
