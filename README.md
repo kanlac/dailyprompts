@@ -2,6 +2,7 @@
 
 Day 242｜二月二十四日周六
 
+- [查看系统报告](2023/06/system-report.md) (update)
 - [内存泄露排查](2023/07/memory-analysis.md) (revise)
 - [内存模型](2023/06/memory-model.md) (revise)
 - [计算文件大小](2023/09/calculate-file-size.md) (revise)
