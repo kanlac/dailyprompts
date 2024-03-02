@@ -1,10 +1,18 @@
 # Erfolgs-Journal
 
-Day 242｜二月二十四日周六
+Day 243｜三月二日周六
 
 - [grep, sed, awk](2023/09/grep-sed-awk.md) (update)
 - [网络调试](2023/06/network-debugging.md) (revise)
 - [Filesystem Hierarchy Standard (FHS)](2023/07/fhs.md) (revise)
+
+Day 242｜二月二十四日周六
+
+- [查看系统报告](2023/06/system-report.md) (update)
+- [内存泄露排查](2023/07/memory-analysis.md) (revise)
+- [内存模型](2023/06/memory-model.md) (revise)
+- [计算文件大小](2023/09/calculate-file-size.md) (revise)
+- [init 进程](2023/07/init-process.md) (revise)
 
 Day 241｜二月二十三日周五
 
