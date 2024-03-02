@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 242｜二月二十四日周六
+
+- [grep, sed, awk](2023/09/grep-sed-awk.md) (update)
+- [网络调试](2023/06/network-debugging.md) (revise)
+- [Filesystem Hierarchy Standard (FHS)](2023/07/fhs.md) (revise)
+
 Day 241｜二月二十三日周五
 
 - [跨网络的服务发现](2023/07/access-independently-deployed-services.md) (update)
