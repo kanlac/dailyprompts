@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 244｜三月七日周四
+
+- [套接字原理](2023/06/how-sockets-work.md) (revise)
+- [Shell General](2023/11/shell-general.md) (revise)
+
 Day 243｜三月二日周六
 
 - [grep, sed, awk](2023/09/grep-sed-awk.md) (update)
