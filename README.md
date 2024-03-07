@@ -4,6 +4,7 @@ Day 244｜三月七日周四
 
 - [套接字原理](2023/06/how-sockets-work.md) (revise)
 - [Shell General](2023/11/shell-general.md) (revise)
+- [如何做好 Go 的内存管理？](2023/06/how-to-manage-memory-usage-in-go.md) (revise)
 
 Day 243｜三月二日周六
 
