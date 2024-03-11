@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 245｜三月八日周五
+
+- [seccomp](2023/10/seccomp.md) (revise)
+- [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md) (revise)
+
 Day 244｜三月七日周四
 
 - [一致性哈希](2024/03/consistent-hashing.md)
