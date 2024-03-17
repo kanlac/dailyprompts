@@ -5,6 +5,7 @@ Day 246｜三月十七日周日
 - [基于客户端 IP 的流量转发](2024/03/client-ip-hashing.md)
 - [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/)
 - [Ingress 四层端口开启方法](2024/03/4-layer-port-forward-through-ingress.md)
+- [Debug: HTTPS 跳转](2023/12/debug-https-redirect.md) (revise)
 
 Day 245｜三月八日周五
 
