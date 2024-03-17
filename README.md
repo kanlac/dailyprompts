@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 246｜三月十七日周日
+
+- [基于客户端 IP 的流量转发](2024/03/client-ip-hashing.md)
+
 Day 245｜三月八日周五
 
 - [seccomp](2023/10/seccomp.md) (revise)
