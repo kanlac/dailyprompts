@@ -2,6 +2,7 @@
 
 Day 247｜三月二十七日周三
 
+- [计算文件大小](2023/09/calculate-file-size.md) (revise)
 - [io.Reader v.s. bufio.Reader](2023/08/io-reader-vs-bufio-reader.md) (revise)
 - [基于客户端 IP 的流量转发](2024/03/client-ip-hashing.md) (revise)
 
