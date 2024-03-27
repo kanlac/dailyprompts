@@ -2,9 +2,11 @@
 
 Day 247｜三月二十七日周三
 
+- [IP 地址段配置/冲突解决](2023/06/ip-address-pool-conflict-resolve.md) (revise)
 - [计算文件大小](2023/09/calculate-file-size.md) (revise)
 - [io.Reader v.s. bufio.Reader](2023/08/io-reader-vs-bufio-reader.md) (revise)
 - [基于客户端 IP 的流量转发](2024/03/client-ip-hashing.md) (revise)
+- [码位与字节](2024/01/rune-vesus-byte.md) (revise)
 
 Day 246｜三月十七日周日
 
