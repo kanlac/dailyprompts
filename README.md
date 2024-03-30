@@ -3,6 +3,7 @@
 Day 248｜三月三十日周四
 
 - [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (update)
+- [解释一段连续时间聚合的 PostgreSQL](2023/10/time-aggregate-sql.md) (update)
 
 Day 247｜三月二十七日周三
 
