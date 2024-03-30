@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 248｜三月三十日周四
+
+- [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (update)
+
 Day 247｜三月二十七日周三
 
 - [IP 地址段配置/冲突解决](2023/06/ip-address-pool-conflict-resolve.md) (revise)
