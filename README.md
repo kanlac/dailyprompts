@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 249｜四月一日周一
+
+- [分治法](2023/11/divide-and-conquer.md) (revise)
+- [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (update)
+
 Day 248｜三月三十日周四
 
 - [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (update)
