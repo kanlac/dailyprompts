@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 250｜四月三日周三
+
+- [用户登录/身份验证/授权](2023/05/authentication.md) (update)
+- [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md) (revise)
+- [scratch 镜像](2023/07/scratch-image.md) (revise)
+
 Day 249｜四月一日周一
 
 - [分治法](2023/11/divide-and-conquer.md) (revise)
