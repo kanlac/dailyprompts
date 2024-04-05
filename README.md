@@ -2,6 +2,7 @@
 
 Day 251｜四月五日周四
 
+- [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (update)
 - [快速排序](2024/04/quick-sort.md)
 
 Day 250｜四月三日周三
