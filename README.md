@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 251｜四月五日周四
+
+- [快速排序](2024/04/quick-sort.md)
+
 Day 250｜四月三日周三
 
 - [用户登录/身份验证/授权](2023/05/authentication.md) (update)
