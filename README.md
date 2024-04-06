@@ -6,6 +6,7 @@ Day 252｜四月六日周五
 - [数据库横向比较](2023/06/database-systems.md) (revise)
 - [数据存储方案](2023/06/data-storage-schemes.md) (revise)
 - [zerobase 内存地址](2023/09/zerobase.md) (revise)
+- [Go 垃圾回收](2023/07/go-gc.md) (revise)
 
 Day 251｜四月五日周四
 
