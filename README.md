@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 252｜四月六日周五
+
+- [容器网络内部的通信](2023/05/communication-inside-container-network.md) (revise)
+- [数据库横向比较](2023/06/database-systems.md) (revise)
+
 Day 251｜四月五日周四
 
 - [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (update)
