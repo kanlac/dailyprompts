@@ -103,33 +103,35 @@ func TestBuildTree(t *testing.T) {
 
 ```go
 func BuildTree(list []ListNode) *TreeNode {
- if len(list) == 0 {
-  return nil
- }
+	l := len(list)
+	if l < 1 {
+		return nil
+	}
 
- root := &TreeNode{
-  id:       list[0].id,
-  val:      list[0].val,
-  children: make([]*TreeNode, 0),
- }
- treeNodeMap := make(map[int]*TreeNode)
- treeNodeMap[root.id] = root
+	root := &TreeNode{
+		id:  list[0].id,
+		val: list[0].val,
+	}
+	
+	m := make(map[int]*TreeNode)
+	m[root.id] = root
 
- l := len(list)
- for i := 1; i < l; i++ {
-  pID := list[i].parentID
-  if _, ok := treeNodeMap[pID]; !ok {
-   continue
-  }
-  tn := &TreeNode{
-   id:       list[i].id,
-   val:      list[i].val,
-   children: make([]*TreeNode, 0),
-  }
-  treeNodeMap[pID].children = append(treeNodeMap[pID].children, tn)
-  treeNodeMap[list[i].id] = tn
- }
+	for i := 1; i < l; i++ {
+		tn := &TreeNode{
+			id:  list[i].id,
+			val: list[i].val,
+		}
+		m[list[i].id] = tn
 
- return root
+		if list[i].parentID > 0 { // 认为 id 一定大于 0
+			parent := m[list[i].parentID]
+			if parent.children == nil {
+				parent.children = make([]*TreeNode, 0)
+			}
+			parent.children = append(parent.children, tn)
+		}
+	}
+
+	return root
 }
 ```
