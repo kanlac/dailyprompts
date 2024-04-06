@@ -4,6 +4,8 @@ Day 252｜四月六日周五
 
 - [容器网络内部的通信](2023/05/communication-inside-container-network.md) (revise)
 - [数据库横向比较](2023/06/database-systems.md) (revise)
+- [数据存储方案](2023/06/data-storage-schemes.md) (revise)
+- [zerobase 内存地址](2023/09/zerobase.md) (revise)
 
 Day 251｜四月五日周四
 
