@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 254｜四月八日周一
+
+- [如何减少镜像大小](2023/11/reduce-image-size.md) (revise)
+- [SQL 优化技巧](2023/09/sql-optimazation.md) (revise)
+
 Day 253｜四月七日周日
 
 - [列表转树](2023/06/list-to-tree.md) (update)
