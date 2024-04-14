@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 255｜四月十四日周日
+
+- [排序算法](2023/11/sort-algorithm.md) (update)
+
 Day 254｜四月八日周一
 
 - [如何减少镜像大小](2023/11/reduce-image-size.md) (revise)
