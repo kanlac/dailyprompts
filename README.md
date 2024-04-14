@@ -3,6 +3,7 @@
 Day 255｜四月十四日周日
 
 - [排序算法](2023/11/sort-algorithm.md) (update)
+- [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (update)
 
 Day 254｜四月八日周一
 
