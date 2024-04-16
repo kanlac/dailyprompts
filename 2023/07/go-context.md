@@ -8,6 +8,16 @@
 2. 设想一个 goroutine 树，要直接取消整个树是很简单的，但如果要取消一个子树，你还需要定义一个新的 cancel channel
 
 随后 `context` 包的出现，解决了这两个问题，尽管它存在问题，但目前仍是最好的方案。
+
+## 从源码层面解读上下文的实现原理
+
+1. WithCancel(), WithDeadline(), WithTimeout(), WithValue()
+2. `Context` 接口：`Done()` 获取终止信号 channel，`Err()` 获取错误，比如取消或超时
+3. `cancelCtx` 包含 `Context` 接口
+    - `children map[canceler]struct{}` - 存储 cancelCtx
+    - `done atomic.Value` - 懒汉式创建的 `chan struct{}`，调用 Done() 时返回该值
+4. `timerCtx`，包含 `cancelCtx`，`deadline time.Time`
+5. `valueCtx`, 包含 `Context` 接口，`key, val any`
     
 ## 为什么说给 `io.Reader` 加上上下文不是一个好提议？
 
