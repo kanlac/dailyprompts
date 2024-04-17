@@ -18,6 +18,10 @@
     - `done atomic.Value` - 懒汉式创建的 `chan struct{}`，调用 Done() 时返回该值
 4. `timerCtx`，包含 `cancelCtx`，`deadline time.Time`
 5. `valueCtx`, 包含 `Context` 接口，`key, val any`
+
+## ctx.Done() 可以监听多次吗？
+    
+可以，因为 cancel 之后 done channel 就关闭了，而读取关闭的 channel 不会阻塞，会获取到零值
     
 ## 为什么说给 `io.Reader` 加上上下文不是一个好提议？
 
@@ -34,3 +38,6 @@
 一）有请求转发，并且转发后的连接不会随着前面的连接关闭而关闭，这样就造成服务端感知不到连接关闭了。
 
 二）没有读完 Body，或者没有 close body 的情况下，即使连接关闭也不会 cancel，这个比较坑，是 Go 实现的一个问题，17 年的 issue 一直悬而未决 https://github.com/golang/go/issues/23262
+
+三）升级成 WebSocket 后，http.Request 中的上下文也不会取消，可以创建一个上下文并在用 ws conn 读取消息失败后 cancel
+
