@@ -4,6 +4,7 @@ Day 258｜四月十八日周四
 
 - [Go Context 上下文](2023/07/go-context.md) (update)
 - [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (update)
+- [Golang 如何做错误处理](2023/03/error-handling.md) (revise)
 
 Day 257｜四月十七日周三
 
