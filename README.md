@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 259｜四月十九日周五
+
+- [LeetCode 139. Word Break](2024/04/word-break.md)
+
 Day 258｜四月十八日周四
 
 - [Go Context 上下文](2023/07/go-context.md) (update)
