@@ -3,6 +3,7 @@
 Day 260｜四月二十日周六
 
 - [K8S 服务发现](2024/04/k8s-service-discovery.md)
+- [Linux Process Management 进程管理](2023/06/process-management.md) (update)
 - [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/) (revise)
 
 Day 259｜四月十九日周五

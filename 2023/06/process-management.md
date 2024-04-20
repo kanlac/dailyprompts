@@ -7,6 +7,7 @@
 - 如何查看进程的启动时间？
 - top 中的 load average 是什么含义？
 - top 中的 VIRT 和 RES 是什么？
+- 如何监控进程的内存占用？
 
 ## A
 
@@ -65,3 +66,11 @@ VIRT, RES:
 2. **RES**：驻留在物理内存中的大小。它指的是进程使用的**实际物理内存**（RAM），也被称为 Resident Set Size (RSS 驻留集大小)。这部分内存没有被交换到磁盘，一直在 RAM 中
 
 它们都以 KiB (Kilobytes) 为单位。
+
+监控进程资源：
+
+```bash
+# 监控进程的内存占用
+watch -d 'ps -aux|grep memorycons|grep -v grep'
+# -d: highlight changes
+```
