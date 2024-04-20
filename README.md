@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 260｜四月二十日周六
+
+- [K8S 服务发现](2024/04/k8s-service-discovery.md)
+
 Day 259｜四月十九日周五
 
 - [LeetCode 139. Word Break](2024/04/word-break.md)
