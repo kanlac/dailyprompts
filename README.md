@@ -5,6 +5,7 @@ Day 261｜四月二十一日周日
 - [找到二叉树的左侧兄弟节点](2023/07/find-left-relative-of-tree-nodes.md) (updated)
 - [排序算法](2023/11/sort-algorithm.md) (revise)
 - [列表转树](2023/06/list-to-tree.md) (revise)
+- [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (revise)
 
 Day 260｜四月二十日周六
 
