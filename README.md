@@ -3,6 +3,7 @@
 Day 261｜四月二十一日周日
 
 - [排序算法](2023/11/sort-algorithm.md) (revise)
+- [列表转树](2023/06/list-to-tree.md) (revise)
 
 Day 260｜四月二十日周六
 
