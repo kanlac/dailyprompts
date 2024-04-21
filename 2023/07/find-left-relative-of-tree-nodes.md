@@ -3,8 +3,6 @@
 ```go
 package main
 
-import "fmt"
-
 type TreeNode struct {
 	Val        int
 	LeftChild  *TreeNode
@@ -13,50 +11,35 @@ type TreeNode struct {
 	Cousin *TreeNode
 }
 
-type BFSNode struct {
-	node  *TreeNode
-	depth int
+type leveledNode struct {
+	tn    *TreeNode
+	level int
 }
 
 func BuildTree(root *TreeNode) *TreeNode {
 	if root == nil {
 		return root
 	}
-
-	queue := []*BFSNode{{node: root, depth: 0}}
-	lastNode := &BFSNode{depth: -1}
-
+	
+	queue := []leveledNode{{tn: root, level: 0}}
+	var lastPoped leveledNode
 	for len(queue) > 0 {
-		head := queue[0]
-		dep := head.depth
+		pop := queue[0]
 		queue = queue[1:]
 
-		if head.node.LeftChild != nil {
-			queue = append(queue, &BFSNode{node: head.node.LeftChild, depth: dep + 1})
-		}
-		if head.node.RightChild != nil {
-			queue = append(queue, &BFSNode{node: head.node.RightChild, depth: dep + 1})
+		if lastPoped.tn != nil && lastPoped.level == pop.level {
+			pop.tn.Cousin = lastPoped.tn
 		}
 
-		if lastNode.depth == dep {
-			head.node.Cousin = lastNode.node
+		if pop.tn.LeftChild != nil {
+			queue = append(queue, leveledNode{tn: pop.tn.LeftChild, level: pop.level + 1})
 		}
-		lastNode = head
+		if pop.tn.RightChild != nil {
+			queue = append(queue, leveledNode{tn: pop.tn.RightChild, level: pop.level + 1})
+		}
+
+		lastPoped = pop
 	}
-
 	return root
 }
-
-func main() {
-	four := &TreeNode{Val: 4}
-	five := &TreeNode{Val: 5}
-	six := &TreeNode{Val: 6}
-	two := &TreeNode{Val: 2, RightChild: four}
-	three := &TreeNode{Val: 3, LeftChild: five, RightChild: six}
-	one := &TreeNode{Val: 1, LeftChild: two, RightChild: three}
-	r := BuildTree(one)
-	fmt.Println(r)
-}
-
-
 ```
