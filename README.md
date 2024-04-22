@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 262｜四月二十二日周一
+
+- [配置管理实践](2024/04/config-center.md)
+
 Day 261｜四月二十一日周日
 
 - [找到二叉树的左侧兄弟节点](2023/07/find-left-relative-of-tree-nodes.md) (updated)
