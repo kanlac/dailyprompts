@@ -2,6 +2,7 @@
 
 Day 263｜四月二十三日周二
 
+- [最大子数组的和](2024/04/max-subarray.md)
 - [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
 
 Day 262｜四月二十二日周一
