@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 264｜四月二十五日周四
+
+- [合并区间](https://leetcode.com/problems/merge-intervals/description/)
+- [分词](2024/04/word-break.md) (revise)
+
 Day 263｜四月二十三日周二
 
 - [最大子数组的和](2024/04/max-subarray.md)
