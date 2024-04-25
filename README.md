@@ -3,7 +3,9 @@
 Day 264｜四月二十五日周四
 
 - [合并区间](https://leetcode.com/problems/merge-intervals/description/)
+- [校验括号](https://leetcode.com/problems/valid-parentheses/submissions/1241248986/)
 - [分词](2024/04/word-break.md) (revise)
+- [旋转字符串](https://leetcode.com/problems/rotate-string/description/) (revise)
 
 Day 263｜四月二十三日周二
 
