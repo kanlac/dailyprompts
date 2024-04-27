@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 265｜四月二十八日周日
+
+- [最近公共祖先](2024/04/lowest-common-ancestor.md)
+
 Day 264｜四月二十五日周四
 
 - [合并区间](https://leetcode.com/problems/merge-intervals/description/)
