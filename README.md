@@ -5,6 +5,8 @@ Day 265｜四月二十八日周日
 - [最近公共祖先](2024/04/lowest-common-ancestor.md)
 - [快速排序](2024/04/quick-sort.md) (revise)
 - [分词](2024/04/word-break.md) (revise)
+- [如何做好 Go 的内存管理？](2023/06/how-to-manage-memory-usage-in-go.md) (revise)
+- [Go 的栈空间管理](2023/08/golang-stack-memory-management.md) (revise)
 
 Day 264｜四月二十五日周四
 
