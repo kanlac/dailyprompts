@@ -3,6 +3,8 @@
 Day 265｜四月二十八日周日
 
 - [最近公共祖先](2024/04/lowest-common-ancestor.md)
+- [快速排序](2024/04/quick-sort.md) (revise)
+- [分词](2024/04/word-break.md) (revise)
 
 Day 264｜四月二十五日周四
 
