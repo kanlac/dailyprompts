@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 266｜五月二日周四
+
+- [二叉树的堂兄弟节点](2024/05/cousins-in-binary-tree.md)
+
 Day 265｜四月二十八日周日
 
 - [最近公共祖先](2024/04/lowest-common-ancestor.md)
