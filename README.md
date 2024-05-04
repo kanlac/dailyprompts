@@ -1,5 +1,13 @@
 # Erfolgs-Journal
 
+Day 267｜五月四日周六
+
+- [容器核心技术](2024/05/container-essentials.md)
+- [切片与数组](2023/09/slices.md) (update)
+- [Go 的内存逃逸](2023/06/go-memory-escape.md) (revise)
+- [全表扫描 Full Table Scan](2023/08/full-table-scan.md) (revise)
+- [如何实现 Go 程序的优雅退出](2023/02/gracefully-shutdown.md) (revise)
+
 Day 266｜五月二日周四
 
 - [二叉树的堂兄弟节点](2024/05/cousins-in-binary-tree.md)
