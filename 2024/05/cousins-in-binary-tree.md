@@ -93,51 +93,33 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-type LeveledNode struct {
-	tn     *TreeNode
-	father int
-	level  int
-}
-
 func isCousins(root *TreeNode, x int, y int) bool {
 	var (
-		xNode *LeveledNode
-		yNode *LeveledNode
+		// 找到的第一个节点的父亲和深度
+		fatherOfFirstOccurrence = -1
+		levelOfFirstOccurrence  = -1
+		dfs                     func(*TreeNode, int, int) bool
 	)
 
-	markTarget := func(node *TreeNode, father, level int) {
-		if node.Val == x {
-			xNode = &LeveledNode{
-				tn:     node,
-				father: father,
-				level:  level,
-			}
-		}
-		if node.Val == y {
-			yNode = &LeveledNode{
-				tn:     node,
-				father: father,
-				level:  level,
-			}
-		}
-	}
-
-	var addChild func(*TreeNode, int, int) bool
-	addChild = func(child *TreeNode, father, level int) bool {
-		if xNode != nil && yNode != nil {
-			return xNode.level == yNode.level && xNode.father != yNode.father
-		}
-
-		if child == nil {
+	// 若 match，且找到了第一个，直接返回结果
+	// 若 match，且未找到第一个，标记并继续 dfs
+	// 若当前节点 not match，继续 dfs
+	dfs = func(node *TreeNode, fatherOfThis, levelOfThis int) bool {
+		if node == nil {
 			return false
 		}
-		markTarget(child, father, level)
-		return addChild(child.Left, child.Val, level+1) || addChild(child.Right, child.Val, level+1)
+
+		if node.Val == x || node.Val == y {
+			if fatherOfFirstOccurrence >= 0 {
+				return fatherOfThis != fatherOfFirstOccurrence && levelOfThis == levelOfFirstOccurrence
+			}
+			fatherOfFirstOccurrence = fatherOfThis
+			levelOfFirstOccurrence = levelOfThis
+		}
+		return dfs(node.Left, node.Val, levelOfThis+1) || dfs(node.Right, node.Val, levelOfThis+1)
 	}
 
-	markTarget(root, -1, 0)
-
-	return addChild(root.Left, root.Val, 1) || addChild(root.Right, root.Val, 1)
-
+	return dfs(root, -1, 0)
 }
+
 ```
