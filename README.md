@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 268｜五月七日周二
+
+- [插入排序](2024/05/insertion-sort.md)
+- [将有序数组转换为二叉搜索树](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
+- [三数之和](2024/05/3sum.md) (revise)
+
 Day 267｜五月四日周六
 
 - [容器核心技术](2024/05/container-essentials.md)
