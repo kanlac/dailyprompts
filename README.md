@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 269｜五月九日周四
+
+- [CIDR 无类别域间路由](2024/05/cidr.md)
+- [性能问题的本质](2023/06/the-nature-of-peformance-problem.md) (revise)
+
 Day 268｜五月七日周二
 
 - [插入排序](2024/05/insertion-sort.md)
