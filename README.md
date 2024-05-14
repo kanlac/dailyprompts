@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 271｜五月十四日周二
+
+- [分词](2024/04/word-break.md) (revise)
+- [插入排序](2024/05/insertion-sort.md) (revise)
+
 Day 270｜五月十一日周六
 
 - [汉明重量](2024/05/number-of-1-bits.md)
