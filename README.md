@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+Day 270｜五月十一日周六
+
+- [汉明重量](2024/05/number-of-1-bits.md)
+- [合并区间](https://leetcode.com/problems/merge-intervals/description/) (revise)
+- [二叉树的堂兄弟节点](2024/05/cousins-in-binary-tree.md) (revise)
+- [三数之和](2024/05/3sum.md) (revise)
+
 Day 269｜五月九日周四
 
 - [CIDR 无类别域间路由](2024/05/cidr.md)
