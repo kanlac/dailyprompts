@@ -5,6 +5,10 @@ Day 272｜五月十九日周日
 - [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/description/)
 - [快速排序](2024/04/quick-sort.md) (revise)
 - [最近公共祖先](2024/04/lowest-common-ancestor.md) (revise)
+- [一致性哈希](2024/03/consistent-hashing.md) (revise)
+- [K8S RBAC](2024/05/k8s-rbac.md)
+- [公私钥密码学](2024/05/cryptography.md)
+- [Docker 分配伪终端](2023/08/docker-tty.md) (revise)
 
 Day 271｜五月十四日周二
 
