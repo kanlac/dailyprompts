@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 273｜五月二十一日周二
+
+- [从中序与后序遍历序列构造二叉树](2024/05/construct-binary-tree-from-inorder-and-postorder-traversal.md)
+- [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/description/) (revise)
+
 Day 272｜五月十九日周日
 
 - [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/description/)
