@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 274｜五月二十三日周四
+
+- [最大子数组的和](2024/04/max-subarray.md) (update)
+- [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
+- [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/description/) (revise)
+
 Day 273｜五月二十一日周二
 
 - [从中序与后序遍历序列构造二叉树](2024/05/construct-binary-tree-from-inorder-and-postorder-traversal.md)
