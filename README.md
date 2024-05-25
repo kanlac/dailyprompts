@@ -5,6 +5,8 @@ Day 275｜五月二十五日周六
 - [并发限制 (ulimit)](2023/03/concurrent-limitations.md) (update)
 - [Debug: Docker 磁盘占用](2023/12/debug-docker-usage.md) (revise)
 - [数据库锁](2023/08/database-lock.md) (revise)
+- [最长回文](https://leetcode.com/problems/longest-palindrome/description/)
+- [三数之和](2024/05/3sum.md) (revise)
 
 Day 274｜五月二十三日周四
 
