@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 276｜五月二十七日周一
+
+- [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/description/) (revise)
+- [最长回文](https://leetcode.com/problems/longest-palindrome/description/) (revise)
+
 Day 275｜五月二十五日周六
 
 - [并发限制 (ulimit)](2023/03/concurrent-limitations.md) (update)
