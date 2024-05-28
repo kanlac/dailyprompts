@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 277｜五月二十八日周二
+
+- [Sidecar](2024/05/sidecar.md)
+
 Day 276｜五月二十七日周一
 
 - [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/description/) (revise)
