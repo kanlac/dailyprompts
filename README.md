@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 278｜五月二十九日周三
+
+- [SQL 优化技巧](2023/09/sql-optimazation.md) (revise)
+- [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/) (revise)
+
 Day 277｜五月二十八日周二
 
 - [Sidecar](2024/05/sidecar.md)
