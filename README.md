@@ -5,6 +5,7 @@ Day 279｜五月三十日周四
 - [跳跃游戏](https://leetcode.cn/problems/jump-game/description/)
 - [分词](2024/04/word-break.md) (revise)
 - [Nginx 网关转发配置](2024/05/nginx-gateway-forward.md)
+- [Go Context 上下文之使用](2023/07/go-context-usage.md) (update)
 
 Day 278｜五月二十九日周三
 
@@ -130,7 +131,7 @@ Day 259｜四月十九日周五
 
 Day 258｜四月十八日周四
 
-- [Go Context 上下文](2023/07/go-context.md) (update)
+- [Go Context 上下文之使用](2023/07/go-context-usage.md) (update)
 - [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (update)
 - [Golang 如何做错误处理](2023/03/error-handling.md) (revise)
 - [部署方案](2023/07/deploy-solutions.md) (revise)
@@ -141,7 +142,7 @@ Day 257｜四月十七日周三
 
 Day 256｜四月十六日周二
 
-- [Go Context 上下文](2023/07/go-context.md) (update)
+- [Go Context 上下文之使用](2023/07/go-context-usage.md) (update)
 - [Docker 有哪几种主要的容器网络模式？默认是哪种？](2023/04/container-network.md) (revise)
 
 Day 255｜四月十四日周日
@@ -589,7 +590,7 @@ Day 184｜十月二十九日周日
 - [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (revise)
 - [Go 中字符串的拼接方式有哪些？各自效率如何？](2023/02/string-joining-in-go.md) (revise)
 - [调用 GitLab API](2023/06/invoke-gitlab-api.md) (revise)
-- [Go Context 上下文](2023/07/go-context.md) (revise)
+- [Go Context 上下文之使用](2023/07/go-context-usage.md) (revise)
 - [内存泄露排查](2023/07/memory-analysis.md) (revise)
 
 Day 183｜十月二十八日周六
@@ -675,7 +676,7 @@ streaks: 9 days
 Day 170｜十月十四日周六
 
 - [分治法](2023/11/divide-and-conquer.md)
-- [Go Context 上下文](2023/07/go-context.md) (updated)
+- [Go Context 上下文之使用](2023/07/go-context-usage.md) (updated)
 - [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (revise)
 
 Day 169｜十月十三日周五
@@ -789,7 +790,7 @@ Day 152｜九月二十三日周六
 
 - [Go 垃圾回收](2023/07/go-gc.md) (revise)
 - [内存模型](2023/06/memory-model.md) (revise)
-- [HTTP 请求关闭时 Go 服务端的上下文是否会取消？有什么特例？](2023/07/go-context.md) (revise)
+- [HTTP 请求关闭时 Go 服务端的上下文是否会取消？有什么特例？](2023/07/go-context-usage.md) (revise)
 
 Day 151｜九月二十二日周五
 
@@ -824,7 +825,7 @@ Day 146｜九月十七日周日
 
 Day 145｜九月十六日周六
 
-- [HTTP 请求关闭时 Go 服务端的上下文是否会取消？有什么特例？](2023/07/go-context.md)
+- [HTTP 请求关闭时 Go 服务端的上下文是否会取消？有什么特例？](2023/07/go-context-usage.md)
 - [文件的索引节点 inode](2023/06/inode.md) (update)
 - [SQL 优化技巧](2023/09/sql-optimazation.md) (revise)
 - [Go 的栈空间管理](2023/08/golang-stack-memory-management.md) (revise)
@@ -946,7 +947,7 @@ Day 126｜八月二十八日周一
 - [Go 的栈空间管理](2023/08/golang-stack-memory-management.md) (revise)
 - [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md) (revise)
 - [IP 地址段配置/冲突解决](2023/06/ip-address-pool-conflict-resolve.md) (revise)
-- [Go Context 上下文](2023/07/go-context.md) (revise)
+- [Go Context 上下文之使用](2023/07/go-context-usage.md) (revise)
 
 streaks: 14 days
 
@@ -1045,7 +1046,7 @@ Day 108｜八月七日周一
 - [部署方案](2023/07/deploy-solutions.md) (revise)
 - [gRPC](2023/07/grpc.md) (revise)
 - [跨网络的服务发现](2023/07/access-independently-deployed-services.md) (revise)
-- [Go Context 上下文](2023/07/go-context.md) (revise)
+- [Go Context 上下文之使用](2023/07/go-context-usage.md) (revise)
 - [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md) (revise)
 - [init 进程](2023/07/init-process.md) (revise)
 - [查看路由表有哪几种方式？有什么区别？](2023/08/route.md) (revise)
@@ -1078,7 +1079,7 @@ streaks: 1 day
 Day 102｜七月三十日周六
 - [init 进程](2023/07/init-process.md) (updated)
 - [内存泄露排查](2023/07/memory-analysis.md) (revise)
-- [Go Context 上下文](2023/07/go-context.md) (revise)
+- [Go Context 上下文之使用](2023/07/go-context-usage.md) (revise)
 - [dockerd 访问权限](2023/07/dockerd-permission.md) (revise)
 - [主要的套接字类型有哪些？它们的地址格式如何？](2023/07/socket-types.md) (revise)
 - [如何实现一个哈希表？](2023/05/implementing-hash-table.md) (revise)
@@ -1096,7 +1097,7 @@ Day 100｜七月二十七日周四
 - [性能问题的本质](2023/06/the-nature-of-peformance-problem.md) (revise)
 
 Day 99｜七月二十六日周三
-- [Go Context 上下文](2023/07/go-context.md)
+- [Go Context 上下文之使用](2023/07/go-context-usage.md)
 - [离线安装包的依赖](2023/06/offline-dependencies.md) (revise)
 - [scratch 镜像](2023/07/scratch-image.md) (revise)
 - [调用 GitLab API](2023/06/invoke-gitlab-api.md) (revise)
