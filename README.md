@@ -4,6 +4,7 @@ Day 279｜五月三十日周四
 
 - [跳跃游戏](https://leetcode.cn/problems/jump-game/description/)
 - [分词](2024/04/word-break.md) (revise)
+- [Nginx 网关转发配置](2024/05/nginx-gateway-forward.md)
 
 Day 278｜五月二十九日周三
 
