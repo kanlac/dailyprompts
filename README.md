@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 280｜六月二日周日
+
+- [Kubernetes Objects(Resources)](2024/06/kubernetes-objects.md)
+- [Postgres 自动清理](2023/09/postgres-autovacuum.md) (update)
+
 Day 279｜五月三十日周四
 
 - [跳跃游戏](https://leetcode.cn/problems/jump-game/description/)
