@@ -3,6 +3,10 @@
 Day 281｜六月三日周一
 
 - [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/)
+- [合并区间](2024/06/merge-intervals.md) (update)
+- [找到二叉树的左侧兄弟节点](2023/07/find-left-relative-of-tree-nodes.md) (updated)
+- [跳跃游戏](2024/05/jump-game.md) (revise)
+- [列表转树](2023/06/list-to-tree.md) (revise)
 
 Day 280｜六月二日周日
 
@@ -11,7 +15,7 @@ Day 280｜六月二日周日
 
 Day 279｜五月三十日周四
 
-- [跳跃游戏](https://leetcode.cn/problems/jump-game/description/)
+- [跳跃游戏](2024/05/jump-game.md)
 - [分词](2024/04/word-break.md) (revise)
 - [盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/description/)
 - [Nginx 网关转发配置](2024/05/nginx-gateway-forward.md)
@@ -69,7 +73,7 @@ Day 271｜五月十四日周二
 Day 270｜五月十一日周六
 
 - [汉明重量](2024/05/number-of-1-bits.md)
-- [合并区间](https://leetcode.com/problems/merge-intervals/description/) (revise)
+- [合并区间](2024/06/merge-intervals.md) (revise)
 - [二叉树的堂兄弟节点](2024/05/cousins-in-binary-tree.md) (revise)
 - [三数之和](2024/05/3sum.md) (revise)
 
@@ -108,7 +112,7 @@ Day 265｜四月二十八日周日
 
 Day 264｜四月二十五日周四
 
-- [合并区间](https://leetcode.com/problems/merge-intervals/description/)
+- [合并区间](2024/06/merge-intervals.md)
 - [校验括号](https://leetcode.com/problems/valid-parentheses/submissions/1241248986/)
 - [分词](2024/04/word-break.md) (revise)
 - [旋转字符串](https://leetcode.com/problems/rotate-string/description/) (revise)
