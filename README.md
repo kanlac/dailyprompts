@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 281｜六月三日周一
+
+- [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/)
+
 Day 280｜六月二日周日
 
 - [Kubernetes Objects(Resources)](2024/06/kubernetes-objects.md)
