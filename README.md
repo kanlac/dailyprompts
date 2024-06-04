@@ -2,8 +2,10 @@
 
 Day 282｜六月四日周二
 
+- [分布式 ID 生成](2024/06/distributed-id-generation.md)
 - [Kubernetes Objects(Resources)](2024/06/kubernetes-objects.md) (revise)
 - [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/) (revise)
+- [内存泄露排查](2023/07/memory-analysis.md) (revise)
 
 Day 281｜六月三日周一
 
