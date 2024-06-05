@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 283｜六月五日周三
+
+- [DNS 域名解析](2024/06/domain-name-resolve.md)
+
 Day 282｜六月四日周二
 
 - [分布式 ID 生成](2024/06/distributed-id-generation.md)
