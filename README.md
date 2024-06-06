@@ -1,5 +1,13 @@
 # Erfolgs-Journal
 
+Day 284｜六月六日周四
+
+- [只出现一次的数字 II](https://leetcode.cn/problems/single-number-ii/description/)
+- [丢失的数字](https://leetcode.com/problems/missing-number/description/)
+- [插入排序](2024/05/insertion-sort.md) (revise)
+- [分词](2024/04/word-break.md) (revise)
+- [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/description/) (revise)
+
 Day 283｜六月五日周三
 
 - [DNS 域名解析](2024/06/domain-name-resolve.md)
