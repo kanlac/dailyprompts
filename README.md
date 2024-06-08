@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 285｜六月八日周六
+
+- [分布式 ID 生成](2024/06/distributed-id-generation.md) (revise)
+
 Day 284｜六月六日周四
 
 - [只出现一次的数字 II](https://leetcode.cn/problems/single-number-ii/description/)
