@@ -1,5 +1,11 @@
 # Erfolgs-Journal
 
+Day 286｜六月九日周日
+
+- [二叉搜索树中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/description/)
+- [只出现一次的数字 II](https://leetcode.cn/problems/single-number-ii/description/) (revise)
+- [丢失的数字](https://leetcode.com/problems/missing-number/description/) (revise)
+
 Day 285｜六月八日周六
 
 - [分布式 ID 生成](2024/06/distributed-id-generation.md) (revise)
