@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 287｜六月十日周一
+
+- [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/) (revise)
+
 Day 286｜六月九日周日
 
 - [二叉搜索树中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/description/)
