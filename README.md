@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 288｜六月十一日周二
+
+- [容器跨主机网络](2024/06/overlay-network.md) (updated)
+
 Day 287｜六月十日周一
 
 - [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/) (revise)
