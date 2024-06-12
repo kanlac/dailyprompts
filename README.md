@@ -4,6 +4,7 @@ Day 289｜六月十二日周三
 
 - [DNS 域名解析](2024/06/domain-name-resolve.md) (update)
 - [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/) (revise)
+- [Shell General](2023/11/shell-general.md) (revise)
 
 Day 288｜六月十一日周二
 
