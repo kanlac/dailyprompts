@@ -5,7 +5,8 @@ Day 290｜六月十三日周四
 - [跳跃游戏](2024/05/jump-game.md) (revise)
 - [二叉搜索树中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/description/) (revise)
 - [分词](2024/04/word-break.md) (revise)
-- [盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/description/)
+- [盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/description/) (revise)
+- [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
 
 Day 289｜六月十二日周三
 
