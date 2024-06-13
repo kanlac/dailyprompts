@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 290｜六月十三日周四
+
+- [跳跃游戏](2024/05/jump-game.md) (revise)
+- [二叉搜索树中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/description/) (revise)
+
 Day 289｜六月十二日周三
 
 - [DNS 域名解析](2024/06/domain-name-resolve.md) (update)
