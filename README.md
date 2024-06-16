@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 293｜六月十六日周日
+
+- [文件权限 File Mode](2023/06/file-mode.md) (updated)
+
 Day 292｜六月十五日周六
 
 - [四层端口注册服务](2024/05/4-layer-port-registry.md) (revise)
