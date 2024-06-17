@@ -61,33 +61,30 @@ main.go
 ```go
 package main
 
-import "sort"
+import (
+	"fmt"
+	"sort"
+)
 
 func threeSum(nums []int) [][]int {
-	sort.Ints(nums)
-
 	var (
-		ret [][]int
 		l   = len(nums)
+		ret [][]int
 	)
-
-	for i := 0; i < l; i++ {
-		if i > 0 && nums[i-1] == nums[i] {
+	sort.Ints(nums)
+	for i := 0; i < l-2; i++ {
+		if i > 0 && nums[i] == nums[i-1] {
 			continue
 		}
-		for j, k := i+1, l-1; j < l; j++ {
-			if j > i+1 && nums[j-1] == nums[j] {
+		k := l - 1
+		for j := i + 1; j < l-1 && j < k; j++ {
+			if j > i+1 && nums[j] == nums[j-1] {
 				continue
 			}
-			// 剪枝：确定 i, j 后，只用找到第一个 k 即可
-			// 剪枝：在 i 确定时，随着 j 迭代，k 的右边界也跟着向前推进
-			for k > j && nums[k] > -1*(nums[i]+nums[j]) {
+			for k > j+1 && nums[k] > -1*(nums[i]+nums[j]) {
 				k--
 			}
-			if k <= j {
-				break
-			}
-			if nums[k] == -1*(nums[i]+nums[j]) {
+			if nums[i]+nums[j]+nums[k] == 0 {
 				ret = append(ret, []int{nums[i], nums[j], nums[k]})
 			}
 		}
