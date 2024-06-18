@@ -1,5 +1,10 @@
 # Erfolgs-Journal
 
+Day 295｜六月十八日周二
+
+- [数据库锁](2023/08/database-lock.md) (revise)
+- [Debug: HTTPS 跳转](2023/12/debug-https-redirect.md) (revise)
+
 Day 294｜六月十七日周一
 
 - [只出现一次的数字 II](https://leetcode.cn/problems/single-number-ii/description/) (update)
