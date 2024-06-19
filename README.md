@@ -3,6 +3,8 @@
 Day 296｜六月十九日周三
 
 - [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/) (revise)
+- [一致性哈希](2024/03/consistent-hashing.md) (revise)
+- [K8S RBAC](2024/05/k8s-rbac.md) (revise)
 
 Day 295｜六月十八日周二
 
