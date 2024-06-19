@@ -1,5 +1,9 @@
 # Erfolgs-Journal
 
+Day 296｜六月十九日周三
+
+- [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/) (revise)
+
 Day 295｜六月十八日周二
 
 - [数据库锁](2023/08/database-lock.md) (revise)
