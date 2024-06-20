@@ -2,6 +2,7 @@
 
 Day 297｜六月二十日周四
 
+- [iptables-legacy 导致的容器端口不可达](2024/06/iptables-legacy.md)
 - [二叉搜索树中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/description/) (revise)
 
 Day 296｜六月十九日周三
