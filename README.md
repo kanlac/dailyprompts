@@ -4,6 +4,7 @@
 
 Day 298｜六月二十日周五
 
+- [分布式共识](2024/06/distributed-consensus.md)
 - [Go Context 上下文之源码](2024/06/golang-context-source.md)
 - [Debug: 容器无法停止/杀死](2024/06/cannot-kill-container.md)
 - [容器跨主机网络](2024/06/overlay-network.md) (revise)
