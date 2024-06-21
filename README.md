@@ -1,5 +1,14 @@
 # Erfolgs-Journal
 
+## 二〇二四
+
+Day 298｜六月二十日周五
+
+- [排序链表](2024/06/sort-list.md)
+- [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (update)
+- [只出现一次的数字 II](2024/06/single-number-ii.md) (update)
+- [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/description/) (revise)
+
 Day 297｜六月二十日周四
 
 - [iptables-legacy 导致的容器端口不可达](2024/06/iptables-legacy.md)
@@ -393,6 +402,8 @@ Day 232｜一月三日周三
 Day 231｜一月二日周二
 
 - [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (update)
+
+## 二〇二三
 
 Day 230｜十二月二十九日周五
 
@@ -1584,6 +1595,6 @@ Day 3｜二月十一日周六
 Day 2｜二月十日周五
 - [panic, recover and defer](2023/02/panic-recover-and-defer.md)
 
-Day 1｜（二〇二三）二月九日周四
+Day 1｜二月九日周四
 - [流水线模式是 Go 中比较常见的一个并发模式，它在什么情况下使用？请给出代码实现](2023/02/pipeline-pattern.md)
 - [Go 中字符串的拼接方式有哪些？各自效率如何？](2023/02/string-joining-in-go.md)
