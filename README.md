@@ -2,7 +2,14 @@
 
 ## 二〇二四
 
-Day 298｜六月二十日周五
+Day 299｜六月二十七日周四
+
+- [二叉搜索树中第K小的元素](2024/06/kth-smallest-element-in-a-bst.md) (update)
+- [快速排序](2024/04/quick-sort.md) (update)
+- [排序链表](2024/06/sort-list.md) (revise)
+- [丢失的数字](https://leetcode.com/problems/missing-number/description/) (revise)
+
+Day 298｜六月二十一日周五
 
 - [分布式共识](2024/06/distributed-consensus.md)
 - [Go Context 上下文之源码](2024/06/golang-context-source.md)
@@ -17,7 +24,7 @@ Day 298｜六月二十日周五
 Day 297｜六月二十日周四
 
 - [iptables-legacy 导致的容器端口不可达](2024/06/iptables-legacy.md)
-- [二叉搜索树中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/description/) (revise)
+- [二叉搜索树中第K小的元素](2024/06/kth-smallest-element-in-a-bst.md) (revise)
 
 Day 296｜六月十九日周三
 
@@ -53,7 +60,7 @@ Day 291｜六月十四日周五
 Day 290｜六月十三日周四
 
 - [跳跃游戏](2024/05/jump-game.md) (revise)
-- [二叉搜索树中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/description/) (revise)
+- [二叉搜索树中第K小的元素](2024/06/kth-smallest-element-in-a-bst.md) (revise)
 - [分词](2024/04/word-break.md) (revise)
 - [盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/description/) (revise)
 - [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
@@ -75,7 +82,7 @@ Day 287｜六月十日周一
 
 Day 286｜六月九日周日
 
-- [二叉搜索树中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/description/)
+- [二叉搜索树中第K小的元素](2024/06/kth-smallest-element-in-a-bst.md)
 - [只出现一次的数字 II](https://leetcode.cn/problems/single-number-ii/description/) (revise)
 - [丢失的数字](https://leetcode.com/problems/missing-number/description/) (revise)
 - [容器跨主机网络](2024/06/overlay-network.md)
