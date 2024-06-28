@@ -2,7 +2,7 @@
 
 1. `netstat -rn`
 2. `route`
-3. `ip -r` 
+3. `ip route` 或 `ip r` 
 
     
 下面是对 `netstat -rn`、`route` 和 `ip route` 命令之间差异的说明：
