@@ -2,6 +2,12 @@
 
 ## 二〇二四
 
+Day 302｜七月二日周二
+
+- [并发问题](2024/07/concurrency.md)
+- [xargs](2024/07/xargs.md)
+- [分布式共识](2024/06/distributed-consensus.md) (update)
+
 Day 301｜七月一日周一
 
 - [iptables-legacy 导致的容器端口不可达](2024/06/iptables-legacy.md) (revise)
