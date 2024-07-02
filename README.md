@@ -4,6 +4,7 @@
 
 Day 302｜七月二日周二
 
+- [Ingress-Nginx On Bare Metal K8s](2024/07/ingress-nginx-on-bare-metal-k8s.md)
 - [并发问题](2024/07/concurrency.md)
 - [xargs](2024/07/xargs.md)
 - [分布式共识](2024/06/distributed-consensus.md) (update)
