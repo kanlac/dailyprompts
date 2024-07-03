@@ -21,11 +21,11 @@ getent hosts YOUR_DOMAIN
 
 refer [getent](https://www.notion.so/getent-5188ac80016f4313beb70dd625be0b3c?pvs=21) 
 
-## 如何在使用 NetworkManager 的机器上查看当前网络连接所使用的 DNS 服务器
+## 如何查看当前网络连接所使用的 DNS 服务器
 
 `cat /etc/resolv.conf`
 
-或者更全面的：
+或者，如果系统使用 NetworkManager，可以执行：
 
 ```
 # nmcli device show

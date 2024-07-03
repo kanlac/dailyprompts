@@ -2,6 +2,13 @@
 
 ## 二〇二四
 
+Day 303｜七月三日周三
+
+- [并发问题](2024/07/concurrency.md) (update)
+- [DNS 域名解析](2024/06/domain-name-resolve.md) (update)
+- [xargs](2024/07/xargs.md) (revise)
+- [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/) (revise)
+
 Day 302｜七月二日周二
 
 - [Ingress-Nginx On Bare Metal K8s](2024/07/ingress-nginx-on-bare-metal-k8s.md)
