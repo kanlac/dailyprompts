@@ -2,6 +2,10 @@
 
 ## 二〇二四
 
+Day 304｜七月八日周一
+
+- [排序链表](2024/06/sort-list.md) (revise)
+
 Day 303｜七月三日周三
 
 - [并发问题](2024/07/concurrency.md) (update)
