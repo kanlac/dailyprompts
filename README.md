@@ -5,6 +5,7 @@
 Day 304｜七月八日周一
 
 - [排序链表](2024/06/sort-list.md) (revise)
+- [只出现一次的数字 II](2024/06/single-number-ii.md) (revise)
 
 Day 303｜七月三日周三
 
