@@ -2,6 +2,11 @@
 
 ## 二〇二四
 
+Day 305｜七月九日周二
+
+- [跳跃游戏](2024/05/jump-game.md) (revise)
+- [汉明重量](2024/05/number-of-1-bits.md) (revise)
+
 Day 304｜七月八日周一
 
 - [排序链表](2024/06/sort-list.md) (revise)
