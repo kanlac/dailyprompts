@@ -2,6 +2,11 @@
 
 ## 二〇二四
 
+Day 306｜七月十一日周四
+
+- [并发问题](2024/07/concurrency.md) (revise)
+- [分布式 ID 生成](2024/06/distributed-id-generation.md) (revise)
+
 Day 305｜七月九日周二
 
 - [四层端口注册服务](2024/05/4-layer-port-registry.md) (update)
