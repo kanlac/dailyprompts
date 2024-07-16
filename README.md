@@ -4,6 +4,8 @@
 
 Day 307｜七月十六日周二
 
+- [Domain-Driven Design 领域驱动设计](2024/07/domain-driven-design.md)
+- [Ingress-Nginx On Bare Metal K8s](2024/07/ingress-nginx-on-bare-metal-k8s.md) (update)
 - [并发限制 (ulimit)](2023/03/concurrent-limitations.md) (revise)
 - [套接字原理](2023/06/how-sockets-work.md) (revise)
 
