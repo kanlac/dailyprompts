@@ -1,4 +1,4 @@
-# 复杂系统问题与领域驱动设计
+# Domain-Driven Design 领域驱动设计
 
 ## Q
 
@@ -8,4 +8,4 @@
 
 ## Blog
 
-https://kanlac.in/domain-driven-design?showSharer=true
+[复杂系统问题与领域驱动设计](https://kanlac.in/domain-driven-design)
