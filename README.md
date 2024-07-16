@@ -2,6 +2,11 @@
 
 ## 二〇二四
 
+Day 307｜七月十六日周二
+
+- [并发限制 (ulimit)](2023/03/concurrent-limitations.md) (revise)
+- [套接字原理](2023/06/how-sockets-work.md) (revise)
+
 Day 306｜七月十一日周四
 
 - [并发问题](2024/07/concurrency.md) (revise)
