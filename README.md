@@ -2,6 +2,12 @@
 
 ## 二〇二四
 
+Day 308｜七月十七日周三
+
+- [Domain-Driven Design 领域驱动设计](2024/07/domain-driven-design.md) (revise)
+- [Ingress-Nginx On Bare Metal K8s](2024/07/ingress-nginx-on-bare-metal-k8s.md) (revise)
+- [块设备，文件系统，磁盘分区](2023/11/disk-partition.md) (revise)
+
 Day 307｜七月十六日周二
 
 - [Domain-Driven Design 领域驱动设计](2024/07/domain-driven-design.md)
