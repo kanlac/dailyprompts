@@ -2,6 +2,10 @@
 
 ## 二〇二四
 
+Day 309｜七月十八日周四
+
+- [K8s Persistent Volumes]()
+
 Day 308｜七月十七日周三
 
 - [Domain-Driven Design 领域驱动设计](2024/07/domain-driven-design.md) (revise)
