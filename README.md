@@ -2,9 +2,14 @@
 
 ## 二〇二四
 
+Day 310｜七月二十四日周三
+
+- [K8s Persistent Volumes](2024/07/persistent-volumes.md) (revise)
+- [Ingress-Nginx On Bare Metal K8s](2024/07/ingress-nginx-on-bare-metal-k8s.md) (revise)
+
 Day 309｜七月十八日周四
 
-- [K8s Persistent Volumes]()
+- [K8s Persistent Volumes](2024/07/persistent-volumes.md)
 
 Day 308｜七月十七日周三
 
