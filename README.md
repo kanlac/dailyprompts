@@ -8,6 +8,7 @@ Day 311｜七月二十五日周四
 - [xargs](2024/07/xargs.md) (revise)
 - [iptables-legacy 导致的容器端口不可达](2024/06/iptables-legacy.md) (revise)
 - [容器跨主机网络](2024/06/overlay-network.md) (revise)
+- [Ingress-Nginx On Bare Metal K8s](2024/07/ingress-nginx-on-bare-metal-k8s.md) (revise)
 
 Day 310｜七月二十四日周三
 
