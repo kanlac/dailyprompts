@@ -2,6 +2,13 @@
 
 ## 二〇二四
 
+Day 311｜七月二十五日周四
+
+- [Domain-Driven Design 领域驱动设计](2024/07/domain-driven-design.md) (revise)
+- [xargs](2024/07/xargs.md) (revise)
+- [iptables-legacy 导致的容器端口不可达](2024/06/iptables-legacy.md) (revise)
+- [容器跨主机网络](2024/06/overlay-network.md) (revise)
+
 Day 310｜七月二十四日周三
 
 - [K8s Persistent Volumes](2024/07/persistent-volumes.md) (revise)
