@@ -2,6 +2,11 @@
 
 ## 二〇二四
 
+Day 312｜七月二十六日周五
+
+- [K8s Persistent Volumes](2024/07/persistent-volumes.md) (revise)
+- [码位与字节](2024/01/rune-vesus-byte.md) (revise)
+
 Day 311｜七月二十五日周四
 
 - [Domain-Driven Design 领域驱动设计](2024/07/domain-driven-design.md) (revise)
