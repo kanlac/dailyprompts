@@ -2,6 +2,14 @@
 
 ## 二〇二四
 
+Day 313｜七月二十七日周六
+
+- [汉明重量](2024/05/number-of-1-bits.md) (revise)
+- [只出现一次的数字 II](2024/06/single-number-ii.md) (revise)
+- [最长回文](https://leetcode.com/problems/longest-palindrome/description/) (revise)
+- [分词](2024/04/word-break.md) (revise)
+- [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/description/) (revise)
+
 Day 312｜七月二十六日周五
 
 - [K8s Persistent Volumes](2024/07/persistent-volumes.md) (revise)
