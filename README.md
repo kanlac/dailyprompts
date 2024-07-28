@@ -2,6 +2,11 @@
 
 ## 二〇二四
 
+Day 314｜七月二十八日周日
+
+- [发布工程 Release Engineering](2023/06/release-engineering.md) (revise)
+- [Postgres 数据统计/压力排查](2024/06/postgres-stat.md) (revise)
+
 Day 313｜七月二十七日周六
 
 - [汉明重量](2024/05/number-of-1-bits.md) (revise)
