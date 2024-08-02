@@ -2,6 +2,11 @@
 
 ## 二〇二四
 
+Day 315｜八月二日周五
+
+- [码位与字节](2024/01/rune-vesus-byte.md) (revise)
+- [K8s Persistent Volumes](2024/07/persistent-volumes.md) (revise)
+
 Day 314｜七月二十八日周日
 
 - [发布工程 Release Engineering](2023/06/release-engineering.md) (revise)
