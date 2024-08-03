@@ -2,6 +2,11 @@
 
 ## 二〇二四
 
+Day 316｜八月三日周六
+
+- [并发问题](2024/07/concurrency.md) (revise)
+- [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/) (revise)
+
 Day 315｜八月二日周五
 
 - [码位与字节](2024/01/rune-vesus-byte.md) (revise)
