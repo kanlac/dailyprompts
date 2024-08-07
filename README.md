@@ -2,6 +2,13 @@
 
 ## 二〇二四
 
+Day 317｜八月七日周三
+
+- [二叉搜索树中第K小的元素](2024/06/kth-smallest-element-in-a-bst.md) (revise)
+- [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/description/) (revise)
+- [插入排序](2024/05/insertion-sort.md) (revise)
+- [合并区间](2024/06/merge-intervals.md) (revise)
+
 Day 316｜八月三日周六
 
 - [并发问题](2024/07/concurrency.md) (revise)
