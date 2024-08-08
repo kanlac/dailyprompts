@@ -2,6 +2,11 @@
 
 ## 二〇二四
 
+Day 318｜八月八日周四
+
+- [CIDR 无类别域间路由](2024/05/cidr.md) (revise)
+- [Ingress-Nginx On Bare Metal K8s](2024/07/ingress-nginx-on-bare-metal-k8s.md) (revise)
+
 Day 317｜八月七日周三
 
 - [二叉搜索树中第K小的元素](2024/06/kth-smallest-element-in-a-bst.md) (revise)
