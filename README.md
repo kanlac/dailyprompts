@@ -2,6 +2,11 @@
 
 ## 二〇二四
 
+Day 320｜八月二十三日周五
+
+- [Linux Process Management 进程管理](2023/06/process-management.md) (revise)
+- [CIDR 无类别域间路由](2024/05/cidr.md) (revise)
+
 Day 319｜八月十六日周五
 
 - [Referential Transparency 引用透明性](2024/08/referential-transparency.md)
