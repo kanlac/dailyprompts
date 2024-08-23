@@ -6,6 +6,9 @@ Day 320｜八月二十三日周五
 
 - [Linux Process Management 进程管理](2023/06/process-management.md) (revise)
 - [CIDR 无类别域间路由](2024/05/cidr.md) (revise)
+- [Debug: HTTP 请求高延时](2023/11/http-latency.md) (revise)
+- [dockerd 访问权限](2023/07/dockerd-permission.md) (revise)
+- [Referential Transparency 引用透明性](2024/08/referential-transparency.md) (revise)
 
 Day 319｜八月十六日周五
 
