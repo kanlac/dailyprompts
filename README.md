@@ -2,6 +2,11 @@
 
 ## 二〇二四
 
+Day 321｜八月二十六日周一
+
+- [Domain-Driven Design 领域驱动设计](2024/07/domain-driven-design.md) (revise)
+- [Referential Transparency 引用透明性](2024/08/referential-transparency.md) (revise)
+
 Day 320｜八月二十三日周五
 
 - [Linux Process Management 进程管理](2023/06/process-management.md) (revise)
