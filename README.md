@@ -2,6 +2,11 @@
 
 ## 二〇二四
 
+Day 322｜九月四日周三
+
+- [Kubernetes Components](2024/09/kubernetes-components.md)
+- [介绍 cAdvisor 以及它的部署方式](2024/09/cadvisor.md)
+
 Day 321｜八月二十六日周一
 
 - [Domain-Driven Design 领域驱动设计](2024/07/domain-driven-design.md) (revise)
