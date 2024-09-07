@@ -5,6 +5,10 @@
 Day 323｜九月七日周六
 
 - [集群伸缩](2024/09/cluster-scaling.md)
+- [DNS 域名解析](2024/06/domain-name-resolve.md) (revise)
+- [四层端口注册服务](2024/05/4-layer-port-registry.md) (revise)
+- [介绍 cAdvisor 以及它的部署方式](2024/09/cadvisor.md) (revise)
+- [K8s Persistent Volumes](2024/07/persistent-volumes.md) (revise)
 
 Day 322｜九月四日周三
 
