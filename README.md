@@ -2,6 +2,10 @@
 
 ## 二〇二四
 
+Day 323｜九月七日周六
+
+- [集群伸缩](2024/09/cluster-scaling.md)
+
 Day 322｜九月四日周三
 
 - [Kubernetes Components](2024/09/kubernetes-components.md)
