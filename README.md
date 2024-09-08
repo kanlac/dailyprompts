@@ -5,7 +5,9 @@
 Day 324｜九月八日周日
 
 - [pause 容器](2024/09/pause-container.md)
+- [静态 Pod](2024/09/static-pod.md)
 - [容器核心技术](2024/05/container-essentials.md) (revise)
+- [集群伸缩](2024/09/cluster-scaling.md) (revise)
 
 Day 323｜九月七日周六
 
