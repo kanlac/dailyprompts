@@ -4,6 +4,7 @@
 
 Day 324｜九月八日周日
 
+- [pause 容器](2024/09/pause-container.md)
 - [容器核心技术](2024/05/container-essentials.md) (revise)
 
 Day 323｜九月七日周六
