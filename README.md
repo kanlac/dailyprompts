@@ -2,6 +2,10 @@
 
 ## 二〇二四
 
+Day 324｜九月八日周日
+
+- [容器核心技术](2024/05/container-essentials.md) (revise)
+
 Day 323｜九月七日周六
 
 - [集群伸缩](2024/09/cluster-scaling.md)
