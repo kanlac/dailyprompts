@@ -2,6 +2,12 @@
 
 ## 二〇二四
 
+Day 325｜九月九日周一
+
+- [pause 容器](2024/09/pause-container.md) (revise)
+- [容器核心技术](2024/05/container-essentials.md) (revise)
+- [Referential Transparency 引用透明性](2024/08/referential-transparency.md) (revise)
+
 Day 324｜九月八日周日
 
 - [pause 容器](2024/09/pause-container.md)
