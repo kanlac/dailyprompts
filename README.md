@@ -6,6 +6,7 @@ Day 325｜九月九日周一
 
 - [Postgres 高可用](2024/09/postgres-high-availability.md)
 - [面向对象的特征](2024/09/object-oriented.md)
+- [服务网格 Service Mesh](2024/09/service-mesh.md)
 - [pause 容器](2024/09/pause-container.md) (revise)
 - [容器核心技术](2024/05/container-essentials.md) (revise)
 - [Referential Transparency 引用透明性](2024/08/referential-transparency.md) (revise)
