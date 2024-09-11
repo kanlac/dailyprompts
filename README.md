@@ -2,6 +2,14 @@
 
 ## 二〇二四
 
+Day 326｜九月十一日周三
+
+- [内存模型](2023/06/memory-model.md) (revise)
+- [查看系统报告](2023/06/system-report.md) (revise)
+- [服务网格 Service Mesh](2024/09/service-mesh.md) (revise)
+- [Postgres 高可用](2024/09/postgres-high-availability.md) (revise)
+- [Kubernetes Components](2024/09/kubernetes-components.md) (revise)
+
 Day 325｜九月九日周一
 
 - [Postgres 高可用](2024/09/postgres-high-availability.md)
