@@ -1,11 +1,5 @@
 # Kubernetes Components
 
-## Q
-
-- 介绍控制平面和工作节点分别有哪些组件？
-- 介绍 kube-proxy 的功能
-- kubectl 工作原理
-
 ## 控制平面和工作节点的核心组件及功能
 
 - Control Plane components
@@ -42,7 +36,4 @@
         4. CPU 管理，维护该节点的 CPU 信息，以便 Pod 的 cpuset 功能能够使用
         5. ……
     - kube-proxy (optional)
-        1. 是 Service 实现的关键组件，它监听 API Server 中 Service 和 Endpoints 的变化，并更新本地的网络规则，以允许从集群外部或者内部与集群进行网络通信
-        2. 通过 CoreDNS（或其他 DNS 服务）完成 Service 名称的 DNS 解析
-        3. Cilium 不仅提供完整的 [CNI 容器网络接口](https://www.notion.so/CNI-03ce8bdf6b9442ea9025e0a6174e198f?pvs=21)  实现，还可以替代 kube-proxy 的功能，使用 eBPF 技术更高效地处理网络包
     - Container Runtime｜支持 CRI 接口的运行容器的软件，如 Docker

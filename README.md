@@ -2,6 +2,13 @@
 
 ## 二〇二四
 
+Day 327｜九月十四日周六
+
+- [iptables](2024/09/iptables.md)
+- [kube-proxy](2024/09/kube-proxy.md)
+- [iptables-legacy 导致的容器端口不可达](2024/06/iptables-legacy.md) (revise)
+- [基于源 IP 负载均衡的四层端口注册服务](2024/05/4-layer-port-registry.md) (revise)
+
 Day 326｜九月十一日周三
 
 - [内存模型](2023/06/memory-model.md) (revise)
@@ -31,7 +38,7 @@ Day 323｜九月七日周六
 
 - [集群伸缩](2024/09/cluster-scaling.md)
 - [DNS 域名解析](2024/06/domain-name-resolve.md) (revise)
-- [四层端口注册服务](2024/05/4-layer-port-registry.md) (revise)
+- [基于源 IP 负载均衡的四层端口注册服务](2024/05/4-layer-port-registry.md) (revise)
 - [介绍 cAdvisor 以及它的部署方式](2024/09/cadvisor.md) (revise)
 - [K8s Persistent Volumes](2024/07/persistent-volumes.md) (revise)
 
@@ -137,7 +144,7 @@ Day 306｜七月十一日周四
 
 Day 305｜七月九日周二
 
-- [四层端口注册服务](2024/05/4-layer-port-registry.md) (update)
+- [基于源 IP 负载均衡的四层端口注册服务](2024/05/4-layer-port-registry.md) (update)
 - [xargs](2024/07/xargs.md) (revise)
 - [Go Context 上下文之源码](2024/06/golang-context-source.md) (revise)
 - [跳跃游戏](2024/05/jump-game.md) (revise)
@@ -226,7 +233,7 @@ Day 293｜六月十六日周日
 
 Day 292｜六月十五日周六
 
-- [四层端口注册服务](2024/05/4-layer-port-registry.md) (revise)
+- [基于源 IP 负载均衡的四层端口注册服务](2024/05/4-layer-port-registry.md) (revise)
 - [数据库锁](2023/08/database-lock.md) (revise)
 
 Day 291｜六月十四日周五
@@ -251,7 +258,7 @@ Day 289｜六月十二日周三
 Day 288｜六月十一日周二
 
 - [容器跨主机网络](2024/06/overlay-network.md) (updated)
-- [四层端口注册服务](2024/05/4-layer-port-registry.md) (updated)
+- [基于源 IP 负载均衡的四层端口注册服务](2024/05/4-layer-port-registry.md) (updated)
 
 Day 287｜六月十日周一
 
@@ -321,7 +328,7 @@ Day 276｜五月二十七日周一
 
 - [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/description/) (revise)
 - [最长回文](https://leetcode.com/problems/longest-palindrome/description/) (revise)
-- [四层端口注册服务](2024/05/4-layer-port-registry.md)
+- [基于源 IP 负载均衡的四层端口注册服务](2024/05/4-layer-port-registry.md)
 
 Day 275｜五月二十五日周六
 
