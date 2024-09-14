@@ -6,8 +6,12 @@ Day 327｜九月十四日周六
 
 - [iptables](2024/09/iptables.md)
 - [kube-proxy](2024/09/kube-proxy.md)
+- [面向对象编程范式](2024/09/object-oriented.md) (update)
 - [iptables-legacy 导致的容器端口不可达](2024/06/iptables-legacy.md) (revise)
 - [基于源 IP 负载均衡的四层端口注册服务](2024/05/4-layer-port-registry.md) (revise)
+- [集群伸缩](2024/09/cluster-scaling.md) (revise)
+- [介绍 cAdvisor 以及它的部署方式](2024/09/cadvisor.md) (revise)
+- [CIDR 无类别域间路由](2024/05/cidr.md) (revise)
 
 Day 326｜九月十一日周三
 
@@ -20,7 +24,7 @@ Day 326｜九月十一日周三
 Day 325｜九月九日周一
 
 - [Postgres 高可用](2024/09/postgres-high-availability.md)
-- [面向对象的特征](2024/09/object-oriented.md)
+- [面向对象编程范式](2024/09/object-oriented.md)
 - [服务网格 Service Mesh](2024/09/service-mesh.md)
 - [Kubernetes Components](2024/09/kubernetes-components.md) (update)
 - [pause 容器](2024/09/pause-container.md) (revise)
