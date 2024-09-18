@@ -2,6 +2,13 @@
 
 ## 二〇二四
 
+Day 328｜九月十八日周三
+
+- [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/) (revise)
+- [Postgres 高可用](2024/09/postgres-high-availability.md) (revise)
+- [容器核心技术](2024/05/container-essentials.md) (revise)
+- [pause 容器](2024/09/pause-container.md) (revise)
+
 Day 327｜九月十四日周六
 
 - [iptables](2024/09/iptables.md)
