@@ -2,6 +2,12 @@
 
 ## 二〇二四
 
+Day 329｜九月二十一日周六
+
+- [Pod 调度](2024/09/pod-schedule.md)
+- [iptables](2024/09/iptables.md) (revise)
+- [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/) (revise)
+
 Day 328｜九月十八日周三
 
 - [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/) (revise)
