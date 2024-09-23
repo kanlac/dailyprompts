@@ -2,6 +2,10 @@
 
 ## 二〇二四
 
+Day 331｜九月二十三日周一
+
+- [分布式共识](2024/06/distributed-consensus.md) (revise)
+
 Day 330｜九月二十二日周日
 
 - [数据库横向比较](2023/06/database-systems.md) (update)
