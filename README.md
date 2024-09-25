@@ -2,6 +2,10 @@
 
 ## 二〇二四
 
+Day 332｜九月二十五日周三
+
+- [DNS 域名解析](2024/06/domain-name-resolve.md) (updated)
+
 Day 331｜九月二十三日周一
 
 - [分布式共识](2024/06/distributed-consensus.md) (revise)
