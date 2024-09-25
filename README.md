@@ -5,6 +5,9 @@
 Day 332｜九月二十五日周三
 
 - [DNS 域名解析](2024/06/domain-name-resolve.md) (updated)
+- [静态 Pod](2024/09/static-pod.md) (revise)
+- [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md) (revise)
+- [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md) (revise)
 
 Day 331｜九月二十三日周一
 
