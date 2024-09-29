@@ -2,6 +2,12 @@
 
 ## 二〇二四
 
+Day 333｜九月二十九日周日
+
+- [Kubernetes Objects(Resources)](2024/06/kubernetes-objects.md) (update)
+- [分布式 ID 生成](2024/06/distributed-id-generation.md) (revise)
+- [静态 Pod](2024/09/static-pod.md) (revise)
+
 Day 332｜九月二十五日周三
 
 - [DNS 域名解析](2024/06/domain-name-resolve.md) (updated)
