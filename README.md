@@ -5,6 +5,8 @@
 Day 334｜十月二日周三
 
 - [CRI 容器运行时接口](2024/10/cri.md)
+- [全表扫描 Full Table Scan](2023/08/full-table-scan.md) (update)
+- [kube-proxy](2024/09/kube-proxy.md) (update)
 
 Day 333｜九月二十九日周日
 
