@@ -2,6 +2,10 @@
 
 ## 二〇二四
 
+Day 334｜十月二日周三
+
+- [CRI 容器运行时接口](2024/10/cri.md)
+
 Day 333｜九月二十九日周日
 
 - [Kubernetes Objects(Resources)](2024/06/kubernetes-objects.md) (update)
