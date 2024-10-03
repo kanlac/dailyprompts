@@ -5,6 +5,8 @@
 Day 335｜十月三日周四
 
 - [最大子数组的和](2024/04/max-subarray.md) (revise)
+- [排序链表](2024/06/sort-list.md) (revise)
+- [将有序数组转换为二叉搜索树](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) (revise)
 
 Day 334｜十月二日周三
 
