@@ -4,6 +4,7 @@
 
 Day 336｜十月四日周五
 
+- 冒泡排序
 - [校验括号](https://leetcode.com/problems/valid-parentheses/submissions/1241248986/) (revise)
 - [三数之和](2024/05/3sum.md) (revise)
 
