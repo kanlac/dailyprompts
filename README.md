@@ -2,6 +2,11 @@
 
 ## 二〇二四
 
+Day 336｜十月四日周五
+
+- [校验括号](https://leetcode.com/problems/valid-parentheses/submissions/1241248986/) (revise)
+- [三数之和](2024/05/3sum.md) (revise)
+
 Day 335｜十月三日周四
 
 - [最大子数组的和](2024/04/max-subarray.md) (revise)
