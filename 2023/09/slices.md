@@ -2,22 +2,23 @@
 
 ## Q1
 
-Go（伪代码）：
-
 ```go
-s := make([]int, 0, 5)
-s = append(1, 2)
-
-// 调用函数，传入 s
 func editSlice(a []int) {
-  a = append(3)
-  a[0] = 5
+	a = append(a, 3)
+	a[0] = 5
+	fmt.Printf("inside: %+v\n", a)
+}
+
+func main() {
+	s := make([]int, 0, 5)
+	s = append(s, []int{1, 2}...)
+
+	editSlice(s)
+	fmt.Printf("outside: %+v\n", s)
 }
 ```
 
-问：最后 s 打印出来是多少？底层的数据又是多少？
-
-答：s 是 5, 2，底层数组是 5, 2, 3, 0, 0
+问：输出是什么？
 
 ## 切片的结构？
 
@@ -40,6 +41,10 @@ type slice struct {
 ## 作为函数参数时，是值拷贝还是指针拷贝？
 
 是值拷贝。拷贝的是 slice descriptor，不过里边有指针，所以会拷贝指针。
+
+## 将指针 append 到切片，这个指针会发生拷贝吗？
+
+会发生浅拷贝，也就是说会产生一个新的指针。
 
 ## 以下操作是否会报错
 

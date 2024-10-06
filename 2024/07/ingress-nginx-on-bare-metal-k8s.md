@@ -1,10 +1,10 @@
-# Ingress-Nginx On Bare Metal K8s
+# 裸金属环境部署 Ingress-Nginx
 
 ## 方案一：MetalLB
 
 给 ingress-nginx 配置 MetalLB，要[在二层模式下使用 MetalLB](https://metallb.universe.tf/concepts/layer2/)，需要预留专用的 IP 地址池，不能用节点 IP。ingress-nginx Service 使用 LoadBalancer 类型，MetalLB 会为它分配一个外部 IP，这个 IP 指向集群中的某一个节点，再经过它负载均衡到其他节点。
 
-亮点是唯一入口，但尚不确定是否可以实现静态 IP。
+亮点是可以通过虚拟 IP 提供一个高可用的访问入口，但尚不确定是否可以实现静态 IP。
 
 为了保留源 IP，需要设置 traffic policy 为 local。
 

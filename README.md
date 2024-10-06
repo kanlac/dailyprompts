@@ -7,6 +7,9 @@ Day 337｜十月六日周日
 - [分词](2024/04/word-break.md) (revise)
 - [三数之和](2024/05/3sum.md) (revise)
 - [二叉搜索树中第K小的元素](2024/06/kth-smallest-element-in-a-bst.md) (revise)
+- [切片与数组](2023/09/slices.md) (update)
+- [裸金属环境部署 Ingress-Nginx](2024/07/ingress-nginx-on-bare-metal-k8s.md) (update)
+- [公私钥密码学](2024/05/cryptography.md)
 
 Day 336｜十月四日周五
 
@@ -132,7 +135,7 @@ Day 319｜八月十六日周五
 Day 318｜八月八日周四
 
 - [CIDR 无类别域间路由](2024/05/cidr.md) (revise)
-- [Ingress-Nginx On Bare Metal K8s](2024/07/ingress-nginx-on-bare-metal-k8s.md) (revise)
+- [裸金属环境部署 Ingress-Nginx](2024/07/ingress-nginx-on-bare-metal-k8s.md) (revise)
 
 Day 317｜八月七日周三
 
@@ -175,12 +178,12 @@ Day 311｜七月二十五日周四
 - [xargs](2024/07/xargs.md) (revise)
 - [iptables-legacy 导致的容器端口不可达](2024/06/iptables-legacy.md) (revise)
 - [容器跨主机网络](2024/06/overlay-network.md) (revise)
-- [Ingress-Nginx On Bare Metal K8s](2024/07/ingress-nginx-on-bare-metal-k8s.md) (revise)
+- [裸金属环境部署 Ingress-Nginx](2024/07/ingress-nginx-on-bare-metal-k8s.md) (revise)
 
 Day 310｜七月二十四日周三
 
 - [K8s Persistent Volumes](2024/07/persistent-volumes.md) (revise)
-- [Ingress-Nginx On Bare Metal K8s](2024/07/ingress-nginx-on-bare-metal-k8s.md) (revise)
+- [裸金属环境部署 Ingress-Nginx](2024/07/ingress-nginx-on-bare-metal-k8s.md) (revise)
 
 Day 309｜七月十八日周四
 
@@ -189,13 +192,13 @@ Day 309｜七月十八日周四
 Day 308｜七月十七日周三
 
 - [Domain-Driven Design 领域驱动设计](2024/07/domain-driven-design.md) (revise)
-- [Ingress-Nginx On Bare Metal K8s](2024/07/ingress-nginx-on-bare-metal-k8s.md) (revise)
+- [裸金属环境部署 Ingress-Nginx](2024/07/ingress-nginx-on-bare-metal-k8s.md) (revise)
 - [块设备，文件系统，磁盘分区](2023/11/disk-partition.md) (revise)
 
 Day 307｜七月十六日周二
 
 - [Domain-Driven Design 领域驱动设计](2024/07/domain-driven-design.md)
-- [Ingress-Nginx On Bare Metal K8s](2024/07/ingress-nginx-on-bare-metal-k8s.md) (update)
+- [裸金属环境部署 Ingress-Nginx](2024/07/ingress-nginx-on-bare-metal-k8s.md) (update)
 - [并发限制 (ulimit)](2023/03/concurrent-limitations.md) (revise)
 - [套接字原理](2023/06/how-sockets-work.md) (revise)
 
@@ -226,7 +229,7 @@ Day 303｜七月三日周三
 
 Day 302｜七月二日周二
 
-- [Ingress-Nginx On Bare Metal K8s](2024/07/ingress-nginx-on-bare-metal-k8s.md)
+- [裸金属环境部署 Ingress-Nginx](2024/07/ingress-nginx-on-bare-metal-k8s.md)
 - [并发问题](2024/07/concurrency.md)
 - [xargs](2024/07/xargs.md)
 - [分布式共识](2024/06/distributed-consensus.md) (update)
