@@ -1,9 +1,9 @@
 # K8S 服务发现
 
-## 现象
+## 什么是 Endpoint？
 
-K8S 网络中的服务发现不可用 ，nslookup 显示：`server can’t find {SERVICE_NAME}.svc.cluster.local`。
+被 Service selector 选中的 Pod 称为它的 Endpoints。但只包括处于 Running 状态且 readinessProbe 检查通过的 Pod。
 
-## 排查及解决
+## 什么是 Headless Service？它与 ClusterIP Service 有何区别？
 
-服务发现（DNS）不可用，Service 域名无法解析 → 重启 k3s 无效 → 验证到 kube-system 命名空间下 deploy/coredns 的 53 端口是通的，证实并不是无法连接 dns 服务导致的故障 → 更新 coredns 镜像仍未解决，证明不是 dns 组件本身异常 → 到这里意识到排查方向可能出错了，dns 服务根本就没问题，有问题的是服务 → 定义一个新的服务和 service——可以访问！ → 比较 manifest 差异，最终定位到是 nodeSelector 导致 pg 端口不通的 → 原来调度到某个节点上的 Pod 都无法被访问 → 是节点故障了，而且是 nmcli network off 导致的 → nmcli network on 并重启机器解决。
+[这篇](https://stackoverflow.com/a/52713482)答案特别好。简单来说，ClusterIP Service 是为你提供一个 VIP，不关心具体访问哪个 Pod；而Headless Service 则是（通过提供多个 DNS A 记录来）为 Pod 提供稳定的主机名。

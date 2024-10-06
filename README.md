@@ -7,6 +7,7 @@ Day 337｜十月六日周日
 - [分词](2024/04/word-break.md) (revise)
 - [三数之和](2024/05/3sum.md) (revise)
 - [二叉搜索树中第K小的元素](2024/06/kth-smallest-element-in-a-bst.md) (revise)
+- [K8S 服务发现](2024/04/k8s-service-discovery.md) (update)
 - [切片与数组](2023/09/slices.md) (update)
 - [裸金属环境部署 Ingress-Nginx](2024/07/ingress-nginx-on-bare-metal-k8s.md) (update)
 - [公私钥密码学](2024/05/cryptography.md)
