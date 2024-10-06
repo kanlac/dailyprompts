@@ -2,6 +2,12 @@
 
 ## 二〇二四
 
+Day 337｜十月六日周日
+
+- [分词](2024/04/word-break.md) (revise)
+- [三数之和](2024/05/3sum.md) (revise)
+- [二叉搜索树中第K小的元素](2024/06/kth-smallest-element-in-a-bst.md) (revise)
+
 Day 336｜十月四日周五
 
 - 冒泡排序
