@@ -6,6 +6,7 @@ Day 338｜十月七日周一
 
 - [镜像中的敏感数据处理](2024/10/sensitive-data-in-dockerfile.md)
 - [CAS (Compare And Swap)](2024/10/compare-and-swap.md)
+- [CAP 定理](2024/10/cap-theorem.md)
 - [CRI 容器运行时接口](2024/10/cri.md) (revise)
 - [并发问题](2024/07/concurrency.md) (revise)
 
