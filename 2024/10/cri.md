@@ -6,7 +6,7 @@
 
 ## crictl 为什么能查看 Pod
 
-CRI 接口分为容器运行时接口和镜像接口，其中前者包含一个 RunPodSandbox 接口。为什么容器运行时需要关心 Pod 呢？这是因为当一个 Pod 里有多个容器时，不同的容器运行时的实现方式不同。比如 docker 会创建一个额外的 infra 容器，用来 hold 整个 Pod 的网络命名空间（参考 [pause 容器](https://www.notion.so/pause-b905c448c0d548ddae646144be91482c?pvs=21)），而 Kata Container 则会直接创建一个轻量级虚拟机充当 Pod。
+CRI 接口分为容器运行时接口和镜像接口，其中前者包含一个 RunPodSandbox 接口。为什么容器运行时需要关心 Pod 呢？这是因为当一个 Pod 里有多个容器时，不同的容器运行时的实现方式不同。比如 docker 会创建一个额外的 infra 容器，用来 hold 整个 Pod 的网络命名空间（参考 pause 容器），而 Kata Container 则会直接创建一个轻量级虚拟机充当 Pod。
 
 ## kubectl exec 的工作原理
 
