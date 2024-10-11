@@ -2,6 +2,11 @@
 
 ## 二〇二四
 
+Day 339｜十月十一日周五
+
+- [面向对象编程范式](2024/09/object-oriented.md) (revise)
+- [跨网络的服务发现](2023/07/access-independently-deployed-services.md) (revise)
+
 Day 338｜十月七日周一
 
 - [镜像中的敏感数据处理](2024/10/sensitive-data-in-dockerfile.md)
