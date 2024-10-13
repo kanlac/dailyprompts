@@ -2,6 +2,16 @@
 
 ## 二〇二四
 
+Day 340｜十月十三日周日
+
+- [init 进程](2023/07/init-process.md) (revise)
+- [服务网格 Service Mesh](2024/09/service-mesh.md) (revise)
+- [Referential Transparency 引用透明性](2024/08/referential-transparency.md) (revise)
+- [xargs](2024/07/xargs.md) (revise)
+- [Kubernetes Components](2024/09/kubernetes-components.md) (revise)
+- [镜像中的敏感数据处理](2024/10/sensitive-data-in-dockerfile.md)
+- [IP 地址段配置/冲突解决](2023/06/ip-address-pool-conflict-resolve.md) (revise)
+
 Day 339｜十月十一日周五
 
 - [面向对象编程范式](2024/09/object-oriented.md) (revise)
