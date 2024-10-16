@@ -5,6 +5,7 @@
 Day 341｜十月十六日周三
 
 - [Go 有哪些 Reader 以及提供哪些读取操作](2023/08/golang-io.md) (update)
+- [发布工程 Release Engineering](2023/06/release-engineering.md) (update)
 
 Day 340｜十月十三日周日
 

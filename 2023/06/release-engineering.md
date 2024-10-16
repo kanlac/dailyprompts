@@ -33,6 +33,21 @@
 - 配置文件都放到代码仓库中，打包的时候使用主分支上的配置文件。开发者和 SRE 都可以修改这个文件
 - 打包：一种方式是把配置文件和二进制文件打在同一个包里，这样做的好处是部署简单，只需要安装一个包；另一种方式是单独打一个配置包，和代码一样，用同一个系统编译和发布，每次构建有一个构建 ID，可以很方便地获取指定版本的配置。这样做的好处是可以分开管理，比如如果只需要修改一项配置，就只用重新构建并发布配置包，不需要重新安装二进制包。适合配置比较多比较复杂的场景。
 
-## K8s StatefulSet 如何实现滚动更新
+## StatefulSet 如何实现滚动更新？
 
 使用 StatefulSet 的 `spec.updateStrategy.rollingUpdate.partition` 字段，比如 partition = 2，就是说所有序号大于等于 2 的 pod 会更新。可以在更新故障时维持系统的可用性，也可以用于将要被移除的依赖服务。
+
+## StatefulSet 挂掉的 Pod 无法恢复是什么情况？怎么解决？
+
+Answered on [StackOverflow](https://stackoverflow.com/a/79093393/8396777).
+
+sts 默认的 Pod 管理策略是 `OrderedReady`，也就是会按照顺序，停掉了启动的 Pod 之后再启动新 Pod。但这会导致一个问题，就是如果 Pod 配置错误，比如镜像地址配置错误，导致进入 PullImageBackOff 的 Pending 状态，它就永远不会被替换，除非你手动删除这个 Pod。为了避免手动操作，可以选择放弃按顺序的 Pod 替换，也就是平行替换：
+
+```yaml
+apiVersion: apps/v1
+kind: StatefulSet
+spec:
+  # Setting podManagementPolicy to Parallel is necessary; otherwise, the pod may become stuck and require manual intervention
+  # refer: https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/#forced-rollback
+  podManagementPolicy: Parallel
+```
