@@ -2,6 +2,11 @@
 
 ## 二〇二四
 
+Day 342｜十月二十一日周一
+
+- [离线集群镜像管理](2024/10/on-premise-image-management.md)
+- [跨网络的服务发现](2023/07/access-independently-deployed-services.md) (update)
+
 Day 341｜十月十六日周三
 
 - [Go 有哪些 Reader 以及提供哪些读取操作](2023/08/golang-io.md) (update)
