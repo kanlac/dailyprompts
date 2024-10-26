@@ -5,6 +5,7 @@
 Day 343 | 十月二十六日周六
 
 - [资源管理](2024/10/managing-resources.md)
+- [kube-scheduler](2024/10/kube-scheduler/kube-scheduler.md)
 
 Day 342 | 十月二十一日周一
 
