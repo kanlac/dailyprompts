@@ -2,6 +2,10 @@
 
 ## 二〇二四
 
+Day 344 | 十月二十八日周一
+
+- [kube-scheduler](2024/10/kube-scheduler/kube-scheduler.md) (update)
+
 Day 343 | 十月二十六日周六
 
 - [资源管理](2024/10/managing-resources.md)
