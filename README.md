@@ -5,6 +5,7 @@
 Day 345 | 十月三十一日周四
 
 - [DNS 解析原理](2024/10/how-dns-resolution-works/how-dns-resolution-works.md)
+- [集群伸缩](2024/09/cluster-scaling.md) (revise)
 
 Day 344 | 十月二十八日周一
 
