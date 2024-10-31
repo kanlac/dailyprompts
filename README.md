@@ -2,6 +2,10 @@
 
 ## 二〇二四
 
+Day 345 | 十月三十一日周四
+
+- [DNS 解析原理](2024/10/how-dns-resolution-works/how-dns-resolution-works.md)
+
 Day 344 | 十月二十八日周一
 
 - [高并发/性能提升问题综述](2024/10/high-performance-general.md)
