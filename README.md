@@ -2,6 +2,11 @@
 
 ## 二〇二四
 
+Day 346 | 十一月三日周日
+
+- [Go Context 上下文之使用](2023/07/go-context-usage.md) (revise)
+- [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/) (revise)
+
 Day 345 | 十月三十一日周四
 
 - [DNS 解析原理](2024/10/how-dns-resolution-works/how-dns-resolution-works.md)
