@@ -2,6 +2,11 @@
 
 ## 二〇二四
 
+Day 347 | 十一月十一日周一
+
+- [Go 性能分析](2024/11/go-performance.md)
+- [高并发/性能提升问题综述](2024/10/high-performance-general.md) (update)
+
 Day 346 | 十一月三日周日
 
 - [Go Context 上下文之使用](2023/07/go-context-usage.md) (revise)
