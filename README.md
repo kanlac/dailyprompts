@@ -2,6 +2,14 @@
 
 ## 二〇二四
 
+Day 349 | 十一月十三日周三
+
+- [容器核心技术](2024/05/container-essentials.md) (update)
+
+Day 348 | 十一月十二日周二
+
+- [随机数](2024/11/random-numbers.md)
+
 Day 347 | 十一月十一日周一
 
 - [Go 性能分析](2024/11/go-performance.md)
