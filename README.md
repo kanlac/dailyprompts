@@ -2,6 +2,12 @@
 
 ## 二〇二四
 
+Day 350 | 十一月十五日周五
+
+- [kube-proxy](2024/09/kube-proxy.md) (update)
+- [K8S 服务发现](2024/04/k8s-service-discovery.md) (update)
+- [iptables](2024/09/iptables.md) (revise)
+
 Day 349 | 十一月十三日周三
 
 - [容器核心技术](2024/05/container-essentials.md) (update)
