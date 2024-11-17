@@ -2,6 +2,15 @@
 
 ## 二〇二四
 
+Day 351 | 十一月十七日周日
+
+- [kubectl apply](2024/11/kubectl-apply.md)
+- [Kubernetes Objects(Resources)](2024/06/kubernetes-objects.md) (update)
+- [Golang I/O](2023/08/golang-io.md) (update)
+- [Pod 调度方法](2024/09/pod-schedule.md) (revise)
+- [CIDR 无类别域间路由](2024/05/cidr.md) (revise)
+- [介绍 cAdvisor 以及它的部署方式](2024/09/cadvisor.md) (revise)
+
 Day 350 | 十一月十五日周五
 
 - [kube-proxy](2024/09/kube-proxy.md) (update)
@@ -48,7 +57,7 @@ Day 342 | 十月二十一日周一
 
 Day 341 | 十月十六日周三
 
-- [Go 有哪些 Reader 以及提供哪些读取操作](2023/08/golang-io.md) (update)
+- [Golang I/O](2023/08/golang-io.md) (update)
 - [发布工程 Release Engineering](2023/06/release-engineering.md) (update)
 
 Day 340 | 十月十三日周日
@@ -125,7 +134,7 @@ Day 330 | 九月二十二日周日
 
 Day 329 | 九月二十一日周六
 
-- [Pod 调度](2024/09/pod-schedule.md)
+- [Pod 调度方法](2024/09/pod-schedule.md)
 - [iptables](2024/09/iptables.md) (revise)
 - [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/) (revise)
 
@@ -638,7 +647,7 @@ Day 247 | 三月二十七日周三
 
 - [IP 地址段配置/冲突解决](2023/06/ip-address-pool-conflict-resolve.md) (revise)
 - [计算文件大小](2023/09/calculate-file-size.md) (revise)
-- [Go 有哪些 Reader 以及提供哪些读取操作](2023/08/golang-io.md) (revise)
+- [Golang I/O](2023/08/golang-io.md) (revise)
 - [基于客户端 IP 的流量转发](2024/03/client-ip-hashing.md) (revise)
 - [码位与字节](2024/01/rune-vesus-byte.md) (revise)
 
@@ -908,7 +917,7 @@ Day 201 | 十一月二十日周一
 
 - [排序算法](2023/11/sort-algorithm.md) (revise)
 - [grep, sed, awk](2023/09/grep-sed-awk.md) (revise)
-- [Go 有哪些 Reader 以及提供哪些读取操作](2023/08/golang-io.md) (revise)
+- [Golang I/O](2023/08/golang-io.md) (revise)
 
 Day 200 | 十一月十九日周日
 
@@ -1227,7 +1236,7 @@ Day 149 | 九月二十日周三
 - [云计算](2023/07/cloud-computing.md) (revise)
 - [ENTRYPOINT v.s. CMD](2023/08/entrypoint-versus-cmd.md) (revise)
 - [发布工程 Release Engineering](2023/06/release-engineering.md) (revise)
-- [Go 有哪些 Reader 以及提供哪些读取操作](2023/08/golang-io.md) (revise)
+- [Golang I/O](2023/08/golang-io.md) (revise)
 
 Day 148 | 九月十九日周二
 
@@ -1357,7 +1366,7 @@ Day 128 | 八月三十日周三
 Day 127 | 八月二十九日周二
 
 - [全表扫描 Full Table Scan](2023/08/full-table-scan.md) (revise)
-- [Go 有哪些 Reader 以及提供哪些读取操作](2023/08/golang-io.md) (revise)
+- [Golang I/O](2023/08/golang-io.md) (revise)
 - [用户登录/身份验证/授权](2023/05/authentication.md) (revise)
 - [内存泄露排查](2023/07/memory-analysis.md) (revise)
 - [如何创建软链接和硬链接，它们是什么区别？](2023/06/soft-link-and-hard-link.md) (revise)
@@ -1391,7 +1400,7 @@ Day 122 | 八月二十三日周三
 
 Day 121 | 八月二十二日周二
 - [从外部访问 k8s 资源有哪些方法？](2023/08/access-k8s-resource-from-external.md)
-- [Go 有哪些 Reader 以及提供哪些读取操作](2023/08/golang-io.md) (revise)
+- [Golang I/O](2023/08/golang-io.md) (revise)
 - [GMP 模型](2023/07/gmp-model.md) (revise)
 - [用户登录/身份验证/授权](2023/05/authentication.md) (revise)
 
@@ -1408,7 +1417,7 @@ Day 118 | 八月十九日周六
 - [部署方案](2023/07/deploy-solutions.md) (revise)
 - [发布工程 Release Engineering](2023/06/release-engineering.md) (revise)
 - [生成指定长度的随机英文字符串](https://github.com/labstack/echo/blob/master/middleware/util.go) (line 60) (revise)
-- [Go 有哪些 Reader 以及提供哪些读取操作](2023/08/golang-io.md) (revise)
+- [Golang I/O](2023/08/golang-io.md) (revise)
 
 Day 117 | 八月十八日周五
 - [数据库锁](2023/08/database-lock.md) (revise)
@@ -1422,7 +1431,7 @@ Day 116 | 八月十七日周四
 
 Day 115 | 八月十六日周三
 - [Docker 分配伪终端](2023/08/docker-tty.md)
-- [Go 有哪些 Reader 以及提供哪些读取操作](2023/08/golang-io.md)
+- [Golang I/O](2023/08/golang-io.md)
 - [云计算](2023/07/cloud-computing.md) (revise)
 
 Day 114 | 八月十五日周二
