@@ -2,6 +2,12 @@
 
 ## 二〇二四
 
+Day 352 | 十一月二十四日周日
+
+- [Postgres 高可用](2024/09/postgres-high-availability.md) (revise)
+- [DNS 域名解析](2024/06/domain-name-resolve.md) (revise)
+- [CRI 容器运行时接口](2024/10/cri.md) (revise)
+
 Day 351 | 十一月十七日周日
 
 - [kubectl apply](2024/11/kubectl-apply.md)
