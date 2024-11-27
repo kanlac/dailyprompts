@@ -7,6 +7,8 @@
 
 kube-proxy 的主要职责不包括 DNS 解析，DNS 解析在 Kubernetes 集群中是由 CoreDNS 或 kube-dns 服务来处理的。
 
+Endpoint 资源对象已经包含了 Service 与 Pod 的映射关系，为什么 kube-proxy 还需要获取 Service 呢？——`kube-proxy` 需要知道 `Service` 的端口和协议等信息，以便正确地配置网络规则。`Service` 定义了如何将流量路由到后端 Pod，可能涉及负载均衡策略，例如 `ClusterIP`、`NodePort`、`LoadBalancer` 等。`kube-proxy` 根据这些策略来设置网络规则，确保流量以正确的方式分发到后端 Pod。
+
 ## 代理模式
 
 kube-proxy 在 Linux 节点下有多种代理模式。
@@ -21,4 +23,4 @@ kube-proxy 在 Linux 节点下有多种代理模式。
 
 以 iptables 模式为例说明，当我们创建一个 Service，k8s 会为它分配一个虚拟 IP，这个 IP 只是用在 iptables 转发规则里，并没有一个实际的设备地址，因此 **ping 这个地址不会有任何响应**。
 
-Service 转发时会不会修改原始 IP？——ClusterIP 不会，NodePort 和 LoadBalancer 会。
+Service 转发时会不会修改原始 IP？——ClusterIP 和 NodePort 通常不会，LoadBalancer 会。

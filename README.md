@@ -2,6 +2,13 @@
 
 ## 二〇二四
 
+Day 353 | 十一月二十七日周三
+
+- [容器核心技术](2024/05/container-essentials.md) (update)
+- [kube-proxy](2024/09/kube-proxy.md) (update)
+- [公私钥密码学](2024/05/cryptography.md) (update)
+- [静态 Pod](2024/09/static-pod.md) (revise)
+
 Day 352 | 十一月二十四日周日
 
 - [Postgres 高可用](2024/09/postgres-high-availability.md) (revise)
