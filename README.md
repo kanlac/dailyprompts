@@ -8,6 +8,7 @@ Day 353 | 十一月二十七日周三
 - [kube-proxy](2024/09/kube-proxy.md) (update)
 - [公私钥密码学](2024/05/cryptography.md) (update)
 - [静态 Pod](2024/09/static-pod.md) (revise)
+- [CRI 容器运行时接口](2024/10/cri.md) (revise)
 
 Day 352 | 十一月二十四日周日
 
