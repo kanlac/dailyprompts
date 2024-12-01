@@ -2,6 +2,18 @@
 
 ## 二〇二四
 
+Day 354 | 十二月一日周日
+
+- [数据库横向比较](2023/06/database-systems.md) (revise)
+- [如何做好 Go 的内存管理？](2023/06/how-to-manage-memory-usage-in-go.md) (revise)
+- [如何减少镜像大小](2023/11/reduce-image-size.md) (revise)
+- [部署方案](2023/07/deploy-solutions.md) (revise)
+- [CAS (Compare And Swap)](2024/10/compare-and-swap.md) (revise)
+- [CAP 定理](2024/10/cap-theorem.md) (revise)
+- [Kubernetes Objects(Resources)](2024/06/kubernetes-objects.md) (revise)
+- [K8S 服务发现](2024/04/k8s-service-discovery.md) (revise)
+- [容器核心技术](2024/05/container-essentials.md) (revise)
+
 Day 353 | 十一月二十七日周三
 
 - [容器核心技术](2024/05/container-essentials.md) (update)
