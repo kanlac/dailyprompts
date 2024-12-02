@@ -2,6 +2,12 @@
 
 ## 二〇二四
 
+Day 355 | 十二月二十五日周一
+
+- [面向对象编程范式](2024/09/object-oriented.md) (revise)
+- [Postgres 高可用](2024/09/postgres-high-availability.md) (update)
+- [Golang I/O](2023/08/golang-io.md) (revise)
+
 Day 354 | 十二月一日周日
 
 - [数据库横向比较](2023/06/database-systems.md) (revise)
