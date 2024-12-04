@@ -2,7 +2,12 @@
 
 ## 二〇二四
 
-Day 355 | 十二月二十五日周一
+Day 356 | 十二月四日周三
+
+- [kube-proxy](2024/09/kube-proxy.md) (revise)
+- [服务网格 Service Mesh](2024/09/service-mesh.md) (revise)
+
+Day 355 | 十二月二日周一
 
 - [面向对象编程范式](2024/09/object-oriented.md) (revise)
 - [Postgres 高可用](2024/09/postgres-high-availability.md) (update)
