@@ -2,6 +2,13 @@
 
 ## 二〇二四
 
+Day 357 | 十二月八日周日
+
+- [CRI 容器运行时接口](2024/10/cri.md) (revise)
+- [Kubernetes Components](2024/09/kubernetes-components.md) (revise)
+- [分布式共识](2024/06/distributed-consensus.md) (revise)
+- [Go Context 上下文之源码](2024/06/golang-context-source.md) (revise)
+
 Day 356 | 十二月四日周三
 
 - [kube-proxy](2024/09/kube-proxy.md) (revise)
