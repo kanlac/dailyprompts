@@ -2,6 +2,10 @@
 
 ## 二〇二四
 
+Day 358 | 十二月十一日周三
+
+- [静态 Pod](2024/09/static-pod.md) (update)
+
 Day 357 | 十二月八日周日
 
 - [CRI 容器运行时接口](2024/10/cri.md) (revise)

@@ -4,4 +4,6 @@
 
 控制平面组件（如 api-server, controller-manager, scheduler, etcd）通常作为静态 Pod 运行。
 
-由于静态 Pod 直接受 kubelet 管理，不经过 API 服务器，因此它们无法访问 ServiceAccount, ConfigMap, Secret 等 API 对象，也不支持通过 Kubernetes API 的大多数动态特性，如环境变量注入等。
+注：kube-proxy 支持多种部署方式，static pod，daemonset 或者直接运行在宿主机上。
+
+由于静态 Pod 直接受 kubelet 管理，不经过 API 服务器，因此它们无法访问 ServiceAccount, ConfigMap, Secret 等 API 对象，也不支持通过 Kubernetes API 的大多数动态特性，如环境变量注入节点名称、宿主机 IP 等。
