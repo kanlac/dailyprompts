@@ -2,6 +2,15 @@
 
 ## 二〇二四
 
+Day 359 | 十二月十四日周六
+
+- [有哪几种导致内存泄露的方式](2024/12/how-to-leak-memory.md)
+- [Golang I/O](2023/08/golang-io.md) (revise)
+- [静态 Pod](2024/09/static-pod.md) (revise)
+- [Referential Transparency 引用透明性](2024/08/referential-transparency.md) (revise)
+- [镜像中的敏感数据处理](2024/10/sensitive-data-in-dockerfile.md) (revise)
+- [pause 容器](2024/09/pause-container.md) (revise)
+
 Day 358 | 十二月十一日周三
 
 - [静态 Pod](2024/09/static-pod.md) (update)
