@@ -2,6 +2,12 @@
 
 ## 二〇二四
 
+Day 360 | 十二月二十七日周五
+
+- [DaemonSet 的特性及其实现原理](2024/12/daemonset.md)
+- [数据库高可用需要考虑什么问题](2024/09/postgres-high-availability.md) (update)
+- [有哪几种导致内存泄露的方式](2024/12/how-to-leak-memory.md) (revise)
+
 Day 359 | 十二月十四日周六
 
 - [有哪几种导致内存泄露的方式](2024/12/how-to-leak-memory.md)
@@ -30,7 +36,7 @@ Day 356 | 十二月四日周三
 Day 355 | 十二月二日周一
 
 - [面向对象编程范式](2024/09/object-oriented.md) (revise)
-- [Postgres 高可用](2024/09/postgres-high-availability.md) (update)
+- [数据库高可用需要考虑什么问题](2024/09/postgres-high-availability.md) (update)
 - [Golang I/O](2023/08/golang-io.md) (revise)
 
 Day 354 | 十二月一日周日
@@ -55,7 +61,7 @@ Day 353 | 十一月二十七日周三
 
 Day 352 | 十一月二十四日周日
 
-- [Postgres 高可用](2024/09/postgres-high-availability.md) (revise)
+- [数据库高可用需要考虑什么问题](2024/09/postgres-high-availability.md) (revise)
 - [DNS 域名解析](2024/06/domain-name-resolve.md) (revise)
 - [CRI 容器运行时接口](2024/10/cri.md) (revise)
 
@@ -198,7 +204,7 @@ Day 329 | 九月二十一日周六
 Day 328 | 九月十八日周三
 
 - [构建一个 Key-Value 存储系统需要考虑的技术问题](https://book.douban.com/review/15803233/) (revise)
-- [Postgres 高可用](2024/09/postgres-high-availability.md) (revise)
+- [数据库高可用需要考虑什么问题](2024/09/postgres-high-availability.md) (revise)
 - [容器核心技术](2024/05/container-essentials.md) (revise)
 - [pause 容器](2024/09/pause-container.md) (revise)
 
@@ -218,12 +224,12 @@ Day 326 | 九月十一日周三
 - [内存模型](2023/06/memory-model.md) (revise)
 - [查看系统报告](2023/06/system-report.md) (revise)
 - [服务网格 Service Mesh](2024/09/service-mesh.md) (revise)
-- [Postgres 高可用](2024/09/postgres-high-availability.md) (revise)
+- [数据库高可用需要考虑什么问题](2024/09/postgres-high-availability.md) (revise)
 - [Kubernetes Components](2024/09/kubernetes-components.md) (revise)
 
 Day 325 | 九月九日周一
 
-- [Postgres 高可用](2024/09/postgres-high-availability.md)
+- [数据库高可用需要考虑什么问题](2024/09/postgres-high-availability.md)
 - [面向对象编程范式](2024/09/object-oriented.md)
 - [服务网格 Service Mesh](2024/09/service-mesh.md)
 - [Kubernetes Components](2024/09/kubernetes-components.md) (update)
