@@ -6,7 +6,10 @@ Day 360 | 十二月二十七日周五
 
 - [DaemonSet 的特性及其实现原理](2024/12/daemonset.md)
 - [数据库高可用需要考虑什么问题](2024/09/postgres-high-availability.md) (update)
+- [公私钥密码学](2024/05/cryptography.md) (revise)
 - [有哪几种导致内存泄露的方式](2024/12/how-to-leak-memory.md) (revise)
+- [DNS 域名解析](2024/06/domain-name-resolve.md) (revise)
+- [Kubernetes Objects(Resources)](2024/06/kubernetes-objects.md) (revise)
 
 Day 359 | 十二月十四日周六
 
