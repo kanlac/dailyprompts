@@ -1,7 +1,5 @@
 # Go 性能分析
 
-[万字长文讲透Go程序性能优化](https://mp.weixin.qq.com/s/wLPfiJ0wKH3DrBJS4yxeHw)
-
 ## 性能分析有哪几种数据（Types of profiles）
 
 1. CPU profile：帮助定位使用较多 CPU 时间的函数
@@ -51,3 +49,11 @@ pprof 对性能影响很小，是可以在生产环境下使用的。
 ## CPU profile 数据怎么读
 
 pprof 采样数据显示某个函数节点 0.01s (0.0086%) of 17.56s (15.03%)，这是什么意思？——前者是该函数本身的时间，很少；后者是该函数及其它所调用的所有函数的总时间，占比有点高。意思就是要关注这个函数或某个自定义的子函数。
+
+## 性能分析优化实践
+
+[万字长文讲透Go程序性能优化](https://mp.weixin.qq.com/s/wLPfiJ0wKH3DrBJS4yxeHw)
+
+1. debug 日志打印，本来不应该打印但产生了耗时，优化方式是把参数中的 String() 方法改为传递指针
+2. 不合理的库函数调用，比如 runtime.growslice 反应切片的自动扩展，可以通过初始化时指定长度降低
+3. gc 相关，runtime.gcBgMarkWorker 占比高反应 GC 频率较高，可以通过调**高** GOGC 优化

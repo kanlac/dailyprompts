@@ -1,5 +1,12 @@
 # Erfolgs-Journal
 
+## 二〇二五
+
+Day 361 | 一月二日周四
+
+- [数据系统定义](2025/01/data-system.md)
+- [Go 性能分析](2024/11/go-performance.md) (update)
+
 ## 二〇二四
 
 Day 360 | 十二月二十七日周五
