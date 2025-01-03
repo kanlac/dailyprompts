@@ -2,6 +2,12 @@
 
 ## 二〇二五
 
+Day 362 | 一月三日六五
+
+- [容器资源隔离](2025/01/process-partitioning.md)
+- [有哪几种导致内存泄露的方式](2024/12/how-to-leak-memory.md) (revise)
+- [DaemonSet 的特性及其实现原理](2024/12/daemonset.md) (revise)
+
 Day 361 | 一月二日周四
 
 - [数据系统定义](2025/01/data-system.md)
