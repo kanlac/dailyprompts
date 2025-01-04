@@ -2,7 +2,11 @@
 
 ## 二〇二五
 
-Day 362 | 一月三日六五
+Day 363 | 一月四日周六
+
+- [Cgroup 资源限制](2025/01/cgroup.md)
+
+Day 362 | 一月三日周五
 
 - [容器资源隔离](2025/01/process-partitioning.md)
 - [有哪几种导致内存泄露的方式](2024/12/how-to-leak-memory.md) (revise)
