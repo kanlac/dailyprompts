@@ -2,6 +2,10 @@
 
 ## 二〇二五
 
+Day 365 | 一月六日周一
+
+- [构建一个分布式键值存储系统需要考虑哪些问题](2025/01/design-a-key-value-system.md)
+
 Day 364 | 一月五日周日
 
 - [联合文件系统 Union File System](2025/01/union-file-system.md)
