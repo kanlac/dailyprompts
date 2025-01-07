@@ -2,6 +2,11 @@
 
 ## 二〇二五
 
+Day 366 | 一月七日周二
+
+- [并发模型（架构）](2025/01/concurrency-models.md)
+- [Domain-Driven Design 领域驱动设计](2024/07/domain-driven-design.md) (revise)
+
 Day 365 | 一月六日周一
 
 - [构建一个分布式键值存储系统需要考虑哪些问题](2025/01/design-a-key-value-system.md)
