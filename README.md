@@ -2,6 +2,11 @@
 
 ## 二〇二五
 
+Day 367 | 一月八日周三
+
+- [竞态问题](2025/01/race-condition.md)
+- [构建一个分布式键值存储系统需要考虑哪些问题](2025/01/design-a-key-value-system.md) (revise)
+
 Day 366 | 一月七日周二
 
 - [并发模型（架构）](2025/01/concurrency-models.md)
