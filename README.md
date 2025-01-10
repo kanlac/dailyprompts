@@ -2,10 +2,14 @@
 
 ## 二〇二五
 
+Day 369 | 一月十日周日
+
+- [网络插件 Network Plugin](2024/06/network-plugin.md) (update)
+
 Day 368 | 一月九日周四
 
 - [K8s 监控体系](2025/01/k8s-metrics.md)
-- [容器跨主机网络](2024/06/overlay-network.md) (update)
+- [网络插件 Network Plugin](2024/06/network-plugin.md) (update)
 
 Day 367 | 一月八日周三
 
@@ -366,7 +370,7 @@ Day 311 | 七月二十五日周四
 - [Domain-Driven Design 领域驱动设计](2024/07/domain-driven-design.md) (revise)
 - [xargs](2024/07/xargs.md) (revise)
 - [iptables-legacy 导致的容器端口不可达](2024/06/iptables-legacy.md) (revise)
-- [容器跨主机网络](2024/06/overlay-network.md) (revise)
+- [网络插件 Network Plugin](2024/06/network-plugin.md) (revise)
 - [裸金属环境部署 Ingress-Nginx](2024/07/ingress-nginx-on-bare-metal-k8s.md) (revise)
 
 Day 310 | 七月二十四日周三
@@ -452,7 +456,7 @@ Day 298 | 六月二十一日周五
 - [分布式共识](2024/06/distributed-consensus.md)
 - [Go Context 上下文之源码](2024/06/golang-context-source.md)
 - [Debug: 容器无法停止/杀死](2024/06/cannot-kill-container.md)
-- [容器跨主机网络](2024/06/overlay-network.md) (revise)
+- [网络插件 Network Plugin](2024/06/network-plugin.md) (revise)
 - [跨域问题](2023/11/cross-origin.md) (revise)
 - [排序链表](2024/06/sort-list.md)
 - [实现一个 HTTP 请求调度器](2023/09/impl-a-http-scheduler.md) (update)
@@ -492,7 +496,7 @@ Day 292 | 六月十五日周六
 
 Day 291 | 六月十四日周五
 
-- [容器跨主机网络](2024/06/overlay-network.md) (revise)
+- [网络插件 Network Plugin](2024/06/network-plugin.md) (revise)
 - [Kubernetes Objects(Resources)](2024/06/kubernetes-objects.md) (revise)
 
 Day 290 | 六月十三日周四
@@ -511,7 +515,7 @@ Day 289 | 六月十二日周三
 
 Day 288 | 六月十一日周二
 
-- [容器跨主机网络](2024/06/overlay-network.md) (updated)
+- [网络插件 Network Plugin](2024/06/network-plugin.md) (updated)
 - [基于源 IP 负载均衡的四层端口注册服务](2024/05/4-layer-port-registry.md) (updated)
 
 Day 287 | 六月十日周一
@@ -523,7 +527,7 @@ Day 286 | 六月九日周日
 - [二叉搜索树中第K小的元素](2024/06/kth-smallest-element-in-a-bst.md)
 - [只出现一次的数字 II](https://leetcode.cn/problems/single-number-ii/description/) (revise)
 - [丢失的数字](https://leetcode.com/problems/missing-number/description/) (revise)
-- [容器跨主机网络](2024/06/overlay-network.md)
+- [网络插件 Network Plugin](2024/06/network-plugin.md)
 
 Day 285 | 六月八日周六
 
