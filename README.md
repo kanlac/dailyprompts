@@ -2,7 +2,11 @@
 
 ## 二〇二五
 
-Day 369 | 一月十日周日
+Day 370 | 一月十二日周日
+
+- [PostgreSQL 如何做压力排查](2024/06/postgres-stat.md) (update)
+
+Day 369 | 一月十日周五
 
 - [网络插件 Network Plugin](2024/06/network-plugin.md) (update)
 
@@ -350,7 +354,7 @@ Day 315 | 八月二日周五
 Day 314 | 七月二十八日周日
 
 - [发布工程 Release Engineering](2023/06/release-engineering.md) (revise)
-- [Postgres 数据统计/压力排查](2024/06/postgres-stat.md) (revise)
+- [PostgreSQL 如何做压力排查](2024/06/postgres-stat.md) (revise)
 
 Day 313 | 七月二十七日周六
 
@@ -436,7 +440,7 @@ Day 301 | 七月一日周一
 
 Day 300 | 六月二十八日周五
 
-- [Postgres 数据统计/压力排查](2024/06/postgres-stat.md)
+- [PostgreSQL 如何做压力排查](2024/06/postgres-stat.md)
 - [Go Context 上下文之源码](2024/06/golang-context-source.md) (update)
 - [并发限制 (ulimit)](2023/03/concurrent-limitations.md) (update)
 - [发布工程 Release Engineering](2023/06/release-engineering.md) (update)
