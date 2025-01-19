@@ -2,6 +2,13 @@
 
 ## 二〇二五
 
+Day 372 | 一月十九日周日
+
+- [构建一个分布式键值存储系统需要考虑哪些问题](2025/01/design-a-key-value-system.md) (revise)
+- [PostgreSQL 如何做压力排查](2024/06/postgres-stat.md) (revise)
+- [容器核心技术](2024/05/container-essentials.md) (revise)
+- [容器资源隔离](2025/01/process-partitioning.md) (revise)
+
 Day 371 | 一月十三日周一
 
 - [Flannel](2025/01/flannel.md)
