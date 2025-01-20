@@ -2,6 +2,12 @@
 
 ## 二〇二五
 
+Day 373 | 一月二十日周一
+
+- [Flannel](2025/01/flannel.md) (update)
+- [网络插件 Network Plugin](2024/06/network-plugin.md) (revise)
+- [Shell General](2023/11/shell-general.md) (revise)
+
 Day 372 | 一月十九日周日
 
 - [构建一个分布式键值存储系统需要考虑哪些问题](2025/01/design-a-key-value-system.md) (revise)

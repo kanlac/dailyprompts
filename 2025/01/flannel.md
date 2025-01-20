@@ -25,7 +25,7 @@ Node2 上 flanneld 进程从 UDP 包中解封出 IP 包，发送到 flannel0 设
 VXLAN 方案下的转发过程：
 
 1. 容器出来的网络包，从用户态到内核态（第一次切换），先尝试给 docker0 处理，但因为不在 docker0 网段，所以会从 docker0 出来到宿主机上
-2. 匹配到 flannel.1（VTEP 设备），在二层完成 UDP 封包并发出
+2. 匹配到 flannel.1（VTEP 设备，VXLAN Tunnel Endpoints），在二层完成 UDP 封包并发出
 
 主流的 VXLAN 为什么高效？因为发出只进行了一次上下文切换，且把包的封装和解封都放到内核态完成。
 
@@ -34,3 +34,7 @@ VXLAN 方案下的转发过程：
 TUN 设备是一种**在内核态和用户态之间传递 IP 包**的网络设备，它在**三层（网络层）**工作。
 
 VTEP 设备，VXLAN tunnel end point，在**二层（数据层 Ethernet）**工作，可以在**内核态**完成 UDP 的封包和解封，跟 UDP 模式下 flanneld 进程的作用非常类似。
+
+## Flannel 持久化
+
+注意，无论是 UDP 模式还是 VXLAN 模式，Flannel 的网络配置和状态信息都是存储在 etcd 中，可以通过`etcdctl` 命令查看宿主机与子网的关系。etcd 主要用于初始化和配置，不会在数据流转过程中频繁查询。
