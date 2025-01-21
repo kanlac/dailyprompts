@@ -2,6 +2,12 @@
 
 ## 二〇二五
 
+Day 374 | 一月二十一日周二
+
+- [K8S RBAC](2024/05/k8s-rbac.md) (revise)
+- [K8s 监控体系](2025/01/k8s-metrics.md) (revise)
+- [数据库锁](2023/08/database-lock.md) (revise)
+
 Day 373 | 一月二十日周一
 
 - [Flannel](2025/01/flannel.md) (update)
