@@ -2,6 +2,12 @@
 
 ## 二〇二五
 
+Day 375 | 一月二十二日周三
+
+- [StatefulSets 滚动更新](2025/01/statefulsets-rolling-update.md)
+- [微服务规范化](2025/01/microservice-standardization.md)
+- [Golang I/O](2023/08/golang-io.md) (revise)
+
 Day 374 | 一月二十一日周二
 
 - [K8S RBAC](2024/05/k8s-rbac.md) (revise)
