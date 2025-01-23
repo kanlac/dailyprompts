@@ -2,6 +2,11 @@
 
 ## 二〇二五
 
+Day 376 | 一月二十三日周四
+
+- [K8s Persistent Volumes](2024/07/persistent-volumes.md) (revise)
+- [CAS (Compare And Swap)](2024/10/compare-and-swap.md) (revise)
+
 Day 375 | 一月二十二日周三
 
 - [StatefulSets 滚动更新](2025/01/statefulsets-rolling-update.md)
