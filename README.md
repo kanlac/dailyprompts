@@ -2,6 +2,11 @@
 
 ## 二〇二五
 
+Day 378 | 一月二十四日周五
+
+- [容器资源隔离](2025/01/process-partitioning.md) (update)
+- [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (update)
+
 Day 376 | 一月二十三日周四
 
 - [K8s Persistent Volumes](2024/07/persistent-volumes.md) (revise)
