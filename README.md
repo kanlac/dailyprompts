@@ -2,6 +2,11 @@
 
 ## 二〇二五
 
+Dau 379 | 一月二十五日周六
+
+- [码位与字节](2024/01/rune-vesus-byte.md) (revise)
+- [套接字原理](2023/06/how-sockets-work.md) (revise)
+
 Day 378 | 一月二十四日周五
 
 - [容器资源隔离](2025/01/process-partitioning.md) (update)
