@@ -2,6 +2,11 @@
 
 ## 二〇二五
 
+Day 380 | 一月二十七日周一
+
+- [数据系统定义](2025/01/data-system.md) (revise)
+- [数据库高可用需要考虑什么问题](2024/09/postgres-high-availability.md) (revise)
+
 Dau 379 | 一月二十五日周六
 
 - [码位与字节](2024/01/rune-vesus-byte.md) (revise)
