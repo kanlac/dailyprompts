@@ -2,6 +2,11 @@
 
 ## 二〇二五
 
+Day 381 | 一月二十九日周三
+
+- [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (revise)
+- [StatefulSets 滚动更新](2025/01/statefulsets-rolling-update.md) (revise)
+
 Day 380 | 一月二十七日周一
 
 - [数据系统定义](2025/01/data-system.md) (revise)
