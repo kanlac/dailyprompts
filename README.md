@@ -2,6 +2,12 @@
 
 ## 二〇二五
 
+Day 382 | 二月三日周一
+
+- [微服务规范化](2025/01/microservice-standardization.md) (revise)
+- [CAS (Compare And Swap)](2024/10/compare-and-swap.md) (revise)
+- [数据系统定义](2025/01/data-system.md) (revise)
+
 Day 381 | 一月二十九日周三
 
 - [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (revise)
