@@ -2,6 +2,12 @@
 
 ## 二〇二五
 
+Day 383 | 二月四日周二
+
+- [Go 性能分析](2024/11/go-performance.md) (revise)
+- [有哪几种导致内存泄露的方式](2024/12/how-to-leak-memory.md) (revise)
+- [K8S 服务发现](2024/04/k8s-service-discovery.md) (revise)
+
 Day 382 | 二月三日周一
 
 - [微服务规范化](2025/01/microservice-standardization.md) (revise)
