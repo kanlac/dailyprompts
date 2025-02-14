@@ -2,6 +2,12 @@
 
 ## 二〇二五
 
+Day 385 | 二月十四日周五
+
+- [容器资源隔离](2025/01/process-partitioning.md) (revise)
+- [如何减少数据库锁的使用？](2023/10/reduce-lock-usage.md) (revise)
+- [网络插件 Network Plugin](2024/06/network-plugin.md) (revise)
+
 Day 384 | 二月十三日周四
 
 - [可用性](2025/02/availability.md)
