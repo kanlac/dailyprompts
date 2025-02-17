@@ -2,6 +2,12 @@
 
 ## 二〇二五
 
+Day 387 | 二月十七日周一
+
+- [网络插件 Network Plugin](2024/06/network-plugin.md) (revise)
+- [服务网格 Service Mesh](2024/09/service-mesh.md) (revise)
+- [镜像中的敏感数据处理](2024/10/sensitive-data-in-dockerfile.md) (revise)
+
 Day 386 | 二月十五日周六
 
 - [数据库横向比较](2023/06/database-systems.md) (update)
