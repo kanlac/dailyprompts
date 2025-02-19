@@ -2,6 +2,10 @@
 
 ## 二〇二五
 
+Day 388 | 二月十九日周三
+
+- [可用性](2025/02/availability.md) (revise)
+
 Day 387 | 二月十七日周一
 
 - [网络插件 Network Plugin](2024/06/network-plugin.md) (revise)
