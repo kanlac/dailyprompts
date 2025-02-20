@@ -2,6 +2,10 @@
 
 ## 二〇二五
 
+Day 389 | 二月二十日周四
+
+- [设计键值存储系统](2025/01/design-a-key-value-system.md) (update)
+
 Day 388 | 二月十九日周三
 
 - [可用性](2025/02/availability.md) (revise)
@@ -85,7 +89,7 @@ Day 373 | 一月二十日周一
 
 Day 372 | 一月十九日周日
 
-- [构建一个分布式键值存储系统需要考虑哪些问题](2025/01/design-a-key-value-system.md) (revise)
+- [设计键值存储系统](2025/01/design-a-key-value-system.md) (revise)
 - [PostgreSQL 如何做压力排查](2024/06/postgres-stat.md) (revise)
 - [容器核心技术](2024/05/container-essentials.md) (revise)
 - [容器资源隔离](2025/01/process-partitioning.md) (revise)
@@ -111,7 +115,7 @@ Day 368 | 一月九日周四
 Day 367 | 一月八日周三
 
 - [竞态问题](2025/01/race-condition.md)
-- [构建一个分布式键值存储系统需要考虑哪些问题](2025/01/design-a-key-value-system.md) (revise)
+- [设计键值存储系统](2025/01/design-a-key-value-system.md) (revise)
 
 Day 366 | 一月七日周二
 
@@ -120,7 +124,7 @@ Day 366 | 一月七日周二
 
 Day 365 | 一月六日周一
 
-- [构建一个分布式键值存储系统需要考虑哪些问题](2025/01/design-a-key-value-system.md)
+- [设计键值存储系统](2025/01/design-a-key-value-system.md)
 
 Day 364 | 一月五日周日
 
