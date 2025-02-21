@@ -2,6 +2,12 @@
 
 ## 二〇二五
 
+Day 390 | 二月二十一日周五
+
+- [iptables](2024/09/iptables.md) (revise)
+- [K8s 监控体系](2025/01/k8s-metrics.md) (revise)
+- [静态 Pod](2024/09/static-pod.md) (revise)
+
 Day 389 | 二月二十日周四
 
 - [设计键值存储系统](2025/01/design-a-key-value-system.md) (update)
