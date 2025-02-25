@@ -2,6 +2,12 @@
 
 ## 二〇二五
 
+Day 391 | 二月二十五日周二
+
+- [如何确定分区数量](2025/02/number-of-partitions.md)
+- [网络插件 Network Plugin](2024/06/network-plugin.md) (revise)
+- [CAS (Compare And Swap)](2024/10/compare-and-swap.md) (revise)
+
 Day 390 | 二月二十一日周五
 
 - [iptables](2024/09/iptables.md) (revise)
