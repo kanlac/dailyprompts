@@ -2,6 +2,11 @@
 
 ## 二〇二五
 
+Day 392 | 二月二十六日周三
+
+- [如何部署 Ingress-Nginx](2024/07/deploy-ingress-nginx.md) (update)
+- [分布式 ID 生成](2024/06/distributed-id-generation.md) (revise)
+
 Day 391 | 二月二十五日周二
 
 - [如何确定分区数量](2025/02/number-of-partitions.md)
@@ -314,7 +319,7 @@ Day 337 | 十月六日周日
 - [二叉搜索树中第K小的元素](2024/06/kth-smallest-element-in-a-bst.md) (revise)
 - [K8S 服务发现](2024/04/k8s-service-discovery.md) (update)
 - [切片与数组](2023/09/slices.md) (update)
-- [裸金属环境部署 Ingress-Nginx](2024/07/ingress-nginx-on-bare-metal-k8s.md) (update)
+- [如何部署 Ingress-Nginx](2024/07/deploy-ingress-nginx.md) (update)
 - [公私钥密码学](2024/05/cryptography.md)
 
 Day 336 | 十月四日周五
@@ -441,7 +446,7 @@ Day 319 | 八月十六日周五
 Day 318 | 八月八日周四
 
 - [CIDR 无类别域间路由](2024/05/cidr.md) (revise)
-- [裸金属环境部署 Ingress-Nginx](2024/07/ingress-nginx-on-bare-metal-k8s.md) (revise)
+- [如何部署 Ingress-Nginx](2024/07/deploy-ingress-nginx.md) (revise)
 
 Day 317 | 八月七日周三
 
@@ -484,12 +489,12 @@ Day 311 | 七月二十五日周四
 - [xargs](2024/07/xargs.md) (revise)
 - [iptables-legacy 导致的容器端口不可达](2024/06/iptables-legacy.md) (revise)
 - [网络插件 Network Plugin](2024/06/network-plugin.md) (revise)
-- [裸金属环境部署 Ingress-Nginx](2024/07/ingress-nginx-on-bare-metal-k8s.md) (revise)
+- [如何部署 Ingress-Nginx](2024/07/deploy-ingress-nginx.md) (revise)
 
 Day 310 | 七月二十四日周三
 
 - [K8s Persistent Volumes](2024/07/persistent-volumes.md) (revise)
-- [裸金属环境部署 Ingress-Nginx](2024/07/ingress-nginx-on-bare-metal-k8s.md) (revise)
+- [如何部署 Ingress-Nginx](2024/07/deploy-ingress-nginx.md) (revise)
 
 Day 309 | 七月十八日周四
 
@@ -498,13 +503,13 @@ Day 309 | 七月十八日周四
 Day 308 | 七月十七日周三
 
 - [Domain-Driven Design 领域驱动设计](2024/07/domain-driven-design.md) (revise)
-- [裸金属环境部署 Ingress-Nginx](2024/07/ingress-nginx-on-bare-metal-k8s.md) (revise)
+- [如何部署 Ingress-Nginx](2024/07/deploy-ingress-nginx.md) (revise)
 - [块设备，文件系统，磁盘分区](2023/11/disk-partition.md) (revise)
 
 Day 307 | 七月十六日周二
 
 - [Domain-Driven Design 领域驱动设计](2024/07/domain-driven-design.md)
-- [裸金属环境部署 Ingress-Nginx](2024/07/ingress-nginx-on-bare-metal-k8s.md) (update)
+- [如何部署 Ingress-Nginx](2024/07/deploy-ingress-nginx.md) (update)
 - [并发限制 (ulimit)](2023/03/concurrent-limitations.md) (revise)
 - [套接字原理](2023/06/how-sockets-work.md) (revise)
 
@@ -535,7 +540,7 @@ Day 303 | 七月三日周三
 
 Day 302 | 七月二日周二
 
-- [裸金属环境部署 Ingress-Nginx](2024/07/ingress-nginx-on-bare-metal-k8s.md)
+- [如何部署 Ingress-Nginx](2024/07/deploy-ingress-nginx.md)
 - [并发问题](2024/07/concurrency.md)
 - [xargs](2024/07/xargs.md)
 - [分布式共识](2024/06/distributed-consensus.md) (update)
