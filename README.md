@@ -2,6 +2,11 @@
 
 ## 二〇二五
 
+Day 393 | 二月二十七日周四
+
+- [如何确定分区数量](2025/02/number-of-partitions.md) (revise)
+- [一致性哈希](2024/03/consistent-hashing.md) (revise)
+
 Day 392 | 二月二十六日周三
 
 - [如何部署 Ingress-Nginx](2024/07/deploy-ingress-nginx.md) (update)
