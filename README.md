@@ -2,6 +2,10 @@
 
 ## 二〇二五
 
+Day 394 | 三月七日周五
+
+- [SOLID 设计原则](2025/03/solid.md)
+
 Day 393 | 二月二十七日周四
 
 - [如何确定分区数量](2025/02/number-of-partitions.md) (revise)
